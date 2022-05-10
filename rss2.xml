@@ -9,7 +9,7 @@
     <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>一个小小的blog</description>
-    <pubDate>Tue, 10 May 2022 15:21:45 GMT</pubDate>
+    <pubDate>Tue, 10 May 2022 16:13:57 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -31,6 +31,8 @@
       
       <category domain="http://example.com/categories/%E9%98%85%E8%AF%BB%E5%BF%83%E5%BE%97/">阅读心得</category>
       
+      
+      <category domain="http://example.com/tags/JavaWeb/">JavaWeb</category>
       
       
       <comments>http://example.com/2022/05/10/mybatis/#disqus_thread</comments>
