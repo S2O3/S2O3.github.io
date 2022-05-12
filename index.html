@@ -147,6 +147,11 @@
     <a href="/resource/" rel="section"><i class="fa fa-file fa-fw"></i>资源</a>
 
   </li>
+        <li class="menu-item menu-item-links">
+
+    <a href="/links/" rel="section"><i class="fa fa-link fa-fw"></i>友链</a>
+
+  </li>
   </ul>
 </nav>
 
@@ -171,6 +176,139 @@
           <div class="content index posts-expand">
             
   	
+  	
+   	 	  
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/05/10/mybatis/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="hys">
+      <meta itemprop="description" content="一个小小的blog">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="朝暮朝歌">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2022/05/10/mybatis/" class="post-title-link" itemprop="url">Mybatis学习(持续更新中)</a>
+        </h2>
+
+        <div class="post-meta">
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2022-05-10 15:02:41" itemprop="dateCreated datePublished" datetime="2022-05-10T15:02:41+08:00">2022-05-10</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2022-05-12 11:53:51" itemprop="dateModified" datetime="2022-05-12T11:53:51+08:00">2022-05-12</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/MyBatis/" itemprop="url" rel="index"><span itemprop="name">MyBatis</span></a>
+                </span>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>3.1k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>3 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>mapper.xml文件</p>
+<h2 id="执行流程"><a href="#执行流程" class="headerlink" title="执行流程"></a>执行流程</h2><p>1.加载mybatis的核心配置文件，获取SqlSessionFactory</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">String resource = &quot;mybatis-config.xml&quot;;</span><br><span class="line">   InputStream inputStream = Resources.getResourceAsStream(resource);</span><br><span class="line">   SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);</span><br></pre></td></tr></table></figure>
+<p>2.获取SqlSession对象</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">SqlSession sqlSession = sqlSessionFactory.openSession();</span><br></pre></td></tr></table></figure>
+<p>3.执行sql,返回user列表</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">List&lt;User&gt; users = sqlSession.selectList(&quot;demo.mapper.UserMapper.selectAll&quot;);</span><br></pre></td></tr></table></figure>
+<p>4.释放资源</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sqlSession.close();</span><br></pre></td></tr></table></figure>
+<h2 id="查询"><a href="#查询" class="headerlink" title="查询"></a>查询</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">&lt;!--  </span><br><span class="line">           id:完成主键字段的映射  </span><br><span class="line">               column：表的列名</span><br><span class="line">                property：实体类的属性名</span><br><span class="line">           result：完成一般字段的映射</span><br><span class="line">                column：表的列名</span><br><span class="line">                property：实体类的属性名</span><br><span class="line">    --&gt;</span><br><span class="line"></span><br><span class="line">&lt;resultMap id=&quot;brandResultMap&quot; type=&quot;brand&quot;&gt;  </span><br><span class="line">        &lt;result column=&quot;brand_name&quot; property=&quot;brandName&quot;/&gt;</span><br><span class="line">        &lt;result column=&quot;company_name&quot; property=&quot;companyName&quot;/&gt;  </span><br><span class="line">&lt;/resultMap&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="查询所有"><a href="#查询所有" class="headerlink" title="查询所有"></a>查询所有</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;select id=&quot;selectAll&quot; resultMap=&quot;brandResultMap&quot;&gt;</span><br><span class="line">        select *</span><br><span class="line">        from tb_brand;</span><br><span class="line">&lt;/select&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">List&lt;Brand&gt; selectAll();</span><br></pre></td></tr></table></figure>
+<h3 id="查询详情"><a href="#查询详情" class="headerlink" title="查询详情"></a>查询详情</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;select id=&quot;selectById&quot; resultType=&quot;User&quot;&gt;</span><br><span class="line">        select * from tb_user where id = #&#123;id&#125;;</span><br><span class="line">    &lt;/select&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">User selectById();</span><br></pre></td></tr></table></figure>
+<h3 id="条件查询"><a href="#条件查询" class="headerlink" title="条件查询"></a>条件查询</h3><p><img src="/img/mybatis1.png" alt="123"></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&lt;select id=&quot;selectByCondition&quot; resultMap=&quot;brandResultMap&quot;&gt;</span><br><span class="line">       select * from  tb_brand</span><br><span class="line">       where</span><br><span class="line">           status = #&#123;status&#125;</span><br><span class="line">           and company_name like #&#123;companyName&#125; &lt;!--模糊查询--&gt;</span><br><span class="line">           and brand_name like #&#123;brandName&#125; &lt;!--模糊查询--&gt;</span><br><span class="line">   &lt;/select&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">//@Param意思是将status的值传递给‘status’的占位符</span><br><span class="line">  List&lt;Brand&gt; selectByCondition(@Param(&quot;status&quot;)int status,@Param(&quot;companyName&quot;)String companyName,@Param(&quot;brandName&quot;)String brandName);</span><br><span class="line">  //把参数封装成brand，selectByCondition将自动调用getStatus...用于查询</span><br><span class="line">  List&lt;Brand&gt; selectByCondition(Brand brand);</span><br></pre></td></tr></table></figure>
+<h3 id="动态条件查询"><a href="#动态条件查询" class="headerlink" title="动态条件查询"></a>动态条件查询</h3><p>if:  </p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">&lt;select id=&quot;selectByCondition&quot; resultMap=&quot;brandResultMap&quot;&gt;</span><br><span class="line">           select * from  tb_brand</span><br><span class="line">           where</span><br><span class="line">               &lt;if test=&quot;status != null&quot;&gt;</span><br><span class="line">                   status = #&#123;status&#125;</span><br><span class="line">               &lt;/if&gt;</span><br><span class="line">               &lt;if test=&quot;companyName != null and companyName != &#x27;&#x27; &quot;&gt;</span><br><span class="line">                   and company_name like #&#123;companyName&#125; &lt;!--模糊查询--&gt;</span><br><span class="line">               &lt;/if&gt;</span><br><span class="line">               &lt;if test=&quot;brandName ! = null and brandName ! = &#x27;&#x27; &quot;&gt;</span><br><span class="line">                   and brand_name like #&#123;brandName&#125; &lt;!--模糊查询--&gt;</span><br><span class="line">               &lt;/if&gt;</span><br><span class="line">       &lt;/select&gt;</span><br></pre></td></tr></table></figure>
+<h5 id="问题：若第一个if不成立"><a href="#问题：若第一个if不成立" class="headerlink" title="问题：若第一个if不成立"></a>问题：若第一个if不成立</h5><p><img src="/img/mybatis2.png"></p>
+<h5 id="解决："><a href="#解决：" class="headerlink" title="解决："></a>解决：</h5><p><img src="/img/mybatis3.png"></p>
+<h5 id="改进："><a href="#改进：" class="headerlink" title="改进："></a>改进：</h5><p>使用<where></where><br><img src="/img/mybatis4.png"><br>自动生成<br><img src="/img/mybatis5.png">  </p>
+<h3 id="动态单条件查询"><a href="#动态单条件查询" class="headerlink" title="动态单条件查询"></a>动态单条件查询</h3><p><img src="/img/mybatis6.png"></p>
+<h2 id="添加"><a href="#添加" class="headerlink" title="添加"></a>添加</h2><p><img src="/img/mybatis7.png"><br>或者可以手动commit</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sqlSession.commit();</span><br></pre></td></tr></table></figure>
+<h3 id="主键返回"><a href="#主键返回" class="headerlink" title="主键返回"></a>主键返回</h3><p><img src="/img/mybatis8.png">  </p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;insert useGeneratedKeys=&quot;true&quot; keyProperty=&quot;id&quot;&gt;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">brandMapper.add(brand);</span><br><span class="line">Integer id = brand.getId();</span><br><span class="line">System.out.println(id);</span><br></pre></td></tr></table></figure>
+<h2 id="修改"><a href="#修改" class="headerlink" title="修改"></a>修改</h2><h3 id="修改全部字段"><a href="#修改全部字段" class="headerlink" title="修改全部字段"></a>修改全部字段</h3><p><img src="/img/mybatis9.png">  </p>
+<h3 id="修改部分字段"><a href="#修改部分字段" class="headerlink" title="修改部分字段"></a>修改部分字段</h3><p><img src="/img/mybatis10.png">  </p>
+<h2 id="删除"><a href="#删除" class="headerlink" title="删除"></a>删除</h2><h3 id="删除一个"><a href="#删除一个" class="headerlink" title="删除一个"></a>删除一个</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">void deleteByid(int id);</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;delete id=&quot;deleteByid&quot;&gt;</span><br><span class="line">   delete from tb_brand where id = #&#123;id&#125;;</span><br><span class="line">&lt;/delete&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="删除多个"><a href="#删除多个" class="headerlink" title="删除多个"></a>删除多个</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;!--</span><br><span class="line">    mybatis默认会将数组参数，封装成一个map集合</span><br><span class="line">        *默认：array（key） = 数组（value）</span><br><span class="line">        *使用@Param注解改变map集合的默认key名称</span><br><span class="line">--&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">void deleteByids(@Param(&quot;ids&quot;) int[] ids);</span><br></pre></td></tr></table></figure>
+<pre><code>&lt;delete id=&quot;deleteByids&quot;&gt;
+   delete from tb_brand where id           &lt;!--分隔符--&gt;
+   in  &lt;foreach collection=&quot;ids&quot; item=&quot;id&quot; separator=&quot;,&quot; open=&quot;(&quot; close=&quot;)&quot;&gt;
+           #&#123;id&#125;
+       &lt;/foreach&gt;
+       ;
+&lt;/delete&gt;
+</code></pre>
+<h2 id="注解开发"><a href="#注解开发" class="headerlink" title="注解开发"></a>注解开发</h2><p>第一种：方法有多个参数，需要 @Param 注解<br>第二种：方法参数要取别名，需要 @Param 注解<br>第三种：XML 中的 SQL 使用了 $ ，那么参数中也需要 @Param 注解<br>第四种，那就是动态 SQL ，如果在动态 SQL 中使用了参数作为变量，那么也需要 @Param 注解，即使你只有一个参数。<br><a target="_blank" rel="noopener" href="https://www.cnblogs.com/lenve/p/11229590.html">@Param参考</a><br><a target="_blank" rel="noopener" href="https://blog.csdn.net/u012702547/article/details/55105400">动态sql参考</a></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
   	
 
   
@@ -247,7 +385,7 @@
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-count">2</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
@@ -312,9 +450,9 @@
 
     <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
-    <span id="busuanzi_container_site_pv">总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+    <span id="busuanzi_container_site_pv">我的第<span id="busuanzi_value_site_pv"></span>位朋友</span>
     <span class="post-meta-divider">|</span>
-    <span id="busuanzi_container_site_uv">总访客数<span id="busuanzi_value_site_uv"></span>人</span>
+    <span id="busuanzi_container_site_uv">经历<span id="busuanzi_value_site_uv"></span>次回眸才与你相遇</span>
     <span class="post-meta-divider">|</span>
 <!-- 不蒜子计数初始值纠正 -->
 <script>
