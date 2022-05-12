@@ -9,21 +9,31 @@
     <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>一个小小的blog</description>
-    <pubDate>Thu, 12 May 2022 05:09:49 GMT</pubDate>
+    <pubDate>Thu, 12 May 2022 06:27:15 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
-      <title></title>
-      <link>http://example.com/2022/05/12/hexo-next%E7%BE%8E%E5%8C%96/</link>
-      <guid>http://example.com/2022/05/12/hexo-next%E7%BE%8E%E5%8C%96/</guid>
-      <pubDate>Thu, 12 May 2022 05:09:49 GMT</pubDate>
+      <title>hexo-next美化</title>
+      <link>http://example.com/2022/05/10/hexo-next%E7%BE%8E%E5%8C%96/</link>
+      <guid>http://example.com/2022/05/10/hexo-next%E7%BE%8E%E5%8C%96/</guid>
+      <pubDate>Tue, 10 May 2022 07:02:41 GMT</pubDate>
+      
+      <description>一些美化的经验</description>
       
       
       
+      <content:encoded><![CDATA[<span id="more"></span><h2 id="解决不显示访问人数的问题"><a href="#解决不显示访问人数的问题" class="headerlink" title="解决不显示访问人数的问题"></a>解决不显示访问人数的问题</h2><p><a href="https://muyuuuu.github.io/2019/11/22/busuanzi-notdisplay/">修补hexo-next不蒜子不显示问题</a>  </p><h2 id="去掉页面底部“驱动”"><a href="#去掉页面底部“驱动”" class="headerlink" title="去掉页面底部“驱动”"></a>去掉页面底部“驱动”</h2><p>比如想去掉“由 Hexo &amp; NexT.Gemini 强力驱动”，在<font color="#FF66CC">.\themes\next\layout_partials\footer.swig</font>中将以下代码注释掉。  </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&#123;%- if theme.footer.powered %&#125;</span><br><span class="line">  &lt;div class=&quot;powered-by&quot;&gt;</span><br><span class="line">    &#123;%- set next_site = &#x27;https://theme-next.js.org&#x27; if theme.scheme === &#x27;Gemini&#x27; else &#x27;https://theme-next.js.org/&#x27; + theme.scheme | lower + &#x27;/&#x27; %&#125;</span><br><span class="line">    &#123;&#123;- __(&#x27;footer.powered&#x27;, next_url(&#x27;https://hexo.io&#x27;, &#x27;Hexo&#x27;) + &#x27; &amp; &#x27; + next_url(next_site, &#x27;NexT.&#x27; + theme.scheme)) &#125;&#125;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&#123;%- endif %&#125;</span><br></pre></td></tr></table></figure><h2 id="头像设置"><a href="#头像设置" class="headerlink" title="头像设置"></a>头像设置</h2><p>在next的_config.yml中avatar设置。将头像图片放在<font color="#FF66CC">&#x2F;source&#x2F;images&#x2F;</font>中，修改url地址。</p><pre><code># Sidebar Avataravatar:  # Replace the default image and set the url here.  url: /images/header.jpg  # If true, the avatar will be displayed in circle.  rounded: true  # If true, the avatar will be rotated with the cursor.  rotated: true</code></pre><h2 id="背景图片、页面透明化、阴影、圆角、动画"><a href="#背景图片、页面透明化、阴影、圆角、动画" class="headerlink" title="背景图片、页面透明化、阴影、圆角、动画"></a>背景图片、页面透明化、阴影、圆角、动画</h2><p><a href="https://blog.csdn.net/Growing_potato/article/details/113926856?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2~default~CTRLIST~Rate-1-113926856-blog-107005112.pc_relevant_antiscanv2&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2~default~CTRLIST~Rate-1-113926856-blog-107005112.pc_relevant_antiscanv2&utm_relevant_index=1">背景图片、页面透明化、阴影、圆角、动画</a>  </p>]]></content:encoded>
       
       
+      <category domain="http://example.com/categories/hexo/">hexo</category>
       
-      <comments>http://example.com/2022/05/12/hexo-next%E7%BE%8E%E5%8C%96/#disqus_thread</comments>
+      <category domain="http://example.com/categories/hexo/next/">next</category>
+      
+      
+      <category domain="http://example.com/tags/blog/">blog</category>
+      
+      
+      <comments>http://example.com/2022/05/10/hexo-next%E7%BE%8E%E5%8C%96/#disqus_thread</comments>
       
     </item>
     
@@ -74,6 +84,29 @@
       
       
       <comments>http://example.com/2022/05/10/mybatis/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>计组学习(持续更新中)</title>
+      <link>http://example.com/2022/05/10/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/</link>
+      <guid>http://example.com/2022/05/10/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/</guid>
+      <pubDate>Tue, 10 May 2022 07:02:41 GMT</pubDate>
+      
+      <description>计算机组成原理-王道考研</description>
+      
+      
+      
+      <content:encoded><![CDATA[<span id="more"></span>  <h1 id="计算机系统的层次结构"><a href="#计算机系统的层次结构" class="headerlink" title="计算机系统的层次结构"></a>计算机系统的层次结构</h1><p><img src="/img/%E8%AE%A1%E7%BB%841.png"><br><img src="/img/%E8%AE%A1%E7%BB%842.png">   </p><h1 id="计算机的性能指标"><a href="#计算机的性能指标" class="headerlink" title="计算机的性能指标"></a>计算机的性能指标</h1><h2 id="存储器的性能指标"><a href="#存储器的性能指标" class="headerlink" title="存储器的性能指标"></a>存储器的性能指标</h2><p><img src="/img/%E8%AE%A1%E7%BB%843.png">   </p><h2 id="CPU的性能指标"><a href="#CPU的性能指标" class="headerlink" title="CPU的性能指标"></a>CPU的性能指标</h2><p><img src="/img/%E8%AE%A1%E7%BB%844.png">   </p><h2 id="系统整体的性能指标"><a href="#系统整体的性能指标" class="headerlink" title="系统整体的性能指标"></a>系统整体的性能指标</h2><p><img src="/img/%E8%AE%A1%E7%BB%845.png"><br><img src="/img/%E8%AE%A1%E7%BB%846.png">   </p><h1 id="进位计数制"><a href="#进位计数制" class="headerlink" title="进位计数制"></a>进位计数制</h1><h2 id="任意进制-gt-十进制"><a href="#任意进制-gt-十进制" class="headerlink" title="任意进制-&gt;十进制"></a>任意进制-&gt;十进制</h2><p><img src="/img/%E8%AE%A1%E7%BB%847.png"> </p><h2 id="二进制-lt-–-gt-十进制"><a href="#二进制-lt-–-gt-十进制" class="headerlink" title="二进制&lt;–&gt;十进制"></a>二进制&lt;–&gt;十进制</h2><p><img src="/img/%E8%AE%A1%E7%BB%848.png">   </p><h2 id="十进制-gt-任意进制（75-3）"><a href="#十进制-gt-任意进制（75-3）" class="headerlink" title="十进制-&gt;任意进制（75.3）"></a>十进制-&gt;任意进制（75.3）</h2><p>整数部分<br><img src="/img/%E8%AE%A1%E7%BB%849.png"><br>小数部分<br><img src="/img/%E8%AE%A1%E7%BB%8410.png">   </p><h2 id="真值和机器数"><a href="#真值和机器数" class="headerlink" title="真值和机器数"></a>真值和机器数</h2><p><img src="/img/%E8%AE%A1%E7%BB%8411.png"> </p><h1 id="BCD码"><a href="#BCD码" class="headerlink" title="BCD码"></a>BCD码</h1><h2 id="8421码-有权"><a href="#8421码-有权" class="headerlink" title="8421码(有权)"></a>8421码(有权)</h2><p><img src="/img/%E8%AE%A1%E7%BB%8412.png">  </p><h2 id="余3码-有权-和2421码-无权"><a href="#余3码-有权-和2421码-无权" class="headerlink" title="余3码(有权)和2421码(无权)"></a>余3码(有权)和2421码(无权)</h2><p><img src="/img/%E8%AE%A1%E7%BB%8413.png">  </p><h1 id="字符与字符串"><a href="#字符与字符串" class="headerlink" title="字符与字符串"></a>字符与字符串</h1><h2 id="ASCII码"><a href="#ASCII码" class="headerlink" title="ASCII码"></a>ASCII码</h2><p><img src="/img/%E8%AE%A1%E7%BB%8414.png"><br>数字，字母若以8421码表示则<br>数字48（0011 0000）刚好为0，57（0011 1001）刚好为9，字母同理  </p><h2 id="汉字的表示和编码"><a href="#汉字的表示和编码" class="headerlink" title="汉字的表示和编码"></a>汉字的表示和编码</h2><p><img src="/img/%E8%AE%A1%E7%BB%8415.png">  </p><h2 id="字符串"><a href="#字符串" class="headerlink" title="字符串"></a>字符串</h2><h3 id="英文字符串"><a href="#英文字符串" class="headerlink" title="英文字符串"></a>英文字符串</h3><p><img src="/img/%E8%AE%A1%E7%BB%8416.png">  </p><h3 id="带中文字符串"><a href="#带中文字符串" class="headerlink" title="带中文字符串"></a>带中文字符串</h3><p><img src="/img/%E8%AE%A1%E7%BB%8417.png">  </p><h1 id="奇偶校验码"><a href="#奇偶校验码" class="headerlink" title="奇偶校验码"></a>奇偶校验码</h1><h2 id="码字，码距"><a href="#码字，码距" class="headerlink" title="码字，码距"></a>码字，码距</h2><p>由若干位代码组成的一个字叫<font color="#FF0066">码字</font><br>将两个码字逐位进行对比，具有不同位的个数称为<font color="#FF0066">两个码字间的距离</font><br>一种编码方案可能有若干个合法码字，各合法码字间的最小距离称为<font color="#FF0066">码距</font><br>设码距为d<br>当d&#x3D;1时，无检错能力；当d&#x3D;2时，有检错能力；当d&#x3D;3时，若设计合理，可能具有检错，纠错能力  </p><h2 id="奇偶校验码-1"><a href="#奇偶校验码-1" class="headerlink" title="奇偶校验码"></a>奇偶校验码</h2><p><img src="/img/%E8%AE%A1%E7%BB%8418.png"><br>奇偶校验校验失败情况：<br>若接收到的数据有偶数位发生变化，则校验会失败<br><font color="#FF0066">为什么奇偶校验码的码距为2？</font><br>因为 对于奇校验码来说，任意两个校验码之间，如果想不同，最少变换两个位置的码元才可以完成。<br>例如对于10011来说，如果我任意反转一个码元，1的个数肯定为偶数个，所以我至少反转两个才可以是另一个奇校验码，而反转的这个数字个数就是奇校验码的码距。  </p><h1 id="海明码"><a href="#海明码" class="headerlink" title="海明码"></a>海明码</h1><p>奇偶校验码的局限性：<br>能发现奇数位错误，但无法确定是哪一位出错  </p><h2 id="海明码校验思路"><a href="#海明码校验思路" class="headerlink" title="海明码校验思路"></a>海明码校验思路</h2><p><img src="/img/%E8%AE%A1%E7%BB%8419.png">  </p><h2 id="海明码求解步骤"><a href="#海明码求解步骤" class="headerlink" title="海明码求解步骤"></a>海明码求解步骤</h2><h3 id="确定海明码的位数"><a href="#确定海明码的位数" class="headerlink" title="确定海明码的位数"></a>确定海明码的位数</h3><p><img src="/img/%E8%AE%A1%E7%BB%8420.png">  </p><h3 id="确定校验位的分布"><a href="#确定校验位的分布" class="headerlink" title="确定校验位的分布"></a>确定校验位的分布</h3><p><img src="/img/%E8%AE%A1%E7%BB%8421.png">  </p><h3 id="求校验位的值"><a href="#求校验位的值" class="headerlink" title="求校验位的值"></a>求校验位的值</h3><p><img src="/img/%E8%AE%A1%E7%BB%8422.png">  </p><h3 id="纠错"><a href="#纠错" class="headerlink" title="纠错"></a>纠错</h3><p><img src="/img/%E8%AE%A1%E7%BB%8423.png">  </p><h3 id="补充"><a href="#补充" class="headerlink" title="补充"></a>补充</h3><p><img src="/img/%E8%AE%A1%E7%BB%8424.png">  </p>]]></content:encoded>
+      
+      
+      <category domain="http://example.com/categories/%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/">组成原理</category>
+      
+      
+      <category domain="http://example.com/tags/%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/">组成原理</category>
+      
+      
+      <comments>http://example.com/2022/05/10/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/#disqus_thread</comments>
       
     </item>
     
