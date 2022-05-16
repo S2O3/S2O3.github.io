@@ -9,53 +9,8 @@
     <atom:link href="http://sh393779.xyz/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>一个小小的blog</description>
-    <pubDate>Sun, 15 May 2022 08:25:20 GMT</pubDate>
+    <pubDate>Sat, 14 May 2022 04:03:56 GMT</pubDate>
     <generator>http://hexo.io/</generator>
-    
-    <item>
-      <title></title>
-      <link>http://sh393779.xyz/2022/05/15/git/</link>
-      <guid>http://sh393779.xyz/2022/05/15/git/</guid>
-      <pubDate>Sun, 15 May 2022 08:25:20 GMT</pubDate>
-      
-        
-        
-      <description>&lt;h1 id=&quot;git常用指令&quot;&gt;&lt;a href=&quot;#git常用指令&quot; class=&quot;headerlink&quot; title=&quot;git常用指令&quot;&gt;&lt;/a&gt;git常用指令&lt;/h1&gt;&lt;h2 id=&quot;git基础操作指令&quot;&gt;&lt;a href=&quot;#git基础操作指令&quot; class=&quot;header</description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<h1 id="git常用指令"><a href="#git常用指令" class="headerlink" title="git常用指令"></a>git常用指令</h1><h2 id="git基础操作指令"><a href="#git基础操作指令" class="headerlink" title="git基础操作指令"></a>git基础操作指令</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">git init 创建仓库  </span><br><span class="line">git add 将所有修改加入到暂存区  </span><br><span class="line">git commit -m &quot;注释内容&quot; 提交暂存区内容到本地仓库的当前分支  </span><br><span class="line">git status 查看修改的状态  </span><br><span class="line">git log 查看提交日志  </span><br><span class="line">```  </span><br><span class="line">## 版本回退</span><br></pre></td></tr></table></figure><p>git reset –hard commitID</p><pre><code>commitID可以使用git log查看  如何查看已经删除的记录  git reflog  ## 添加文件到忽略列表可以创建一个.gitignore文件，列出要忽略的文件模式  ![](/img/git1.png)  # 分支git2  </code></pre>]]></content:encoded>
-      
-      
-      
-      
-      <comments>http://sh393779.xyz/2022/05/15/git/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://sh393779.xyz/2022/05/14/Servlet/</link>
-      <guid>http://sh393779.xyz/2022/05/14/Servlet/</guid>
-      <pubDate>Sat, 14 May 2022 08:22:41 GMT</pubDate>
-      
-        
-        
-      <description>&lt;h1 id=&quot;步骤&quot;&gt;&lt;a href=&quot;#步骤&quot; class=&quot;headerlink&quot; title=&quot;步骤&quot;&gt;&lt;/a&gt;步骤&lt;/h1&gt;&lt;p&gt;servlet1.png&lt;/p&gt;
-&lt;h1 id=&quot;Servlet生命周期&quot;&gt;&lt;a href=&quot;#Servlet生命周期&quot; class=&quot;he</description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<h1 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h1><p>servlet1.png</p><h1 id="Servlet生命周期"><a href="#Servlet生命周期" class="headerlink" title="Servlet生命周期"></a>Servlet生命周期</h1><p>2  </p><h1 id="HTTPServlet使用步骤及原理"><a href="#HTTPServlet使用步骤及原理" class="headerlink" title="HTTPServlet使用步骤及原理"></a>HTTPServlet使用步骤及原理</h1><p>3  </p><h1 id="urlPattern配置"><a href="#urlPattern配置" class="headerlink" title="urlPattern配置"></a>urlPattern配置</h1><p>4  </p><h2 id="Servlet-urlPattern配置规则"><a href="#Servlet-urlPattern配置规则" class="headerlink" title="Servlet urlPattern配置规则"></a>Servlet urlPattern配置规则</h2><p>5<br>当配置规则同时满足精确匹配和目录匹配时，会优先使用精确匹配  </p><h1 id="XML配置Servlet"><a href="#XML配置Servlet" class="headerlink" title="XML配置Servlet"></a>XML配置Servlet</h1>]]></content:encoded>
-      
-      
-      
-      
-      <comments>http://sh393779.xyz/2022/05/14/Servlet/#disqus_thread</comments>
-      
-    </item>
     
     <item>
       <title>HTTP</title>
@@ -79,6 +34,27 @@
       
       
       <comments>http://sh393779.xyz/2022/05/10/HTTP/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Servlet</title>
+      <link>http://sh393779.xyz/2022/05/10/Servlet/</link>
+      <guid>http://sh393779.xyz/2022/05/10/Servlet/</guid>
+      <pubDate>Tue, 10 May 2022 07:02:41 GMT</pubDate>
+      
+      <description>c++</description>
+      
+      
+      
+      <content:encoded><![CDATA[<span id="more"></span><h1 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h1><p>servlet1.png</p><h1 id="Servlet生命周期"><a href="#Servlet生命周期" class="headerlink" title="Servlet生命周期"></a>Servlet生命周期</h1><p>2  </p><h1 id="HTTPServlet使用步骤及原理"><a href="#HTTPServlet使用步骤及原理" class="headerlink" title="HTTPServlet使用步骤及原理"></a>HTTPServlet使用步骤及原理</h1><p>3  </p><h1 id="urlPattern配置"><a href="#urlPattern配置" class="headerlink" title="urlPattern配置"></a>urlPattern配置</h1><p>4  </p><h2 id="Servlet-urlPattern配置规则"><a href="#Servlet-urlPattern配置规则" class="headerlink" title="Servlet urlPattern配置规则"></a>Servlet urlPattern配置规则</h2><p>5<br>当配置规则同时满足精确匹配和目录匹配时，会优先使用精确匹配  </p><h1 id="XML配置Servlet"><a href="#XML配置Servlet" class="headerlink" title="XML配置Servlet"></a>XML配置Servlet</h1>]]></content:encoded>
+      
+      
+      
+      <category domain="http://sh393779.xyz/tags/Servlet/">Servlet</category>
+      
+      
+      <comments>http://sh393779.xyz/2022/05/10/Servlet/#disqus_thread</comments>
       
     </item>
     
@@ -113,7 +89,7 @@
       <guid>http://sh393779.xyz/2022/05/10/c++/</guid>
       <pubDate>Tue, 10 May 2022 07:02:41 GMT</pubDate>
       
-      <description>1</description>
+      <description>c++</description>
       
       
       
@@ -129,27 +105,23 @@
     </item>
     
     <item>
-      <title>hexo-next美化</title>
-      <link>http://sh393779.xyz/2022/05/10/hexo-next%E7%BE%8E%E5%8C%96/</link>
-      <guid>http://sh393779.xyz/2022/05/10/hexo-next%E7%BE%8E%E5%8C%96/</guid>
+      <title>git</title>
+      <link>http://sh393779.xyz/2022/05/10/git/</link>
+      <guid>http://sh393779.xyz/2022/05/10/git/</guid>
       <pubDate>Tue, 10 May 2022 07:02:41 GMT</pubDate>
       
-      <description>一些美化的经验</description>
+      <description>git</description>
       
       
       
-      <content:encoded><![CDATA[<span id="more"></span><h2 id="解决不显示访问人数的问题"><a href="#解决不显示访问人数的问题" class="headerlink" title="解决不显示访问人数的问题"></a>解决不显示访问人数的问题</h2><p><a href="https://muyuuuu.github.io/2019/11/22/busuanzi-notdisplay/">修补hexo-next不蒜子不显示问题</a>  </p><h2 id="去掉页面底部“驱动”"><a href="#去掉页面底部“驱动”" class="headerlink" title="去掉页面底部“驱动”"></a>去掉页面底部“驱动”</h2><p>比如想去掉“由 Hexo &amp; NexT.Gemini 强力驱动”，在<font color="#FF66CC">.\themes\next\layout_partials\footer.swig</font>中将以下代码注释掉。  </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&#123;%- if theme.footer.powered %&#125;</span><br><span class="line">  &lt;div class=&quot;powered-by&quot;&gt;</span><br><span class="line">    &#123;%- set next_site = &#x27;https://theme-next.js.org&#x27; if theme.scheme === &#x27;Gemini&#x27; else &#x27;https://theme-next.js.org/&#x27; + theme.scheme | lower + &#x27;/&#x27; %&#125;</span><br><span class="line">    &#123;&#123;- __(&#x27;footer.powered&#x27;, next_url(&#x27;https://hexo.io&#x27;, &#x27;Hexo&#x27;) + &#x27; &amp; &#x27; + next_url(next_site, &#x27;NexT.&#x27; + theme.scheme)) &#125;&#125;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&#123;%- endif %&#125;</span><br></pre></td></tr></table></figure><h2 id="头像设置"><a href="#头像设置" class="headerlink" title="头像设置"></a>头像设置</h2><p>在next的_config.yml中avatar设置。将头像图片放在<font color="#FF66CC">&#x2F;source&#x2F;images&#x2F;</font>中，修改url地址。</p><pre><code># Sidebar Avataravatar:  # Replace the default image and set the url here.  url: /images/header.jpg  # If true, the avatar will be displayed in circle.  rounded: true  # If true, the avatar will be rotated with the cursor.  rotated: true</code></pre><h2 id="背景图片、页面透明化、阴影、圆角、动画"><a href="#背景图片、页面透明化、阴影、圆角、动画" class="headerlink" title="背景图片、页面透明化、阴影、圆角、动画"></a>背景图片、页面透明化、阴影、圆角、动画</h2><p><a href="https://blog.csdn.net/Growing_potato/article/details/113926856?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2~default~CTRLIST~Rate-1-113926856-blog-107005112.pc_relevant_antiscanv2&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2~default~CTRLIST~Rate-1-113926856-blog-107005112.pc_relevant_antiscanv2&utm_relevant_index=1">背景图片、页面透明化、阴影、圆角、动画</a>  </p>]]></content:encoded>
+      <content:encoded><![CDATA[<span id="more"></span><h1 id="git常用指令"><a href="#git常用指令" class="headerlink" title="git常用指令"></a>git常用指令</h1><h2 id="git基础操作指令"><a href="#git基础操作指令" class="headerlink" title="git基础操作指令"></a>git基础操作指令</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">git init 创建仓库  </span><br><span class="line">git add 将所有修改加入到暂存区  </span><br><span class="line">git commit -m &quot;注释内容&quot; 提交暂存区内容到本地仓库的当前分支  </span><br><span class="line">git status 查看修改的状态  </span><br><span class="line">git log 查看提交日志  </span><br><span class="line">```  </span><br><span class="line">## 版本回退</span><br></pre></td></tr></table></figure><p>git reset –hard commitID</p><pre><code>commitID可以使用git log查看  如何查看已经删除的记录  git reflog  ## 添加文件到忽略列表可以创建一个.gitignore文件，列出要忽略的文件模式  ![](/img/git1.png)  # 分支git2  </code></pre>]]></content:encoded>
       
       
-      <category domain="http://sh393779.xyz/categories/hexo/">hexo</category>
       
-      <category domain="http://sh393779.xyz/categories/hexo/next/">next</category>
-      
-      
-      <category domain="http://sh393779.xyz/tags/blog/">blog</category>
+      <category domain="http://sh393779.xyz/tags/git/">git</category>
       
       
-      <comments>http://sh393779.xyz/2022/05/10/hexo-next%E7%BE%8E%E5%8C%96/#disqus_thread</comments>
+      <comments>http://sh393779.xyz/2022/05/10/git/#disqus_thread</comments>
       
     </item>
     
@@ -175,6 +147,31 @@
       
       
       <comments>http://sh393779.xyz/2022/05/10/mybatis/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>hexo-next美化</title>
+      <link>http://sh393779.xyz/2022/05/10/hexo-next%E7%BE%8E%E5%8C%96/</link>
+      <guid>http://sh393779.xyz/2022/05/10/hexo-next%E7%BE%8E%E5%8C%96/</guid>
+      <pubDate>Tue, 10 May 2022 07:02:41 GMT</pubDate>
+      
+      <description>一些美化的经验</description>
+      
+      
+      
+      <content:encoded><![CDATA[<span id="more"></span><h2 id="解决不显示访问人数的问题"><a href="#解决不显示访问人数的问题" class="headerlink" title="解决不显示访问人数的问题"></a>解决不显示访问人数的问题</h2><p><a href="https://muyuuuu.github.io/2019/11/22/busuanzi-notdisplay/">修补hexo-next不蒜子不显示问题</a>  </p><h2 id="去掉页面底部“驱动”"><a href="#去掉页面底部“驱动”" class="headerlink" title="去掉页面底部“驱动”"></a>去掉页面底部“驱动”</h2><p>比如想去掉“由 Hexo &amp; NexT.Gemini 强力驱动”，在<font color="#FF66CC">.\themes\next\layout_partials\footer.swig</font>中将以下代码注释掉。  </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&#123;%- if theme.footer.powered %&#125;</span><br><span class="line">  &lt;div class=&quot;powered-by&quot;&gt;</span><br><span class="line">    &#123;%- set next_site = &#x27;https://theme-next.js.org&#x27; if theme.scheme === &#x27;Gemini&#x27; else &#x27;https://theme-next.js.org/&#x27; + theme.scheme | lower + &#x27;/&#x27; %&#125;</span><br><span class="line">    &#123;&#123;- __(&#x27;footer.powered&#x27;, next_url(&#x27;https://hexo.io&#x27;, &#x27;Hexo&#x27;) + &#x27; &amp; &#x27; + next_url(next_site, &#x27;NexT.&#x27; + theme.scheme)) &#125;&#125;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&#123;%- endif %&#125;</span><br></pre></td></tr></table></figure><h2 id="头像设置"><a href="#头像设置" class="headerlink" title="头像设置"></a>头像设置</h2><p>在next的_config.yml中avatar设置。将头像图片放在<font color="#FF66CC">&#x2F;source&#x2F;images&#x2F;</font>中，修改url地址。</p><pre><code># Sidebar Avataravatar:  # Replace the default image and set the url here.  url: /images/header.jpg  # If true, the avatar will be displayed in circle.  rounded: true  # If true, the avatar will be rotated with the cursor.  rotated: true</code></pre><h2 id="背景图片、页面透明化、阴影、圆角、动画"><a href="#背景图片、页面透明化、阴影、圆角、动画" class="headerlink" title="背景图片、页面透明化、阴影、圆角、动画"></a>背景图片、页面透明化、阴影、圆角、动画</h2><p><a href="https://blog.csdn.net/Growing_potato/article/details/113926856?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2~default~CTRLIST~Rate-1-113926856-blog-107005112.pc_relevant_antiscanv2&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2~default~CTRLIST~Rate-1-113926856-blog-107005112.pc_relevant_antiscanv2&utm_relevant_index=1">背景图片、页面透明化、阴影、圆角、动画</a>  </p>]]></content:encoded>
+      
+      
+      <category domain="http://sh393779.xyz/categories/hexo/">hexo</category>
+      
+      <category domain="http://sh393779.xyz/categories/hexo/next/">next</category>
+      
+      
+      <category domain="http://sh393779.xyz/tags/blog/">blog</category>
+      
+      
+      <comments>http://sh393779.xyz/2022/05/10/hexo-next%E7%BE%8E%E5%8C%96/#disqus_thread</comments>
       
     </item>
     
