@@ -9,33 +9,8 @@
     <atom:link href="http://sh393779.xyz/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>一个小小的blog</description>
-    <pubDate>Sat, 14 May 2022 08:21:16 GMT</pubDate>
+    <pubDate>Sat, 14 May 2022 04:03:56 GMT</pubDate>
     <generator>http://hexo.io/</generator>
-    
-    <item>
-      <title>Tomcat</title>
-      <link>http://sh393779.xyz/2022/05/10/Tomcat/</link>
-      <guid>http://sh393779.xyz/2022/05/10/Tomcat/</guid>
-      <pubDate>Tue, 10 May 2022 07:02:41 GMT</pubDate>
-      
-      <description>Tomcat学习</description>
-      
-      
-      
-      <content:encoded><![CDATA[<span id="more"></span><h1 id="Tomcat"><a href="#Tomcat" class="headerlink" title="Tomcat"></a>Tomcat</h1><p><img src="/img/tomcat1.png"></p><h2 id="安装配置"><a href="#安装配置" class="headerlink" title="安装配置"></a>安装配置</h2><p>在<a href="https://tomcat.apache.org/">Tomcat官网</a>下载对应的压缩包<br>解压到文件夹中（注意路径不要有中文）<br>访问：localhost:8080若进入Tomcat的官网，则安装成功<br>默认端口为8080，若被占用则<a href="https://blog.csdn.net/qq_40180411/article/details/82112344?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-1-82112344-blog-52870760.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-1-82112344-blog-52870760.pc_relevant_default&utm_relevant_index=2">修改tomcat默认端口号</a>  </p><h2 id="部署项目"><a href="#部署项目" class="headerlink" title="部署项目"></a>部署项目</h2><p>1.直接复制文件到apache-tomcat-8.5.68\webapps中<br>2.把文件压缩成.war的形式，复制到apache-tomcat-8.5.68\webapps中，Tomcat会自动解压部署  </p><h1 id="MavenWeb项目"><a href="#MavenWeb项目" class="headerlink" title="MavenWeb项目"></a>MavenWeb项目</h1><h2 id="创建MavenWeb项目"><a href="#创建MavenWeb项目" class="headerlink" title="创建MavenWeb项目"></a>创建MavenWeb项目</h2><h3 id="使用骨架（archetype）"><a href="#使用骨架（archetype）" class="headerlink" title="使用骨架（archetype）"></a>使用骨架（archetype）</h3><p>创建Maven项目 勾选 <font color="#FF6699">Create from archetype </font>选择maven-archetype-webapp<br>在pom.xml中添加配置信息：设置打包方式为war<br>在main中创建java和resources目录<br>标准web项目如图<br><img src="/img/tomcat2.png">  </p><h3 id="不使用骨架（idea终极版）"><a href="#不使用骨架（idea终极版）" class="headerlink" title="不使用骨架（idea终极版）"></a>不使用骨架（idea终极版）</h3><p>不勾选<font color="#FF6699">Create from archetype </font>创建项目<br>在pom.xml中添加配置信息：设置打包方式为war<br><a href="https://blog.csdn.net/fengltxx/article/details/82999580?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2~default~CTRLIST~default-1-82999580-blog-104561206.pc_relevant_aa&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2~default~CTRLIST~default-1-82999580-blog-104561206.pc_relevant_aa&utm_relevant_index=1">参考</a>  </p><h1 id="idea集成本地Tomcat"><a href="#idea集成本地Tomcat" class="headerlink" title="idea集成本地Tomcat"></a>idea集成本地Tomcat</h1><p>在idea主页点击Add Configuration–加号–Tomcat Server–local<br>在Tomcat Server中配置Application server为Tomcat安装目录<br>在Deployment中更改项目的访问的路径<br>回到主页点run就开始部署  </p><h1 id="Tomcat的Maven插件"><a href="#Tomcat的Maven插件" class="headerlink" title="Tomcat的Maven插件"></a>Tomcat的Maven插件</h1><p>在pom.xml中导入tomcat插件<br>可以用<configuration>标签改端口号和访问路径</configuration></p>]]></content:encoded>
-      
-      
-      <category domain="http://sh393779.xyz/categories/Tomcat/">Tomcat</category>
-      
-      
-      <category domain="http://sh393779.xyz/tags/JavaWeb/">JavaWeb</category>
-      
-      <category domain="http://sh393779.xyz/tags/Tomcat/">Tomcat</category>
-      
-      
-      <comments>http://sh393779.xyz/2022/05/10/Tomcat/#disqus_thread</comments>
-      
-    </item>
     
     <item>
       <title>HTTP</title>
@@ -86,6 +61,31 @@
     </item>
     
     <item>
+      <title>Tomcat</title>
+      <link>http://sh393779.xyz/2022/05/10/Tomcat/</link>
+      <guid>http://sh393779.xyz/2022/05/10/Tomcat/</guid>
+      <pubDate>Tue, 10 May 2022 07:02:41 GMT</pubDate>
+      
+      <description>Tomcat学习</description>
+      
+      
+      
+      <content:encoded><![CDATA[<span id="more"></span><h1 id="Tomcat"><a href="#Tomcat" class="headerlink" title="Tomcat"></a>Tomcat</h1><p><img src="/img/tomcat1.png"></p><h2 id="安装配置"><a href="#安装配置" class="headerlink" title="安装配置"></a>安装配置</h2><p>在<a href="https://tomcat.apache.org/">Tomcat官网</a>下载对应的压缩包<br>解压到文件夹中（注意路径不要有中文）<br>访问：localhost:8080若进入Tomcat的官网，则安装成功<br>默认端口为8080，若被占用则<a href="https://blog.csdn.net/qq_40180411/article/details/82112344?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-1-82112344-blog-52870760.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-1-82112344-blog-52870760.pc_relevant_default&utm_relevant_index=2">修改tomcat默认端口号</a>  </p><h2 id="部署项目"><a href="#部署项目" class="headerlink" title="部署项目"></a>部署项目</h2><p>1.直接复制文件到apache-tomcat-8.5.68\webapps中<br>2.把文件压缩成.war的形式，复制到apache-tomcat-8.5.68\webapps中，Tomcat会自动解压部署  </p><h1 id="MavenWeb项目"><a href="#MavenWeb项目" class="headerlink" title="MavenWeb项目"></a>MavenWeb项目</h1><h2 id="创建MavenWeb项目"><a href="#创建MavenWeb项目" class="headerlink" title="创建MavenWeb项目"></a>创建MavenWeb项目</h2><h3 id="使用骨架（archetype）"><a href="#使用骨架（archetype）" class="headerlink" title="使用骨架（archetype）"></a>使用骨架（archetype）</h3><p>创建Maven项目 勾选 <font color="#FF6699">Create from archetype </font>选择maven-archetype-webapp<br>在pom.xml中添加配置信息：设置打包方式为war<br>在main中创建java和resources目录<br>标准web项目如图<br><img src="/img/tomcat2.png">  </p><h3 id="不使用骨架（idea终极版）"><a href="#不使用骨架（idea终极版）" class="headerlink" title="不使用骨架（idea终极版）"></a>不使用骨架（idea终极版）</h3><p>不勾选<font color="#FF6699">Create from archetype </font>创建项目<br>在pom.xml中添加配置信息：设置打包方式为war<br><a href="https://blog.csdn.net/fengltxx/article/details/82999580?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2~default~CTRLIST~default-1-82999580-blog-104561206.pc_relevant_aa&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2~default~CTRLIST~default-1-82999580-blog-104561206.pc_relevant_aa&utm_relevant_index=1">参考</a>  </p><h1 id="idea集成本地Tomcat"><a href="#idea集成本地Tomcat" class="headerlink" title="idea集成本地Tomcat"></a>idea集成本地Tomcat</h1><p>在idea主页点击Add Configuration–加号–Tomcat Server–local<br>在Tomcat Server中配置Application server为Tomcat安装目录<br>在Deployment中更改项目的访问的路径<br>回到主页点run就开始部署  </p><h1 id="Tomcat的Maven插件"><a href="#Tomcat的Maven插件" class="headerlink" title="Tomcat的Maven插件"></a>Tomcat的Maven插件</h1><p>在pom.xml中导入tomcat插件<br>可以用<configuration>标签改端口号和访问路径</configuration></p>]]></content:encoded>
+      
+      
+      <category domain="http://sh393779.xyz/categories/Tomcat/">Tomcat</category>
+      
+      
+      <category domain="http://sh393779.xyz/tags/JavaWeb/">JavaWeb</category>
+      
+      <category domain="http://sh393779.xyz/tags/Tomcat/">Tomcat</category>
+      
+      
+      <comments>http://sh393779.xyz/2022/05/10/Tomcat/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>C++面向对象</title>
       <link>http://sh393779.xyz/2022/05/10/c++/</link>
       <guid>http://sh393779.xyz/2022/05/10/c++/</guid>
@@ -103,6 +103,27 @@
       
       
       <comments>http://sh393779.xyz/2022/05/10/c++/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>http://sh393779.xyz/2022/05/10/git/</link>
+      <guid>http://sh393779.xyz/2022/05/10/git/</guid>
+      <pubDate>Tue, 10 May 2022 07:02:41 GMT</pubDate>
+      
+      <description>git</description>
+      
+      
+      
+      <content:encoded><![CDATA[<span id="more"></span><h1 id="git常用指令"><a href="#git常用指令" class="headerlink" title="git常用指令"></a>git常用指令</h1><h2 id="git基础操作指令"><a href="#git基础操作指令" class="headerlink" title="git基础操作指令"></a>git基础操作指令</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git init 创建仓库  </span><br><span class="line">git add 将所有修改加入到暂存区  </span><br><span class="line">git commit -m &quot;注释内容&quot; 提交暂存区内容到本地仓库的当前分支  </span><br><span class="line">git status 查看修改的状态  </span><br><span class="line">git log 查看提交日志  </span><br></pre></td></tr></table></figure><h2 id="版本回退"><a href="#版本回退" class="headerlink" title="版本回退"></a>版本回退</h2><pre><code>git reset --hard commitID</code></pre><p>commitID可以使用git log查看<br>如何查看已经删除的记录<br>git reflog  </p><h2 id="添加文件到忽略列表"><a href="#添加文件到忽略列表" class="headerlink" title="添加文件到忽略列表"></a>添加文件到忽略列表</h2><p>可以创建一个.gitignore文件，列出要忽略的文件模式<br><img src="/img/git1.png">  </p><h1 id="分支"><a href="#分支" class="headerlink" title="分支"></a>分支</h1><p><img src="/img/git2.png">  </p>]]></content:encoded>
+      
+      
+      
+      <category domain="http://sh393779.xyz/tags/git/">git</category>
+      
+      
+      <comments>http://sh393779.xyz/2022/05/10/git/#disqus_thread</comments>
       
     </item>
     
@@ -128,27 +149,6 @@
       
       
       <comments>http://sh393779.xyz/2022/05/10/mybatis/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>git</title>
-      <link>http://sh393779.xyz/2022/05/10/git/</link>
-      <guid>http://sh393779.xyz/2022/05/10/git/</guid>
-      <pubDate>Tue, 10 May 2022 07:02:41 GMT</pubDate>
-      
-      <description>git</description>
-      
-      
-      
-      <content:encoded><![CDATA[<span id="more"></span><h1 id="git常用指令"><a href="#git常用指令" class="headerlink" title="git常用指令"></a>git常用指令</h1><h2 id="git基础操作指令"><a href="#git基础操作指令" class="headerlink" title="git基础操作指令"></a>git基础操作指令</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git init 创建仓库  </span><br><span class="line">git add 将所有修改加入到暂存区  </span><br><span class="line">git commit -m &quot;注释内容&quot; 提交暂存区内容到本地仓库的当前分支  </span><br><span class="line">git status 查看修改的状态  </span><br><span class="line">git log 查看提交日志  </span><br></pre></td></tr></table></figure><h2 id="版本回退"><a href="#版本回退" class="headerlink" title="版本回退"></a>版本回退</h2><pre><code>git reset --hard commitID</code></pre><p>commitID可以使用git log查看<br>如何查看已经删除的记录<br>git reflog  </p><h2 id="添加文件到忽略列表"><a href="#添加文件到忽略列表" class="headerlink" title="添加文件到忽略列表"></a>添加文件到忽略列表</h2><p>可以创建一个.gitignore文件，列出要忽略的文件模式<br><img src="/img/git1.png">  </p><h1 id="分支"><a href="#分支" class="headerlink" title="分支"></a>分支</h1><p><img src="/img/git2.png">  </p>]]></content:encoded>
-      
-      
-      
-      <category domain="http://sh393779.xyz/tags/git/">git</category>
-      
-      
-      <comments>http://sh393779.xyz/2022/05/10/git/#disqus_thread</comments>
       
     </item>
     
