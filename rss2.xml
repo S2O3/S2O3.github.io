@@ -111,27 +111,6 @@
     </item>
     
     <item>
-      <title>git</title>
-      <link>http://sh393779.xyz/2022/05/10/git/</link>
-      <guid>http://sh393779.xyz/2022/05/10/git/</guid>
-      <pubDate>Tue, 10 May 2022 07:02:41 GMT</pubDate>
-      
-      <description>git</description>
-      
-      
-      
-      <content:encoded><![CDATA[<span id="more"></span><h1 id="git常用指令"><a href="#git常用指令" class="headerlink" title="git常用指令"></a>git常用指令</h1><h2 id="git基础操作指令"><a href="#git基础操作指令" class="headerlink" title="git基础操作指令"></a>git基础操作指令</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git init 创建仓库  </span><br><span class="line">git add 将所有修改加入到暂存区  </span><br><span class="line">git commit -m &quot;注释内容&quot; 提交暂存区内容到本地仓库的当前分支  </span><br><span class="line">git status 查看修改的状态  </span><br><span class="line">git log 查看提交日志  </span><br></pre></td></tr></table></figure><h2 id="版本回退"><a href="#版本回退" class="headerlink" title="版本回退"></a>版本回退</h2><pre><code>git reset --hard commitID</code></pre><p>commitID可以使用git log查看<br>如何查看已经删除的记录<br>git reflog  </p><h2 id="添加文件到忽略列表"><a href="#添加文件到忽略列表" class="headerlink" title="添加文件到忽略列表"></a>添加文件到忽略列表</h2><p>可以创建一个.gitignore文件，列出要忽略的文件模式<br><img src="/img/git1.png">  </p><h1 id="分支"><a href="#分支" class="headerlink" title="分支"></a>分支</h1><p><img src="/img/git2.png">  </p>]]></content:encoded>
-      
-      
-      
-      <category domain="http://sh393779.xyz/tags/git/">git</category>
-      
-      
-      <comments>http://sh393779.xyz/2022/05/10/git/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>C++面向对象</title>
       <link>http://sh393779.xyz/2022/05/10/c++/</link>
       <guid>http://sh393779.xyz/2022/05/10/c++/</guid>
@@ -174,6 +153,27 @@
       
       
       <comments>http://sh393779.xyz/2022/05/10/hexo-next%E7%BE%8E%E5%8C%96/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>http://sh393779.xyz/2022/05/10/git/</link>
+      <guid>http://sh393779.xyz/2022/05/10/git/</guid>
+      <pubDate>Tue, 10 May 2022 07:02:41 GMT</pubDate>
+      
+      <description>git</description>
+      
+      
+      
+      <content:encoded><![CDATA[<span id="more"></span><h1 id="git常用指令"><a href="#git常用指令" class="headerlink" title="git常用指令"></a>git常用指令</h1><h2 id="git基础操作指令"><a href="#git基础操作指令" class="headerlink" title="git基础操作指令"></a>git基础操作指令</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git init 创建仓库  </span><br><span class="line">git add 将所有修改加入到暂存区  </span><br><span class="line">git commit -m &quot;注释内容&quot; 提交暂存区内容到本地仓库的当前分支  </span><br><span class="line">git status 查看修改的状态  </span><br><span class="line">git log 查看提交日志  </span><br></pre></td></tr></table></figure><h2 id="版本回退"><a href="#版本回退" class="headerlink" title="版本回退"></a>版本回退</h2><pre><code>git reset --hard commitID</code></pre><p>commitID可以使用git log查看<br>如何查看已经删除的记录<br>git reflog  </p><h2 id="添加文件到忽略列表"><a href="#添加文件到忽略列表" class="headerlink" title="添加文件到忽略列表"></a>添加文件到忽略列表</h2><p>可以创建一个.gitignore文件，列出要忽略的文件模式<br><img src="/img/git1.png">  </p><h1 id="分支"><a href="#分支" class="headerlink" title="分支"></a>分支</h1><p><img src="/img/git2.png">  </p>]]></content:encoded>
+      
+      
+      
+      <category domain="http://sh393779.xyz/tags/git/">git</category>
+      
+      
+      <comments>http://sh393779.xyz/2022/05/10/git/#disqus_thread</comments>
       
     </item>
     
