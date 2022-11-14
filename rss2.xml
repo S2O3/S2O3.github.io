@@ -34,27 +34,50 @@
     </item>
     
     <item>
-      <title>文章</title>
-      <link>http://sh393779.xyz/2022/05/10/%E6%96%87%E7%AB%A0/</link>
-      <guid>http://sh393779.xyz/2022/05/10/%E6%96%87%E7%AB%A0/</guid>
+      <title>HTTP</title>
+      <link>http://sh393779.xyz/2022/05/10/HTTP/</link>
+      <guid>http://sh393779.xyz/2022/05/10/HTTP/</guid>
       <pubDate>Tue, 10 May 2022 07:02:41 GMT</pubDate>
       
-        
-        
-      <description>&lt;hr&gt;
-&lt;p&gt;&lt;a href=&quot;https://yz.chsi.com.cn/kyzx/politics/200410/20041013/1475.html&quot;&gt;哲学基本问题&lt;/a&gt;：&lt;br&gt;    一是存在和思维、物质和意识谁为本源的问题&lt;br&gt;    二是存在和思维、物质和意</description>
-        
+      <description>http学习</description>
       
       
       
-      <content:encoded><![CDATA[<hr><p><a href="https://yz.chsi.com.cn/kyzx/politics/200410/20041013/1475.html">哲学基本问题</a>：<br>    一是存在和思维、物质和意识谁为本源的问题<br>    二是存在和思维、物质和意识是否具有同一性的问题</p>]]></content:encoded>
+      <content:encoded><![CDATA[<span id="more"></span><h1 id="概念特点"><a href="#概念特点" class="headerlink" title="概念特点"></a>概念特点</h1><p><img src="/img/http1.png">  </p><h1 id="HTTP请求数据格式"><a href="#HTTP请求数据格式" class="headerlink" title="HTTP请求数据格式"></a>HTTP请求数据格式</h1><p><img src="/img/http2.png">  </p><h2 id="常见的HTTP请求头"><a href="#常见的HTTP请求头" class="headerlink" title="常见的HTTP请求头"></a>常见的HTTP请求头</h2><p><img src="/img/http3.png">  </p><h2 id="请求体"><a href="#请求体" class="headerlink" title="请求体"></a>请求体</h2><p><img src="/img/http4.png">  </p><h1 id="HTTP响应数据格式"><a href="#HTTP响应数据格式" class="headerlink" title="HTTP响应数据格式"></a>HTTP响应数据格式</h1><p><img src="/img/http5.png">  </p><h2 id="常见的HTTP响应头"><a href="#常见的HTTP响应头" class="headerlink" title="常见的HTTP响应头"></a>常见的HTTP响应头</h2><p><img src="/img/http6.png">  </p><h1 id="状态码"><a href="#状态码" class="headerlink" title="状态码"></a>状态码</h1><p><a href="https://www.runoob.com/http/http-status-codes.html">HTTP常见状态码</a>  </p>]]></content:encoded>
       
       
-      <category domain="http://sh393779.xyz/categories/%E9%98%85%E8%AF%BB%E5%BF%83%E5%BE%97/">阅读心得</category>
+      <category domain="http://sh393779.xyz/categories/HTTP/">HTTP</category>
+      
+      
+      <category domain="http://sh393779.xyz/tags/JavaWeb/">JavaWeb</category>
+      
+      <category domain="http://sh393779.xyz/tags/HTTP/">HTTP</category>
+      
+      
+      <comments>http://sh393779.xyz/2022/05/10/HTTP/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Servlet</title>
+      <link>http://sh393779.xyz/2022/05/10/Servlet/</link>
+      <guid>http://sh393779.xyz/2022/05/10/Servlet/</guid>
+      <pubDate>Tue, 10 May 2022 07:02:41 GMT</pubDate>
+      
+      <description>servlet</description>
       
       
       
-      <comments>http://sh393779.xyz/2022/05/10/%E6%96%87%E7%AB%A0/#disqus_thread</comments>
+      <content:encoded><![CDATA[<span id="more"></span><h1 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h1><p><img src="/img/servlet1.png"></p><h1 id="Servlet生命周期"><a href="#Servlet生命周期" class="headerlink" title="Servlet生命周期"></a>Servlet生命周期</h1><p><img src="/img/servlet2.png">  </p><h1 id="HTTPServlet使用步骤及原理"><a href="#HTTPServlet使用步骤及原理" class="headerlink" title="HTTPServlet使用步骤及原理"></a>HTTPServlet使用步骤及原理</h1><p><img src="/img/servlet3.png">  </p><h1 id="urlPattern配置"><a href="#urlPattern配置" class="headerlink" title="urlPattern配置"></a>urlPattern配置</h1><p><img src="/img/servlet4.png">  </p><h2 id="Servlet-urlPattern配置规则"><a href="#Servlet-urlPattern配置规则" class="headerlink" title="Servlet urlPattern配置规则"></a>Servlet urlPattern配置规则</h2><p><img src="/img/servlet5.png"><br>当配置规则同时满足精确匹配和目录匹配时，会优先使用精确匹配  </p><h1 id="XML配置Servlet"><a href="#XML配置Servlet" class="headerlink" title="XML配置Servlet"></a>XML配置Servlet</h1>]]></content:encoded>
+      
+      
+      
+      <category domain="http://sh393779.xyz/tags/JavaWeb/">JavaWeb</category>
+      
+      <category domain="http://sh393779.xyz/tags/Servlet/">Servlet</category>
+      
+      
+      <comments>http://sh393779.xyz/2022/05/10/Servlet/#disqus_thread</comments>
       
     </item>
     
@@ -84,27 +107,23 @@
     </item>
     
     <item>
-      <title>HTTP</title>
-      <link>http://sh393779.xyz/2022/05/10/HTTP/</link>
-      <guid>http://sh393779.xyz/2022/05/10/HTTP/</guid>
+      <title>C++面向对象</title>
+      <link>http://sh393779.xyz/2022/05/10/c++/</link>
+      <guid>http://sh393779.xyz/2022/05/10/c++/</guid>
       <pubDate>Tue, 10 May 2022 07:02:41 GMT</pubDate>
       
-      <description>http学习</description>
+      <description>c++</description>
       
       
       
-      <content:encoded><![CDATA[<span id="more"></span><h1 id="概念特点"><a href="#概念特点" class="headerlink" title="概念特点"></a>概念特点</h1><p><img src="/img/http1.png">  </p><h1 id="HTTP请求数据格式"><a href="#HTTP请求数据格式" class="headerlink" title="HTTP请求数据格式"></a>HTTP请求数据格式</h1><p><img src="/img/http2.png">  </p><h2 id="常见的HTTP请求头"><a href="#常见的HTTP请求头" class="headerlink" title="常见的HTTP请求头"></a>常见的HTTP请求头</h2><p><img src="/img/http3.png">  </p><h2 id="请求体"><a href="#请求体" class="headerlink" title="请求体"></a>请求体</h2><p><img src="/img/http4.png">  </p><h1 id="HTTP响应数据格式"><a href="#HTTP响应数据格式" class="headerlink" title="HTTP响应数据格式"></a>HTTP响应数据格式</h1><p><img src="/img/http5.png">  </p><h2 id="常见的HTTP响应头"><a href="#常见的HTTP响应头" class="headerlink" title="常见的HTTP响应头"></a>常见的HTTP响应头</h2><p><img src="/img/http6.png">  </p><h1 id="状态码"><a href="#状态码" class="headerlink" title="状态码"></a>状态码</h1><p><a href="https://www.runoob.com/http/http-status-codes.html">HTTP常见状态码</a>  </p>]]></content:encoded>
+      <content:encoded><![CDATA[<span id="more"></span><h1 id="友元"><a href="#友元" class="headerlink" title="友元"></a>友元</h1><p>友元可以访问类内所有成员  </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">void func();</span><br><span class="line">class A&#123;</span><br><span class="line">friend void func();</span><br><span class="line">&#125;;</span><br><span class="line">```  </span><br><span class="line"># 继承</span><br><span class="line">派生类不能继承：析构函数，基类的友元函数，静态数据成员，静态成员函数  </span><br><span class="line">private：只能本类访问  </span><br><span class="line">protected：可以本类，派生类访问  </span><br><span class="line">public：可以本类，派生类，类外访问  </span><br></pre></td></tr></table></figure><p>class Animal;<br>class Cat;<br>class Cat:protected Animal{<br>};</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">c++的继承方式可分为公有继，保护继承和私有继承  </span><br><span class="line">c++默认继承方式位private继承  </span><br><span class="line">public继承  </span><br><span class="line">基类的访问权限在派生类中保持不变  </span><br><span class="line">private继承  </span><br><span class="line">基类的private成员在派生类中仍是private成员，但基类的protected和public成员在派生类中会变成private成员  </span><br><span class="line">protected继承  </span><br><span class="line">基类中的public成员在派生类中修改为protected成员，protected和private成员保持不变  </span><br><span class="line">## 阻止继承</span><br></pre></td></tr></table></figure><p>class Cat final{<br>};  </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">可以用final关键字阻止该类被继承</span><br><span class="line">## 重载重定义</span><br><span class="line">重载：要求函数具有不同的函数原型  </span><br><span class="line">重定义（重写or覆盖）：指派生类可以定义与基类具有相同函数原型的成员函数  </span><br><span class="line">## 派生类修改基类成员的访问权限</span><br><span class="line">如  </span><br></pre></td></tr></table></figure><p>class Animal{<br>    protected:<br>    void jump() {<br>        cout &lt;&lt; “跳” &lt;&lt; endl;<br>    }<br>};<br>class Cat:protected Animal{<br>    public:<br>        using Animal::jump;&#x2F;&#x2F;修改jump权限为public<br>}</p><pre><code>&lt;font color=&quot;#FF66CC&quot;&gt;private成员永远只能被它内部的成员访问&lt;/font&gt;  因此不允许派生类使用using改变private成员的访问权限  注：由于继承导致的权限变化不算入其中  </code></pre>]]></content:encoded>
       
       
-      <category domain="http://sh393779.xyz/categories/HTTP/">HTTP</category>
+      <category domain="http://sh393779.xyz/categories/c/">c++</category>
       
       
-      <category domain="http://sh393779.xyz/tags/JavaWeb/">JavaWeb</category>
       
-      <category domain="http://sh393779.xyz/tags/HTTP/">HTTP</category>
-      
-      
-      <comments>http://sh393779.xyz/2022/05/10/HTTP/#disqus_thread</comments>
+      <comments>http://sh393779.xyz/2022/05/10/c++/#disqus_thread</comments>
       
     </item>
     
@@ -126,50 +145,6 @@
       
       
       <comments>http://sh393779.xyz/2022/05/10/git/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Servlet</title>
-      <link>http://sh393779.xyz/2022/05/10/Servlet/</link>
-      <guid>http://sh393779.xyz/2022/05/10/Servlet/</guid>
-      <pubDate>Tue, 10 May 2022 07:02:41 GMT</pubDate>
-      
-      <description>servlet</description>
-      
-      
-      
-      <content:encoded><![CDATA[<span id="more"></span><h1 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h1><p><img src="/img/servlet1.png"></p><h1 id="Servlet生命周期"><a href="#Servlet生命周期" class="headerlink" title="Servlet生命周期"></a>Servlet生命周期</h1><p><img src="/img/servlet2.png">  </p><h1 id="HTTPServlet使用步骤及原理"><a href="#HTTPServlet使用步骤及原理" class="headerlink" title="HTTPServlet使用步骤及原理"></a>HTTPServlet使用步骤及原理</h1><p><img src="/img/servlet3.png">  </p><h1 id="urlPattern配置"><a href="#urlPattern配置" class="headerlink" title="urlPattern配置"></a>urlPattern配置</h1><p><img src="/img/servlet4.png">  </p><h2 id="Servlet-urlPattern配置规则"><a href="#Servlet-urlPattern配置规则" class="headerlink" title="Servlet urlPattern配置规则"></a>Servlet urlPattern配置规则</h2><p><img src="/img/servlet5.png"><br>当配置规则同时满足精确匹配和目录匹配时，会优先使用精确匹配  </p><h1 id="XML配置Servlet"><a href="#XML配置Servlet" class="headerlink" title="XML配置Servlet"></a>XML配置Servlet</h1>]]></content:encoded>
-      
-      
-      
-      <category domain="http://sh393779.xyz/tags/JavaWeb/">JavaWeb</category>
-      
-      <category domain="http://sh393779.xyz/tags/Servlet/">Servlet</category>
-      
-      
-      <comments>http://sh393779.xyz/2022/05/10/Servlet/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>C++面向对象</title>
-      <link>http://sh393779.xyz/2022/05/10/c++/</link>
-      <guid>http://sh393779.xyz/2022/05/10/c++/</guid>
-      <pubDate>Tue, 10 May 2022 07:02:41 GMT</pubDate>
-      
-      <description>c++</description>
-      
-      
-      
-      <content:encoded><![CDATA[<span id="more"></span><h1 id="友元"><a href="#友元" class="headerlink" title="友元"></a>友元</h1><p>友元可以访问类内所有成员  </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">void func();</span><br><span class="line">class A&#123;</span><br><span class="line">friend void func();</span><br><span class="line">&#125;;</span><br><span class="line">```  </span><br><span class="line"># 继承</span><br><span class="line">派生类不能继承：析构函数，基类的友元函数，静态数据成员，静态成员函数  </span><br><span class="line">private：只能本类访问  </span><br><span class="line">protected：可以本类，派生类访问  </span><br><span class="line">public：可以本类，派生类，类外访问  </span><br></pre></td></tr></table></figure><p>class Animal;<br>class Cat;<br>class Cat:protected Animal{<br>};</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">c++的继承方式可分为公有继，保护继承和私有继承  </span><br><span class="line">c++默认继承方式位private继承  </span><br><span class="line">public继承  </span><br><span class="line">基类的访问权限在派生类中保持不变  </span><br><span class="line">private继承  </span><br><span class="line">基类的private成员在派生类中仍是private成员，但基类的protected和public成员在派生类中会变成private成员  </span><br><span class="line">protected继承  </span><br><span class="line">基类中的public成员在派生类中修改为protected成员，protected和private成员保持不变  </span><br><span class="line">## 阻止继承</span><br></pre></td></tr></table></figure><p>class Cat final{<br>};  </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">可以用final关键字阻止该类被继承</span><br><span class="line">## 重载重定义</span><br><span class="line">重载：要求函数具有不同的函数原型  </span><br><span class="line">重定义（重写or覆盖）：指派生类可以定义与基类具有相同函数原型的成员函数  </span><br><span class="line">## 派生类修改基类成员的访问权限</span><br><span class="line">如  </span><br></pre></td></tr></table></figure><p>class Animal{<br>    protected:<br>    void jump() {<br>        cout &lt;&lt; “跳” &lt;&lt; endl;<br>    }<br>};<br>class Cat:protected Animal{<br>    public:<br>        using Animal::jump;&#x2F;&#x2F;修改jump权限为public<br>}</p><pre><code>&lt;font color=&quot;#FF66CC&quot;&gt;private成员永远只能被它内部的成员访问&lt;/font&gt;  因此不允许派生类使用using改变private成员的访问权限  注：由于继承导致的权限变化不算入其中  </code></pre>]]></content:encoded>
-      
-      
-      <category domain="http://sh393779.xyz/categories/c/">c++</category>
-      
-      
-      
-      <comments>http://sh393779.xyz/2022/05/10/c++/#disqus_thread</comments>
       
     </item>
     
@@ -220,6 +195,31 @@
       
       
       <comments>http://sh393779.xyz/2022/05/10/hexo-next%E7%BE%8E%E5%8C%96/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>文章</title>
+      <link>http://sh393779.xyz/2022/05/10/%E6%96%87%E7%AB%A0/</link>
+      <guid>http://sh393779.xyz/2022/05/10/%E6%96%87%E7%AB%A0/</guid>
+      <pubDate>Tue, 10 May 2022 07:02:41 GMT</pubDate>
+      
+        
+        
+      <description>&lt;hr&gt;
+&lt;p&gt;&lt;a href=&quot;https://yz.chsi.com.cn/kyzx/politics/200410/20041013/1475.html&quot;&gt;哲学基本问题&lt;/a&gt;：&lt;br&gt;    一是存在和思维、物质和意识谁为本源的问题&lt;br&gt;    二是存在和思维、物质和意</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<hr><p><a href="https://yz.chsi.com.cn/kyzx/politics/200410/20041013/1475.html">哲学基本问题</a>：<br>    一是存在和思维、物质和意识谁为本源的问题<br>    二是存在和思维、物质和意识是否具有同一性的问题</p>]]></content:encoded>
+      
+      
+      <category domain="http://sh393779.xyz/categories/%E9%98%85%E8%AF%BB%E5%BF%83%E5%BE%97/">阅读心得</category>
+      
+      
+      
+      <comments>http://sh393779.xyz/2022/05/10/%E6%96%87%E7%AB%A0/#disqus_thread</comments>
       
     </item>
     
