@@ -3,7 +3,7 @@
   xmlns:atom="http://www.w3.org/2005/Atom"
   xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Azusa</title>
+    <title>YuiChan</title>
     <link>http://sh393779.xyz/</link>
     
     <atom:link href="http://sh393779.xyz/rss2.xml" rel="self" type="application/rss+xml"/>
@@ -34,50 +34,48 @@
     </item>
     
     <item>
-      <title>Servlet</title>
-      <link>http://sh393779.xyz/2022/05/10/Servlet/</link>
-      <guid>http://sh393779.xyz/2022/05/10/Servlet/</guid>
+      <title>文章</title>
+      <link>http://sh393779.xyz/2022/05/10/%E6%96%87%E7%AB%A0/</link>
+      <guid>http://sh393779.xyz/2022/05/10/%E6%96%87%E7%AB%A0/</guid>
       <pubDate>Tue, 10 May 2022 07:02:41 GMT</pubDate>
       
-      <description>servlet</description>
+        
+        
+      <description>&lt;hr&gt;
+&lt;p&gt;&lt;a href=&quot;https://yz.chsi.com.cn/kyzx/politics/200410/20041013/1475.html&quot;&gt;哲学基本问题&lt;/a&gt;：&lt;br&gt;    一是存在和思维、物质和意识谁为本源的问题&lt;br&gt;    二是存在和思维、物质和意</description>
+        
       
       
       
-      <content:encoded><![CDATA[<span id="more"></span><h1 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h1><p><img src="/img/servlet1.png"></p><h1 id="Servlet生命周期"><a href="#Servlet生命周期" class="headerlink" title="Servlet生命周期"></a>Servlet生命周期</h1><p><img src="/img/servlet2.png">  </p><h1 id="HTTPServlet使用步骤及原理"><a href="#HTTPServlet使用步骤及原理" class="headerlink" title="HTTPServlet使用步骤及原理"></a>HTTPServlet使用步骤及原理</h1><p><img src="/img/servlet3.png">  </p><h1 id="urlPattern配置"><a href="#urlPattern配置" class="headerlink" title="urlPattern配置"></a>urlPattern配置</h1><p><img src="/img/servlet4.png">  </p><h2 id="Servlet-urlPattern配置规则"><a href="#Servlet-urlPattern配置规则" class="headerlink" title="Servlet urlPattern配置规则"></a>Servlet urlPattern配置规则</h2><p><img src="/img/servlet5.png"><br>当配置规则同时满足精确匹配和目录匹配时，会优先使用精确匹配  </p><h1 id="XML配置Servlet"><a href="#XML配置Servlet" class="headerlink" title="XML配置Servlet"></a>XML配置Servlet</h1>]]></content:encoded>
+      <content:encoded><![CDATA[<hr><p><a href="https://yz.chsi.com.cn/kyzx/politics/200410/20041013/1475.html">哲学基本问题</a>：<br>    一是存在和思维、物质和意识谁为本源的问题<br>    二是存在和思维、物质和意识是否具有同一性的问题</p>]]></content:encoded>
+      
+      
+      <category domain="http://sh393779.xyz/categories/%E9%98%85%E8%AF%BB%E5%BF%83%E5%BE%97/">阅读心得</category>
       
       
       
-      <category domain="http://sh393779.xyz/tags/Servlet/">Servlet</category>
-      
-      <category domain="http://sh393779.xyz/tags/JavaWeb/">JavaWeb</category>
-      
-      
-      <comments>http://sh393779.xyz/2022/05/10/Servlet/#disqus_thread</comments>
+      <comments>http://sh393779.xyz/2022/05/10/%E6%96%87%E7%AB%A0/#disqus_thread</comments>
       
     </item>
     
     <item>
-      <title>HTTP</title>
-      <link>http://sh393779.xyz/2022/05/10/HTTP/</link>
-      <guid>http://sh393779.xyz/2022/05/10/HTTP/</guid>
+      <title>git</title>
+      <link>http://sh393779.xyz/2022/05/10/git/</link>
+      <guid>http://sh393779.xyz/2022/05/10/git/</guid>
       <pubDate>Tue, 10 May 2022 07:02:41 GMT</pubDate>
       
-      <description>http学习</description>
+      <description>git</description>
       
       
       
-      <content:encoded><![CDATA[<span id="more"></span><h1 id="概念特点"><a href="#概念特点" class="headerlink" title="概念特点"></a>概念特点</h1><p><img src="/img/http1.png">  </p><h1 id="HTTP请求数据格式"><a href="#HTTP请求数据格式" class="headerlink" title="HTTP请求数据格式"></a>HTTP请求数据格式</h1><p><img src="/img/http2.png">  </p><h2 id="常见的HTTP请求头"><a href="#常见的HTTP请求头" class="headerlink" title="常见的HTTP请求头"></a>常见的HTTP请求头</h2><p><img src="/img/http3.png">  </p><h2 id="请求体"><a href="#请求体" class="headerlink" title="请求体"></a>请求体</h2><p><img src="/img/http4.png">  </p><h1 id="HTTP响应数据格式"><a href="#HTTP响应数据格式" class="headerlink" title="HTTP响应数据格式"></a>HTTP响应数据格式</h1><p><img src="/img/http5.png">  </p><h2 id="常见的HTTP响应头"><a href="#常见的HTTP响应头" class="headerlink" title="常见的HTTP响应头"></a>常见的HTTP响应头</h2><p><img src="/img/http6.png">  </p><h1 id="状态码"><a href="#状态码" class="headerlink" title="状态码"></a>状态码</h1><p><a href="https://www.runoob.com/http/http-status-codes.html">HTTP常见状态码</a>  </p>]]></content:encoded>
+      <content:encoded><![CDATA[<span id="more"></span><h1 id="git常用指令"><a href="#git常用指令" class="headerlink" title="git常用指令"></a>git常用指令</h1><h2 id="git基础操作指令"><a href="#git基础操作指令" class="headerlink" title="git基础操作指令"></a>git基础操作指令</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git init 创建仓库  </span><br><span class="line">git add 将所有修改加入到暂存区  </span><br><span class="line">git commit -m &quot;注释内容&quot; 提交暂存区内容到本地仓库的当前分支  </span><br><span class="line">git status 查看修改的状态  </span><br><span class="line">git log 查看提交日志  </span><br></pre></td></tr></table></figure><h2 id="版本回退"><a href="#版本回退" class="headerlink" title="版本回退"></a>版本回退</h2><pre><code>git reset --hard commitID</code></pre><p>commitID可以使用git log查看<br>如何查看已经删除的记录<br>git reflog  </p><h2 id="添加文件到忽略列表"><a href="#添加文件到忽略列表" class="headerlink" title="添加文件到忽略列表"></a>添加文件到忽略列表</h2><p>可以创建一个.gitignore文件，列出要忽略的文件模式<br><img src="/img/git1.png">  </p><h1 id="分支"><a href="#分支" class="headerlink" title="分支"></a>分支</h1><p><img src="/img/git2.png">  </p>]]></content:encoded>
       
       
-      <category domain="http://sh393779.xyz/categories/HTTP/">HTTP</category>
+      
+      <category domain="http://sh393779.xyz/tags/git/">git</category>
       
       
-      <category domain="http://sh393779.xyz/tags/JavaWeb/">JavaWeb</category>
-      
-      <category domain="http://sh393779.xyz/tags/HTTP/">HTTP</category>
-      
-      
-      <comments>http://sh393779.xyz/2022/05/10/HTTP/#disqus_thread</comments>
+      <comments>http://sh393779.xyz/2022/05/10/git/#disqus_thread</comments>
       
     </item>
     
@@ -107,69 +105,50 @@
     </item>
     
     <item>
-      <title>C++面向对象</title>
-      <link>http://sh393779.xyz/2022/05/10/c++/</link>
-      <guid>http://sh393779.xyz/2022/05/10/c++/</guid>
+      <title>HTTP</title>
+      <link>http://sh393779.xyz/2022/05/10/HTTP/</link>
+      <guid>http://sh393779.xyz/2022/05/10/HTTP/</guid>
       <pubDate>Tue, 10 May 2022 07:02:41 GMT</pubDate>
       
-      <description>c++</description>
+      <description>http学习</description>
       
       
       
-      <content:encoded><![CDATA[<span id="more"></span><h1 id="友元"><a href="#友元" class="headerlink" title="友元"></a>友元</h1><p>友元可以访问类内所有成员  </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">void func();</span><br><span class="line">class A&#123;</span><br><span class="line">friend void func();</span><br><span class="line">&#125;;</span><br><span class="line">```  </span><br><span class="line"># 继承</span><br><span class="line">派生类不能继承：析构函数，基类的友元函数，静态数据成员，静态成员函数  </span><br><span class="line">private：只能本类访问  </span><br><span class="line">protected：可以本类，派生类访问  </span><br><span class="line">public：可以本类，派生类，类外访问  </span><br></pre></td></tr></table></figure><p>class Animal;<br>class Cat;<br>class Cat:protected Animal{<br>};</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">c++的继承方式可分为公有继，保护继承和私有继承  </span><br><span class="line">c++默认继承方式位private继承  </span><br><span class="line">public继承  </span><br><span class="line">基类的访问权限在派生类中保持不变  </span><br><span class="line">private继承  </span><br><span class="line">基类的private成员在派生类中仍是private成员，但基类的protected和public成员在派生类中会变成private成员  </span><br><span class="line">protected继承  </span><br><span class="line">基类中的public成员在派生类中修改为protected成员，protected和private成员保持不变  </span><br><span class="line">## 阻止继承</span><br></pre></td></tr></table></figure><p>class Cat final{<br>};  </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">可以用final关键字阻止该类被继承</span><br><span class="line">## 重载重定义</span><br><span class="line">重载：要求函数具有不同的函数原型  </span><br><span class="line">重定义（重写or覆盖）：指派生类可以定义与基类具有相同函数原型的成员函数  </span><br><span class="line">## 派生类修改基类成员的访问权限</span><br><span class="line">如  </span><br></pre></td></tr></table></figure><p>class Animal{<br>    protected:<br>    void jump() {<br>        cout &lt;&lt; “跳” &lt;&lt; endl;<br>    }<br>};<br>class Cat:protected Animal{<br>    public:<br>        using Animal::jump;&#x2F;&#x2F;修改jump权限为public<br>}</p><pre><code>&lt;font color=&quot;#FF66CC&quot;&gt;private成员永远只能被它内部的成员访问&lt;/font&gt;  因此不允许派生类使用using改变private成员的访问权限  注：由于继承导致的权限变化不算入其中  </code></pre>]]></content:encoded>
+      <content:encoded><![CDATA[<span id="more"></span><h1 id="概念特点"><a href="#概念特点" class="headerlink" title="概念特点"></a>概念特点</h1><p><img src="/img/http1.png">  </p><h1 id="HTTP请求数据格式"><a href="#HTTP请求数据格式" class="headerlink" title="HTTP请求数据格式"></a>HTTP请求数据格式</h1><p><img src="/img/http2.png">  </p><h2 id="常见的HTTP请求头"><a href="#常见的HTTP请求头" class="headerlink" title="常见的HTTP请求头"></a>常见的HTTP请求头</h2><p><img src="/img/http3.png">  </p><h2 id="请求体"><a href="#请求体" class="headerlink" title="请求体"></a>请求体</h2><p><img src="/img/http4.png">  </p><h1 id="HTTP响应数据格式"><a href="#HTTP响应数据格式" class="headerlink" title="HTTP响应数据格式"></a>HTTP响应数据格式</h1><p><img src="/img/http5.png">  </p><h2 id="常见的HTTP响应头"><a href="#常见的HTTP响应头" class="headerlink" title="常见的HTTP响应头"></a>常见的HTTP响应头</h2><p><img src="/img/http6.png">  </p><h1 id="状态码"><a href="#状态码" class="headerlink" title="状态码"></a>状态码</h1><p><a href="https://www.runoob.com/http/http-status-codes.html">HTTP常见状态码</a>  </p>]]></content:encoded>
       
       
-      <category domain="http://sh393779.xyz/categories/c/">c++</category>
+      <category domain="http://sh393779.xyz/categories/HTTP/">HTTP</category>
       
       
+      <category domain="http://sh393779.xyz/tags/JavaWeb/">JavaWeb</category>
       
-      <comments>http://sh393779.xyz/2022/05/10/c++/#disqus_thread</comments>
+      <category domain="http://sh393779.xyz/tags/HTTP/">HTTP</category>
+      
+      
+      <comments>http://sh393779.xyz/2022/05/10/HTTP/#disqus_thread</comments>
       
     </item>
     
     <item>
-      <title>git</title>
-      <link>http://sh393779.xyz/2022/05/10/git/</link>
-      <guid>http://sh393779.xyz/2022/05/10/git/</guid>
+      <title>Servlet</title>
+      <link>http://sh393779.xyz/2022/05/10/Servlet/</link>
+      <guid>http://sh393779.xyz/2022/05/10/Servlet/</guid>
       <pubDate>Tue, 10 May 2022 07:02:41 GMT</pubDate>
       
-      <description>git</description>
+      <description>servlet</description>
       
       
       
-      <content:encoded><![CDATA[<span id="more"></span><h1 id="git常用指令"><a href="#git常用指令" class="headerlink" title="git常用指令"></a>git常用指令</h1><h2 id="git基础操作指令"><a href="#git基础操作指令" class="headerlink" title="git基础操作指令"></a>git基础操作指令</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git init 创建仓库  </span><br><span class="line">git add 将所有修改加入到暂存区  </span><br><span class="line">git commit -m &quot;注释内容&quot; 提交暂存区内容到本地仓库的当前分支  </span><br><span class="line">git status 查看修改的状态  </span><br><span class="line">git log 查看提交日志  </span><br></pre></td></tr></table></figure><h2 id="版本回退"><a href="#版本回退" class="headerlink" title="版本回退"></a>版本回退</h2><pre><code>git reset --hard commitID</code></pre><p>commitID可以使用git log查看<br>如何查看已经删除的记录<br>git reflog  </p><h2 id="添加文件到忽略列表"><a href="#添加文件到忽略列表" class="headerlink" title="添加文件到忽略列表"></a>添加文件到忽略列表</h2><p>可以创建一个.gitignore文件，列出要忽略的文件模式<br><img src="/img/git1.png">  </p><h1 id="分支"><a href="#分支" class="headerlink" title="分支"></a>分支</h1><p><img src="/img/git2.png">  </p>]]></content:encoded>
+      <content:encoded><![CDATA[<span id="more"></span><h1 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h1><p><img src="/img/servlet1.png"></p><h1 id="Servlet生命周期"><a href="#Servlet生命周期" class="headerlink" title="Servlet生命周期"></a>Servlet生命周期</h1><p><img src="/img/servlet2.png">  </p><h1 id="HTTPServlet使用步骤及原理"><a href="#HTTPServlet使用步骤及原理" class="headerlink" title="HTTPServlet使用步骤及原理"></a>HTTPServlet使用步骤及原理</h1><p><img src="/img/servlet3.png">  </p><h1 id="urlPattern配置"><a href="#urlPattern配置" class="headerlink" title="urlPattern配置"></a>urlPattern配置</h1><p><img src="/img/servlet4.png">  </p><h2 id="Servlet-urlPattern配置规则"><a href="#Servlet-urlPattern配置规则" class="headerlink" title="Servlet urlPattern配置规则"></a>Servlet urlPattern配置规则</h2><p><img src="/img/servlet5.png"><br>当配置规则同时满足精确匹配和目录匹配时，会优先使用精确匹配  </p><h1 id="XML配置Servlet"><a href="#XML配置Servlet" class="headerlink" title="XML配置Servlet"></a>XML配置Servlet</h1>]]></content:encoded>
       
       
       
-      <category domain="http://sh393779.xyz/tags/git/">git</category>
+      <category domain="http://sh393779.xyz/tags/JavaWeb/">JavaWeb</category>
+      
+      <category domain="http://sh393779.xyz/tags/Servlet/">Servlet</category>
       
       
-      <comments>http://sh393779.xyz/2022/05/10/git/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>hexo-next美化</title>
-      <link>http://sh393779.xyz/2022/05/10/hexo-next%E7%BE%8E%E5%8C%96/</link>
-      <guid>http://sh393779.xyz/2022/05/10/hexo-next%E7%BE%8E%E5%8C%96/</guid>
-      <pubDate>Tue, 10 May 2022 07:02:41 GMT</pubDate>
-      
-      <description>一些美化的经验</description>
-      
-      
-      
-      <content:encoded><![CDATA[<span id="more"></span><h2 id="解决不显示访问人数的问题"><a href="#解决不显示访问人数的问题" class="headerlink" title="解决不显示访问人数的问题"></a>解决不显示访问人数的问题</h2><p><a href="https://muyuuuu.github.io/2019/11/22/busuanzi-notdisplay/">修补hexo-next不蒜子不显示问题</a>  </p><h2 id="去掉页面底部“驱动”"><a href="#去掉页面底部“驱动”" class="headerlink" title="去掉页面底部“驱动”"></a>去掉页面底部“驱动”</h2><p>比如想去掉“由 Hexo &amp; NexT.Gemini 强力驱动”，在<font color="#FF66CC">.\themes\next\layout_partials\footer.swig</font>中将以下代码注释掉。  </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&#123;%- if theme.footer.powered %&#125;</span><br><span class="line">  &lt;div class=&quot;powered-by&quot;&gt;</span><br><span class="line">    &#123;%- set next_site = &#x27;https://theme-next.js.org&#x27; if theme.scheme === &#x27;Gemini&#x27; else &#x27;https://theme-next.js.org/&#x27; + theme.scheme | lower + &#x27;/&#x27; %&#125;</span><br><span class="line">    &#123;&#123;- __(&#x27;footer.powered&#x27;, next_url(&#x27;https://hexo.io&#x27;, &#x27;Hexo&#x27;) + &#x27; &amp; &#x27; + next_url(next_site, &#x27;NexT.&#x27; + theme.scheme)) &#125;&#125;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&#123;%- endif %&#125;</span><br></pre></td></tr></table></figure><h2 id="头像设置"><a href="#头像设置" class="headerlink" title="头像设置"></a>头像设置</h2><p>在next的_config.yml中avatar设置。将头像图片放在<font color="#FF66CC">&#x2F;source&#x2F;images&#x2F;</font>中，修改url地址。</p><pre><code># Sidebar Avataravatar:  # Replace the default image and set the url here.  url: /images/header.jpg  # If true, the avatar will be displayed in circle.  rounded: true  # If true, the avatar will be rotated with the cursor.  rotated: true</code></pre><h2 id="背景图片、页面透明化、阴影、圆角、动画"><a href="#背景图片、页面透明化、阴影、圆角、动画" class="headerlink" title="背景图片、页面透明化、阴影、圆角、动画"></a>背景图片、页面透明化、阴影、圆角、动画</h2><p><a href="https://blog.csdn.net/Growing_potato/article/details/113926856?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2~default~CTRLIST~Rate-1-113926856-blog-107005112.pc_relevant_antiscanv2&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2~default~CTRLIST~Rate-1-113926856-blog-107005112.pc_relevant_antiscanv2&utm_relevant_index=1">背景图片、页面透明化、阴影、圆角、动画</a>  </p>]]></content:encoded>
-      
-      
-      <category domain="http://sh393779.xyz/categories/hexo/">hexo</category>
-      
-      <category domain="http://sh393779.xyz/categories/hexo/next/">next</category>
-      
-      
-      <category domain="http://sh393779.xyz/tags/blog/">blog</category>
-      
-      
-      <comments>http://sh393779.xyz/2022/05/10/hexo-next%E7%BE%8E%E5%8C%96/#disqus_thread</comments>
+      <comments>http://sh393779.xyz/2022/05/10/Servlet/#disqus_thread</comments>
       
     </item>
     
@@ -199,31 +178,6 @@
     </item>
     
     <item>
-      <title>文章</title>
-      <link>http://sh393779.xyz/2022/05/10/%E6%96%87%E7%AB%A0/</link>
-      <guid>http://sh393779.xyz/2022/05/10/%E6%96%87%E7%AB%A0/</guid>
-      <pubDate>Tue, 10 May 2022 07:02:41 GMT</pubDate>
-      
-        
-        
-      <description>&lt;hr&gt;
-&lt;p&gt;&lt;a href=&quot;https://yz.chsi.com.cn/kyzx/politics/200410/20041013/1475.html&quot;&gt;哲学基本问题&lt;/a&gt;：&lt;br&gt;    一是存在和思维、物质和意识谁为本源的问题&lt;br&gt;    二是存在和思维、物质和意</description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<hr><p><a href="https://yz.chsi.com.cn/kyzx/politics/200410/20041013/1475.html">哲学基本问题</a>：<br>    一是存在和思维、物质和意识谁为本源的问题<br>    二是存在和思维、物质和意识是否具有同一性的问题</p>]]></content:encoded>
-      
-      
-      <category domain="http://sh393779.xyz/categories/%E9%98%85%E8%AF%BB%E5%BF%83%E5%BE%97/">阅读心得</category>
-      
-      
-      
-      <comments>http://sh393779.xyz/2022/05/10/%E6%96%87%E7%AB%A0/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>系统结构</title>
       <link>http://sh393779.xyz/2022/05/10/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E7%BB%93%E6%9E%84/</link>
       <guid>http://sh393779.xyz/2022/05/10/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E7%BB%93%E6%9E%84/</guid>
@@ -243,6 +197,52 @@
       
       
       <comments>http://sh393779.xyz/2022/05/10/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E7%BB%93%E6%9E%84/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>C++面向对象</title>
+      <link>http://sh393779.xyz/2022/05/10/c++/</link>
+      <guid>http://sh393779.xyz/2022/05/10/c++/</guid>
+      <pubDate>Tue, 10 May 2022 07:02:41 GMT</pubDate>
+      
+      <description>c++</description>
+      
+      
+      
+      <content:encoded><![CDATA[<span id="more"></span><h1 id="友元"><a href="#友元" class="headerlink" title="友元"></a>友元</h1><p>友元可以访问类内所有成员  </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">void func();</span><br><span class="line">class A&#123;</span><br><span class="line">friend void func();</span><br><span class="line">&#125;;</span><br><span class="line">```  </span><br><span class="line"># 继承</span><br><span class="line">派生类不能继承：析构函数，基类的友元函数，静态数据成员，静态成员函数  </span><br><span class="line">private：只能本类访问  </span><br><span class="line">protected：可以本类，派生类访问  </span><br><span class="line">public：可以本类，派生类，类外访问  </span><br></pre></td></tr></table></figure><p>class Animal;<br>class Cat;<br>class Cat:protected Animal{<br>};</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">c++的继承方式可分为公有继，保护继承和私有继承  </span><br><span class="line">c++默认继承方式位private继承  </span><br><span class="line">public继承  </span><br><span class="line">基类的访问权限在派生类中保持不变  </span><br><span class="line">private继承  </span><br><span class="line">基类的private成员在派生类中仍是private成员，但基类的protected和public成员在派生类中会变成private成员  </span><br><span class="line">protected继承  </span><br><span class="line">基类中的public成员在派生类中修改为protected成员，protected和private成员保持不变  </span><br><span class="line">## 阻止继承</span><br></pre></td></tr></table></figure><p>class Cat final{<br>};  </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">可以用final关键字阻止该类被继承</span><br><span class="line">## 重载重定义</span><br><span class="line">重载：要求函数具有不同的函数原型  </span><br><span class="line">重定义（重写or覆盖）：指派生类可以定义与基类具有相同函数原型的成员函数  </span><br><span class="line">## 派生类修改基类成员的访问权限</span><br><span class="line">如  </span><br></pre></td></tr></table></figure><p>class Animal{<br>    protected:<br>    void jump() {<br>        cout &lt;&lt; “跳” &lt;&lt; endl;<br>    }<br>};<br>class Cat:protected Animal{<br>    public:<br>        using Animal::jump;&#x2F;&#x2F;修改jump权限为public<br>}</p><pre><code>&lt;font color=&quot;#FF66CC&quot;&gt;private成员永远只能被它内部的成员访问&lt;/font&gt;  因此不允许派生类使用using改变private成员的访问权限  注：由于继承导致的权限变化不算入其中  </code></pre>]]></content:encoded>
+      
+      
+      <category domain="http://sh393779.xyz/categories/c/">c++</category>
+      
+      
+      
+      <comments>http://sh393779.xyz/2022/05/10/c++/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>hexo-next美化</title>
+      <link>http://sh393779.xyz/2022/05/10/hexo-next%E7%BE%8E%E5%8C%96/</link>
+      <guid>http://sh393779.xyz/2022/05/10/hexo-next%E7%BE%8E%E5%8C%96/</guid>
+      <pubDate>Tue, 10 May 2022 07:02:41 GMT</pubDate>
+      
+      <description>一些美化的经验</description>
+      
+      
+      
+      <content:encoded><![CDATA[<span id="more"></span><h2 id="解决不显示访问人数的问题"><a href="#解决不显示访问人数的问题" class="headerlink" title="解决不显示访问人数的问题"></a>解决不显示访问人数的问题</h2><p><a href="https://muyuuuu.github.io/2019/11/22/busuanzi-notdisplay/">修补hexo-next不蒜子不显示问题</a>  </p><h2 id="去掉页面底部“驱动”"><a href="#去掉页面底部“驱动”" class="headerlink" title="去掉页面底部“驱动”"></a>去掉页面底部“驱动”</h2><p>比如想去掉“由 Hexo &amp; NexT.Gemini 强力驱动”，在<font color="#FF66CC">.\themes\next\layout_partials\footer.swig</font>中将以下代码注释掉。  </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&#123;%- if theme.footer.powered %&#125;</span><br><span class="line">  &lt;div class=&quot;powered-by&quot;&gt;</span><br><span class="line">    &#123;%- set next_site = &#x27;https://theme-next.js.org&#x27; if theme.scheme === &#x27;Gemini&#x27; else &#x27;https://theme-next.js.org/&#x27; + theme.scheme | lower + &#x27;/&#x27; %&#125;</span><br><span class="line">    &#123;&#123;- __(&#x27;footer.powered&#x27;, next_url(&#x27;https://hexo.io&#x27;, &#x27;Hexo&#x27;) + &#x27; &amp; &#x27; + next_url(next_site, &#x27;NexT.&#x27; + theme.scheme)) &#125;&#125;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&#123;%- endif %&#125;</span><br></pre></td></tr></table></figure><h2 id="头像设置"><a href="#头像设置" class="headerlink" title="头像设置"></a>头像设置</h2><p>在next的_config.yml中avatar设置。将头像图片放在<font color="#FF66CC">&#x2F;source&#x2F;images&#x2F;</font>中，修改url地址。</p><pre><code># Sidebar Avataravatar:  # Replace the default image and set the url here.  url: /images/header.jpg  # If true, the avatar will be displayed in circle.  rounded: true  # If true, the avatar will be rotated with the cursor.  rotated: true</code></pre><h2 id="背景图片、页面透明化、阴影、圆角、动画"><a href="#背景图片、页面透明化、阴影、圆角、动画" class="headerlink" title="背景图片、页面透明化、阴影、圆角、动画"></a>背景图片、页面透明化、阴影、圆角、动画</h2><p><a href="https://blog.csdn.net/Growing_potato/article/details/113926856?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2~default~CTRLIST~Rate-1-113926856-blog-107005112.pc_relevant_antiscanv2&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2~default~CTRLIST~Rate-1-113926856-blog-107005112.pc_relevant_antiscanv2&utm_relevant_index=1">背景图片、页面透明化、阴影、圆角、动画</a>  </p>]]></content:encoded>
+      
+      
+      <category domain="http://sh393779.xyz/categories/hexo/">hexo</category>
+      
+      <category domain="http://sh393779.xyz/categories/hexo/next/">next</category>
+      
+      
+      <category domain="http://sh393779.xyz/tags/blog/">blog</category>
+      
+      
+      <comments>http://sh393779.xyz/2022/05/10/hexo-next%E7%BE%8E%E5%8C%96/#disqus_thread</comments>
       
     </item>
     
