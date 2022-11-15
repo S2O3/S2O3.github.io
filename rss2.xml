@@ -4,9 +4,9 @@
   xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>YuiChan</title>
-    <link>http://sh393779.xyz/</link>
+    <link>http://v2better.top/</link>
     
-    <atom:link href="http://sh393779.xyz/rss2.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="http://v2better.top/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>一个小小的blog</description>
     <pubDate>Wed, 21 Sep 2022 02:04:29 GMT</pubDate>
@@ -14,8 +14,8 @@
     
     <item>
       <title>计算机网络</title>
-      <link>http://sh393779.xyz/2022/09/18/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</link>
-      <guid>http://sh393779.xyz/2022/09/18/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</guid>
+      <link>http://v2better.top/2022/09/18/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</link>
+      <guid>http://v2better.top/2022/09/18/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</guid>
       <pubDate>Sun, 18 Sep 2022 07:02:42 GMT</pubDate>
       
       <description>...</description>
@@ -25,18 +25,18 @@
       <content:encoded><![CDATA[<span id="more"></span><h1 id="概念，组成，功能，分类"><a href="#概念，组成，功能，分类" class="headerlink" title="概念，组成，功能，分类"></a>概念，组成，功能，分类</h1><h2 id="计算机网络的功能"><a href="#计算机网络的功能" class="headerlink" title="计算机网络的功能"></a>计算机网络的功能</h2><p><img src="/img/%E8%AE%A1%E7%BD%911.png">  </p><h2 id="计算机网络的组成"><a href="#计算机网络的组成" class="headerlink" title="计算机网络的组成"></a>计算机网络的组成</h2><p>组成部分<br><img src="/img/%E8%AE%A1%E7%BD%912.png">  </p><p>工作方式<br><img src="/img/%E8%AE%A1%E7%BD%913.png">  </p><p>功能组成<br><img src="/img/%E8%AE%A1%E7%BD%914.png"></p><h2 id="计算机网络的分类"><a href="#计算机网络的分类" class="headerlink" title="计算机网络的分类"></a>计算机网络的分类</h2><ol><li>按分布范围分<br>广域网WAN 城域网MAN 局域网WAN 个人区域网PAN</li><li>按使用者分<br>公用网（中国电信）  专用网</li><li>按交换技术分<br>电路交换 报文交换 分组交换  </li><li>按拓扑结构分<br><img src="/img/%E8%AE%A1%E7%BD%915.png">  </li><li>按传输技术分<br>广播式网络： 共享公共通信信道<br>点对点网络： 使用分组存储转发和路由选择啊机制<h1 id="标准化工作及相关组织"><a href="#标准化工作及相关组织" class="headerlink" title="标准化工作及相关组织"></a>标准化工作及相关组织</h1><h2 id="标准化工作"><a href="#标准化工作" class="headerlink" title="标准化工作"></a>标准化工作</h2><img src="/img/%E8%AE%A1%E7%BD%916.png"></li></ol><p>RFC<br><img src="/img/%E8%AE%A1%E7%BD%917.png"><br>注：草案标准（Draft Standard）于2011年起取消  </p><h2 id="标准化工作的相关组织"><a href="#标准化工作的相关组织" class="headerlink" title="标准化工作的相关组织"></a>标准化工作的相关组织</h2><p><img src="/img/%E8%AE%A1%E7%BD%918.png"></p>]]></content:encoded>
       
       
-      <category domain="http://sh393779.xyz/categories/%E9%98%85%E8%AF%BB%E5%BF%83%E5%BE%97/">阅读心得</category>
+      <category domain="http://v2better.top/categories/%E9%98%85%E8%AF%BB%E5%BF%83%E5%BE%97/">阅读心得</category>
       
       
       
-      <comments>http://sh393779.xyz/2022/09/18/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/#disqus_thread</comments>
+      <comments>http://v2better.top/2022/09/18/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>HTTP</title>
-      <link>http://sh393779.xyz/2022/05/10/HTTP/</link>
-      <guid>http://sh393779.xyz/2022/05/10/HTTP/</guid>
+      <link>http://v2better.top/2022/05/10/HTTP/</link>
+      <guid>http://v2better.top/2022/05/10/HTTP/</guid>
       <pubDate>Tue, 10 May 2022 07:02:41 GMT</pubDate>
       
       <description>http学习</description>
@@ -46,22 +46,22 @@
       <content:encoded><![CDATA[<span id="more"></span><h1 id="概念特点"><a href="#概念特点" class="headerlink" title="概念特点"></a>概念特点</h1><p><img src="/img/http1.png">  </p><h1 id="HTTP请求数据格式"><a href="#HTTP请求数据格式" class="headerlink" title="HTTP请求数据格式"></a>HTTP请求数据格式</h1><p><img src="/img/http2.png">  </p><h2 id="常见的HTTP请求头"><a href="#常见的HTTP请求头" class="headerlink" title="常见的HTTP请求头"></a>常见的HTTP请求头</h2><p><img src="/img/http3.png">  </p><h2 id="请求体"><a href="#请求体" class="headerlink" title="请求体"></a>请求体</h2><p><img src="/img/http4.png">  </p><h1 id="HTTP响应数据格式"><a href="#HTTP响应数据格式" class="headerlink" title="HTTP响应数据格式"></a>HTTP响应数据格式</h1><p><img src="/img/http5.png">  </p><h2 id="常见的HTTP响应头"><a href="#常见的HTTP响应头" class="headerlink" title="常见的HTTP响应头"></a>常见的HTTP响应头</h2><p><img src="/img/http6.png">  </p><h1 id="状态码"><a href="#状态码" class="headerlink" title="状态码"></a>状态码</h1><p><a href="https://www.runoob.com/http/http-status-codes.html">HTTP常见状态码</a>  </p>]]></content:encoded>
       
       
-      <category domain="http://sh393779.xyz/categories/HTTP/">HTTP</category>
+      <category domain="http://v2better.top/categories/HTTP/">HTTP</category>
       
       
-      <category domain="http://sh393779.xyz/tags/JavaWeb/">JavaWeb</category>
+      <category domain="http://v2better.top/tags/JavaWeb/">JavaWeb</category>
       
-      <category domain="http://sh393779.xyz/tags/HTTP/">HTTP</category>
+      <category domain="http://v2better.top/tags/HTTP/">HTTP</category>
       
       
-      <comments>http://sh393779.xyz/2022/05/10/HTTP/#disqus_thread</comments>
+      <comments>http://v2better.top/2022/05/10/HTTP/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>Servlet</title>
-      <link>http://sh393779.xyz/2022/05/10/Servlet/</link>
-      <guid>http://sh393779.xyz/2022/05/10/Servlet/</guid>
+      <link>http://v2better.top/2022/05/10/Servlet/</link>
+      <guid>http://v2better.top/2022/05/10/Servlet/</guid>
       <pubDate>Tue, 10 May 2022 07:02:41 GMT</pubDate>
       
       <description>servlet</description>
@@ -72,19 +72,19 @@
       
       
       
-      <category domain="http://sh393779.xyz/tags/JavaWeb/">JavaWeb</category>
+      <category domain="http://v2better.top/tags/JavaWeb/">JavaWeb</category>
       
-      <category domain="http://sh393779.xyz/tags/Servlet/">Servlet</category>
+      <category domain="http://v2better.top/tags/Servlet/">Servlet</category>
       
       
-      <comments>http://sh393779.xyz/2022/05/10/Servlet/#disqus_thread</comments>
+      <comments>http://v2better.top/2022/05/10/Servlet/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>Tomcat</title>
-      <link>http://sh393779.xyz/2022/05/10/Tomcat/</link>
-      <guid>http://sh393779.xyz/2022/05/10/Tomcat/</guid>
+      <link>http://v2better.top/2022/05/10/Tomcat/</link>
+      <guid>http://v2better.top/2022/05/10/Tomcat/</guid>
       <pubDate>Tue, 10 May 2022 07:02:41 GMT</pubDate>
       
       <description>Tomcat学习</description>
@@ -94,43 +94,22 @@
       <content:encoded><![CDATA[<span id="more"></span><h1 id="Tomcat"><a href="#Tomcat" class="headerlink" title="Tomcat"></a>Tomcat</h1><p><img src="/img/tomcat1.png"></p><h2 id="安装配置"><a href="#安装配置" class="headerlink" title="安装配置"></a>安装配置</h2><p>在<a href="https://tomcat.apache.org/">Tomcat官网</a>下载对应的压缩包<br>解压到文件夹中（注意路径不要有中文）<br>访问：localhost:8080若进入Tomcat的官网，则安装成功<br>默认端口为8080，若被占用则<a href="https://blog.csdn.net/qq_40180411/article/details/82112344?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-1-82112344-blog-52870760.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-1-82112344-blog-52870760.pc_relevant_default&utm_relevant_index=2">修改tomcat默认端口号</a>  </p><h2 id="部署项目"><a href="#部署项目" class="headerlink" title="部署项目"></a>部署项目</h2><p>1.直接复制文件到apache-tomcat-8.5.68\webapps中<br>2.把文件压缩成.war的形式，复制到apache-tomcat-8.5.68\webapps中，Tomcat会自动解压部署  </p><h1 id="MavenWeb项目"><a href="#MavenWeb项目" class="headerlink" title="MavenWeb项目"></a>MavenWeb项目</h1><h2 id="创建MavenWeb项目"><a href="#创建MavenWeb项目" class="headerlink" title="创建MavenWeb项目"></a>创建MavenWeb项目</h2><h3 id="使用骨架（archetype）"><a href="#使用骨架（archetype）" class="headerlink" title="使用骨架（archetype）"></a>使用骨架（archetype）</h3><p>创建Maven项目 勾选 <font color="#FF6699">Create from archetype </font>选择maven-archetype-webapp<br>在pom.xml中添加配置信息：设置打包方式为war<br>在main中创建java和resources目录<br>标准web项目如图<br><img src="/img/tomcat2.png">  </p><h3 id="不使用骨架（idea终极版）"><a href="#不使用骨架（idea终极版）" class="headerlink" title="不使用骨架（idea终极版）"></a>不使用骨架（idea终极版）</h3><p>不勾选<font color="#FF6699">Create from archetype </font>创建项目<br>在pom.xml中添加配置信息：设置打包方式为war<br><a href="https://blog.csdn.net/fengltxx/article/details/82999580?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2~default~CTRLIST~default-1-82999580-blog-104561206.pc_relevant_aa&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2~default~CTRLIST~default-1-82999580-blog-104561206.pc_relevant_aa&utm_relevant_index=1">参考</a>  </p><h1 id="idea集成本地Tomcat"><a href="#idea集成本地Tomcat" class="headerlink" title="idea集成本地Tomcat"></a>idea集成本地Tomcat</h1><p>在idea主页点击Add Configuration–加号–Tomcat Server–local<br>在Tomcat Server中配置Application server为Tomcat安装目录<br>在Deployment中更改项目的访问的路径<br>回到主页点run就开始部署  </p><h1 id="Tomcat的Maven插件"><a href="#Tomcat的Maven插件" class="headerlink" title="Tomcat的Maven插件"></a>Tomcat的Maven插件</h1><p>在pom.xml中导入tomcat插件<br>可以用<configuration>标签改端口号和访问路径</configuration></p>]]></content:encoded>
       
       
-      <category domain="http://sh393779.xyz/categories/Tomcat/">Tomcat</category>
+      <category domain="http://v2better.top/categories/Tomcat/">Tomcat</category>
       
       
-      <category domain="http://sh393779.xyz/tags/JavaWeb/">JavaWeb</category>
+      <category domain="http://v2better.top/tags/JavaWeb/">JavaWeb</category>
       
-      <category domain="http://sh393779.xyz/tags/Tomcat/">Tomcat</category>
-      
-      
-      <comments>http://sh393779.xyz/2022/05/10/Tomcat/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>C++面向对象</title>
-      <link>http://sh393779.xyz/2022/05/10/c++/</link>
-      <guid>http://sh393779.xyz/2022/05/10/c++/</guid>
-      <pubDate>Tue, 10 May 2022 07:02:41 GMT</pubDate>
-      
-      <description>c++</description>
+      <category domain="http://v2better.top/tags/Tomcat/">Tomcat</category>
       
       
-      
-      <content:encoded><![CDATA[<span id="more"></span><h1 id="友元"><a href="#友元" class="headerlink" title="友元"></a>友元</h1><p>友元可以访问类内所有成员  </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">void func();</span><br><span class="line">class A&#123;</span><br><span class="line">friend void func();</span><br><span class="line">&#125;;</span><br><span class="line">```  </span><br><span class="line"># 继承</span><br><span class="line">派生类不能继承：析构函数，基类的友元函数，静态数据成员，静态成员函数  </span><br><span class="line">private：只能本类访问  </span><br><span class="line">protected：可以本类，派生类访问  </span><br><span class="line">public：可以本类，派生类，类外访问  </span><br></pre></td></tr></table></figure><p>class Animal;<br>class Cat;<br>class Cat:protected Animal{<br>};</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">c++的继承方式可分为公有继，保护继承和私有继承  </span><br><span class="line">c++默认继承方式位private继承  </span><br><span class="line">public继承  </span><br><span class="line">基类的访问权限在派生类中保持不变  </span><br><span class="line">private继承  </span><br><span class="line">基类的private成员在派生类中仍是private成员，但基类的protected和public成员在派生类中会变成private成员  </span><br><span class="line">protected继承  </span><br><span class="line">基类中的public成员在派生类中修改为protected成员，protected和private成员保持不变  </span><br><span class="line">## 阻止继承</span><br></pre></td></tr></table></figure><p>class Cat final{<br>};  </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">可以用final关键字阻止该类被继承</span><br><span class="line">## 重载重定义</span><br><span class="line">重载：要求函数具有不同的函数原型  </span><br><span class="line">重定义（重写or覆盖）：指派生类可以定义与基类具有相同函数原型的成员函数  </span><br><span class="line">## 派生类修改基类成员的访问权限</span><br><span class="line">如  </span><br></pre></td></tr></table></figure><p>class Animal{<br>    protected:<br>    void jump() {<br>        cout &lt;&lt; “跳” &lt;&lt; endl;<br>    }<br>};<br>class Cat:protected Animal{<br>    public:<br>        using Animal::jump;&#x2F;&#x2F;修改jump权限为public<br>}</p><pre><code>&lt;font color=&quot;#FF66CC&quot;&gt;private成员永远只能被它内部的成员访问&lt;/font&gt;  因此不允许派生类使用using改变private成员的访问权限  注：由于继承导致的权限变化不算入其中  </code></pre>]]></content:encoded>
-      
-      
-      <category domain="http://sh393779.xyz/categories/c/">c++</category>
-      
-      
-      
-      <comments>http://sh393779.xyz/2022/05/10/c++/#disqus_thread</comments>
+      <comments>http://v2better.top/2022/05/10/Tomcat/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>git</title>
-      <link>http://sh393779.xyz/2022/05/10/git/</link>
-      <guid>http://sh393779.xyz/2022/05/10/git/</guid>
+      <link>http://v2better.top/2022/05/10/git/</link>
+      <guid>http://v2better.top/2022/05/10/git/</guid>
       <pubDate>Tue, 10 May 2022 07:02:41 GMT</pubDate>
       
       <description>git</description>
@@ -141,42 +120,38 @@
       
       
       
-      <category domain="http://sh393779.xyz/tags/git/">git</category>
+      <category domain="http://v2better.top/tags/git/">git</category>
       
       
-      <comments>http://sh393779.xyz/2022/05/10/git/#disqus_thread</comments>
+      <comments>http://v2better.top/2022/05/10/git/#disqus_thread</comments>
       
     </item>
     
     <item>
-      <title>Mybatis学习(持续更新中)</title>
-      <link>http://sh393779.xyz/2022/05/10/mybatis/</link>
-      <guid>http://sh393779.xyz/2022/05/10/mybatis/</guid>
+      <title>C++面向对象</title>
+      <link>http://v2better.top/2022/05/10/c++/</link>
+      <guid>http://v2better.top/2022/05/10/c++/</guid>
       <pubDate>Tue, 10 May 2022 07:02:41 GMT</pubDate>
       
-      <description>MyBatis学习</description>
+      <description>c++</description>
       
       
       
-      <content:encoded><![CDATA[<span id="more"></span><p>mapper.xml文件</p><h2 id="执行流程"><a href="#执行流程" class="headerlink" title="执行流程"></a>执行流程</h2><p>1.加载mybatis的核心配置文件，获取SqlSessionFactory</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">String resource = &quot;mybatis-config.xml&quot;;</span><br><span class="line">   InputStream inputStream = Resources.getResourceAsStream(resource);</span><br><span class="line">   SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);</span><br></pre></td></tr></table></figure><p>2.获取SqlSession对象</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">SqlSession sqlSession = sqlSessionFactory.openSession();</span><br></pre></td></tr></table></figure><p>3.执行sql,返回user列表</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">List&lt;User&gt; users = sqlSession.selectList(&quot;demo.mapper.UserMapper.selectAll&quot;);</span><br></pre></td></tr></table></figure><p>4.释放资源</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sqlSession.close();</span><br></pre></td></tr></table></figure><h2 id="查询"><a href="#查询" class="headerlink" title="查询"></a>查询</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">&lt;!--  </span><br><span class="line">           id:完成主键字段的映射  </span><br><span class="line">               column：表的列名</span><br><span class="line">                property：实体类的属性名</span><br><span class="line">           result：完成一般字段的映射</span><br><span class="line">                column：表的列名</span><br><span class="line">                property：实体类的属性名</span><br><span class="line">    --&gt;</span><br><span class="line"></span><br><span class="line">&lt;resultMap id=&quot;brandResultMap&quot; type=&quot;brand&quot;&gt;  </span><br><span class="line">        &lt;result column=&quot;brand_name&quot; property=&quot;brandName&quot;/&gt;</span><br><span class="line">        &lt;result column=&quot;company_name&quot; property=&quot;companyName&quot;/&gt;  </span><br><span class="line">&lt;/resultMap&gt;</span><br></pre></td></tr></table></figure><h3 id="查询所有"><a href="#查询所有" class="headerlink" title="查询所有"></a>查询所有</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;select id=&quot;selectAll&quot; resultMap=&quot;brandResultMap&quot;&gt;</span><br><span class="line">        select *</span><br><span class="line">        from tb_brand;</span><br><span class="line">&lt;/select&gt;</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">List&lt;Brand&gt; selectAll();</span><br></pre></td></tr></table></figure><h3 id="查询详情"><a href="#查询详情" class="headerlink" title="查询详情"></a>查询详情</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;select id=&quot;selectById&quot; resultType=&quot;User&quot;&gt;</span><br><span class="line">        select * from tb_user where id = #&#123;id&#125;;</span><br><span class="line">    &lt;/select&gt;</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">User selectById();</span><br></pre></td></tr></table></figure><h3 id="条件查询"><a href="#条件查询" class="headerlink" title="条件查询"></a>条件查询</h3><p><img src="/img/mybatis1.png" alt="123"></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&lt;select id=&quot;selectByCondition&quot; resultMap=&quot;brandResultMap&quot;&gt;</span><br><span class="line">       select * from  tb_brand</span><br><span class="line">       where</span><br><span class="line">           status = #&#123;status&#125;</span><br><span class="line">           and company_name like #&#123;companyName&#125; &lt;!--模糊查询--&gt;</span><br><span class="line">           and brand_name like #&#123;brandName&#125; &lt;!--模糊查询--&gt;</span><br><span class="line">   &lt;/select&gt;</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">//@Param意思是将status的值传递给‘status’的占位符</span><br><span class="line">  List&lt;Brand&gt; selectByCondition(@Param(&quot;status&quot;)int status,@Param(&quot;companyName&quot;)String companyName,@Param(&quot;brandName&quot;)String brandName);</span><br><span class="line">  //把参数封装成brand，selectByCondition将自动调用getStatus...用于查询</span><br><span class="line">  List&lt;Brand&gt; selectByCondition(Brand brand);</span><br></pre></td></tr></table></figure><h3 id="动态条件查询"><a href="#动态条件查询" class="headerlink" title="动态条件查询"></a>动态条件查询</h3><p>if:  </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">&lt;select id=&quot;selectByCondition&quot; resultMap=&quot;brandResultMap&quot;&gt;</span><br><span class="line">           select * from  tb_brand</span><br><span class="line">           where</span><br><span class="line">               &lt;if test=&quot;status != null&quot;&gt;</span><br><span class="line">                   status = #&#123;status&#125;</span><br><span class="line">               &lt;/if&gt;</span><br><span class="line">               &lt;if test=&quot;companyName != null and companyName != &#x27;&#x27; &quot;&gt;</span><br><span class="line">                   and company_name like #&#123;companyName&#125; &lt;!--模糊查询--&gt;</span><br><span class="line">               &lt;/if&gt;</span><br><span class="line">               &lt;if test=&quot;brandName ! = null and brandName ! = &#x27;&#x27; &quot;&gt;</span><br><span class="line">                   and brand_name like #&#123;brandName&#125; &lt;!--模糊查询--&gt;</span><br><span class="line">               &lt;/if&gt;</span><br><span class="line">       &lt;/select&gt;</span><br></pre></td></tr></table></figure><h5 id="问题：若第一个if不成立"><a href="#问题：若第一个if不成立" class="headerlink" title="问题：若第一个if不成立"></a>问题：若第一个if不成立</h5><p><img src="/img/mybatis2.png"></p><h5 id="解决："><a href="#解决：" class="headerlink" title="解决："></a>解决：</h5><p><img src="/img/mybatis3.png"></p><h5 id="改进："><a href="#改进：" class="headerlink" title="改进："></a>改进：</h5><p>使用<where></where><br><img src="/img/mybatis4.png"><br>自动生成<br><img src="/img/mybatis5.png">  </p><h3 id="动态单条件查询"><a href="#动态单条件查询" class="headerlink" title="动态单条件查询"></a>动态单条件查询</h3><p><img src="/img/mybatis6.png"></p><h2 id="添加"><a href="#添加" class="headerlink" title="添加"></a>添加</h2><p><img src="/img/mybatis7.png"><br>或者可以手动commit</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sqlSession.commit();</span><br></pre></td></tr></table></figure><h3 id="主键返回"><a href="#主键返回" class="headerlink" title="主键返回"></a>主键返回</h3><p><img src="/img/mybatis8.png">  </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;insert useGeneratedKeys=&quot;true&quot; keyProperty=&quot;id&quot;&gt;</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">brandMapper.add(brand);</span><br><span class="line">Integer id = brand.getId();</span><br><span class="line">System.out.println(id);</span><br></pre></td></tr></table></figure><h2 id="修改"><a href="#修改" class="headerlink" title="修改"></a>修改</h2><h3 id="修改全部字段"><a href="#修改全部字段" class="headerlink" title="修改全部字段"></a>修改全部字段</h3><p><img src="/img/mybatis9.png">  </p><h3 id="修改部分字段"><a href="#修改部分字段" class="headerlink" title="修改部分字段"></a>修改部分字段</h3><p><img src="/img/mybatis10.png">  </p><h2 id="删除"><a href="#删除" class="headerlink" title="删除"></a>删除</h2><h3 id="删除一个"><a href="#删除一个" class="headerlink" title="删除一个"></a>删除一个</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">void deleteByid(int id);</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;delete id=&quot;deleteByid&quot;&gt;</span><br><span class="line">   delete from tb_brand where id = #&#123;id&#125;;</span><br><span class="line">&lt;/delete&gt;</span><br></pre></td></tr></table></figure><h3 id="删除多个"><a href="#删除多个" class="headerlink" title="删除多个"></a>删除多个</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;!--</span><br><span class="line">    mybatis默认会将数组参数，封装成一个map集合</span><br><span class="line">        *默认：array（key） = 数组（value）</span><br><span class="line">        *使用@Param注解改变map集合的默认key名称</span><br><span class="line">--&gt;</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">void deleteByids(@Param(&quot;ids&quot;) int[] ids);</span><br></pre></td></tr></table></figure><pre><code>&lt;delete id=&quot;deleteByids&quot;&gt;   delete from tb_brand where id           &lt;!--分隔符--&gt;   in  &lt;foreach collection=&quot;ids&quot; item=&quot;id&quot; separator=&quot;,&quot; open=&quot;(&quot; close=&quot;)&quot;&gt;           #&#123;id&#125;       &lt;/foreach&gt;       ;&lt;/delete&gt;</code></pre><h2 id="注解开发"><a href="#注解开发" class="headerlink" title="注解开发"></a>注解开发</h2><p>第一种：方法有多个参数，需要 @Param 注解<br>第二种：方法参数要取别名，需要 @Param 注解<br>第三种：XML 中的 SQL 使用了 $ ，那么参数中也需要 @Param 注解<br>第四种，那就是动态 SQL ，如果在动态 SQL 中使用了参数作为变量，那么也需要 @Param 注解，即使你只有一个参数。<br><a href="https://www.cnblogs.com/lenve/p/11229590.html">@Param参考</a><br><a href="https://blog.csdn.net/u012702547/article/details/55105400">动态sql参考</a></p>]]></content:encoded>
+      <content:encoded><![CDATA[<span id="more"></span><h1 id="友元"><a href="#友元" class="headerlink" title="友元"></a>友元</h1><p>友元可以访问类内所有成员  </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">void func();</span><br><span class="line">class A&#123;</span><br><span class="line">friend void func();</span><br><span class="line">&#125;;</span><br><span class="line">```  </span><br><span class="line"># 继承</span><br><span class="line">派生类不能继承：析构函数，基类的友元函数，静态数据成员，静态成员函数  </span><br><span class="line">private：只能本类访问  </span><br><span class="line">protected：可以本类，派生类访问  </span><br><span class="line">public：可以本类，派生类，类外访问  </span><br></pre></td></tr></table></figure><p>class Animal;<br>class Cat;<br>class Cat:protected Animal{<br>};</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">c++的继承方式可分为公有继，保护继承和私有继承  </span><br><span class="line">c++默认继承方式位private继承  </span><br><span class="line">public继承  </span><br><span class="line">基类的访问权限在派生类中保持不变  </span><br><span class="line">private继承  </span><br><span class="line">基类的private成员在派生类中仍是private成员，但基类的protected和public成员在派生类中会变成private成员  </span><br><span class="line">protected继承  </span><br><span class="line">基类中的public成员在派生类中修改为protected成员，protected和private成员保持不变  </span><br><span class="line">## 阻止继承</span><br></pre></td></tr></table></figure><p>class Cat final{<br>};  </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">可以用final关键字阻止该类被继承</span><br><span class="line">## 重载重定义</span><br><span class="line">重载：要求函数具有不同的函数原型  </span><br><span class="line">重定义（重写or覆盖）：指派生类可以定义与基类具有相同函数原型的成员函数  </span><br><span class="line">## 派生类修改基类成员的访问权限</span><br><span class="line">如  </span><br></pre></td></tr></table></figure><p>class Animal{<br>    protected:<br>    void jump() {<br>        cout &lt;&lt; “跳” &lt;&lt; endl;<br>    }<br>};<br>class Cat:protected Animal{<br>    public:<br>        using Animal::jump;&#x2F;&#x2F;修改jump权限为public<br>}</p><pre><code>&lt;font color=&quot;#FF66CC&quot;&gt;private成员永远只能被它内部的成员访问&lt;/font&gt;  因此不允许派生类使用using改变private成员的访问权限  注：由于继承导致的权限变化不算入其中  </code></pre>]]></content:encoded>
       
       
-      <category domain="http://sh393779.xyz/categories/MyBatis/">MyBatis</category>
+      <category domain="http://v2better.top/categories/c/">c++</category>
       
       
-      <category domain="http://sh393779.xyz/tags/JavaWeb/">JavaWeb</category>
       
-      <category domain="http://sh393779.xyz/tags/MyBatis/">MyBatis</category>
-      
-      
-      <comments>http://sh393779.xyz/2022/05/10/mybatis/#disqus_thread</comments>
+      <comments>http://v2better.top/2022/05/10/c++/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>hexo-next美化</title>
-      <link>http://sh393779.xyz/2022/05/10/hexo-next%E7%BE%8E%E5%8C%96/</link>
-      <guid>http://sh393779.xyz/2022/05/10/hexo-next%E7%BE%8E%E5%8C%96/</guid>
+      <link>http://v2better.top/2022/05/10/hexo-next%E7%BE%8E%E5%8C%96/</link>
+      <guid>http://v2better.top/2022/05/10/hexo-next%E7%BE%8E%E5%8C%96/</guid>
       <pubDate>Tue, 10 May 2022 07:02:41 GMT</pubDate>
       
       <description>一些美化的经验</description>
@@ -186,22 +161,47 @@
       <content:encoded><![CDATA[<span id="more"></span><h2 id="解决不显示访问人数的问题"><a href="#解决不显示访问人数的问题" class="headerlink" title="解决不显示访问人数的问题"></a>解决不显示访问人数的问题</h2><p><a href="https://muyuuuu.github.io/2019/11/22/busuanzi-notdisplay/">修补hexo-next不蒜子不显示问题</a>  </p><h2 id="去掉页面底部“驱动”"><a href="#去掉页面底部“驱动”" class="headerlink" title="去掉页面底部“驱动”"></a>去掉页面底部“驱动”</h2><p>比如想去掉“由 Hexo &amp; NexT.Gemini 强力驱动”，在<font color="#FF66CC">.\themes\next\layout_partials\footer.swig</font>中将以下代码注释掉。  </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&#123;%- if theme.footer.powered %&#125;</span><br><span class="line">  &lt;div class=&quot;powered-by&quot;&gt;</span><br><span class="line">    &#123;%- set next_site = &#x27;https://theme-next.js.org&#x27; if theme.scheme === &#x27;Gemini&#x27; else &#x27;https://theme-next.js.org/&#x27; + theme.scheme | lower + &#x27;/&#x27; %&#125;</span><br><span class="line">    &#123;&#123;- __(&#x27;footer.powered&#x27;, next_url(&#x27;https://hexo.io&#x27;, &#x27;Hexo&#x27;) + &#x27; &amp; &#x27; + next_url(next_site, &#x27;NexT.&#x27; + theme.scheme)) &#125;&#125;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&#123;%- endif %&#125;</span><br></pre></td></tr></table></figure><h2 id="头像设置"><a href="#头像设置" class="headerlink" title="头像设置"></a>头像设置</h2><p>在next的_config.yml中avatar设置。将头像图片放在<font color="#FF66CC">&#x2F;source&#x2F;images&#x2F;</font>中，修改url地址。</p><pre><code># Sidebar Avataravatar:  # Replace the default image and set the url here.  url: /images/header.jpg  # If true, the avatar will be displayed in circle.  rounded: true  # If true, the avatar will be rotated with the cursor.  rotated: true</code></pre><h2 id="背景图片、页面透明化、阴影、圆角、动画"><a href="#背景图片、页面透明化、阴影、圆角、动画" class="headerlink" title="背景图片、页面透明化、阴影、圆角、动画"></a>背景图片、页面透明化、阴影、圆角、动画</h2><p><a href="https://blog.csdn.net/Growing_potato/article/details/113926856?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2~default~CTRLIST~Rate-1-113926856-blog-107005112.pc_relevant_antiscanv2&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2~default~CTRLIST~Rate-1-113926856-blog-107005112.pc_relevant_antiscanv2&utm_relevant_index=1">背景图片、页面透明化、阴影、圆角、动画</a>  </p>]]></content:encoded>
       
       
-      <category domain="http://sh393779.xyz/categories/hexo/">hexo</category>
+      <category domain="http://v2better.top/categories/hexo/">hexo</category>
       
-      <category domain="http://sh393779.xyz/categories/hexo/next/">next</category>
-      
-      
-      <category domain="http://sh393779.xyz/tags/blog/">blog</category>
+      <category domain="http://v2better.top/categories/hexo/next/">next</category>
       
       
-      <comments>http://sh393779.xyz/2022/05/10/hexo-next%E7%BE%8E%E5%8C%96/#disqus_thread</comments>
+      <category domain="http://v2better.top/tags/blog/">blog</category>
+      
+      
+      <comments>http://v2better.top/2022/05/10/hexo-next%E7%BE%8E%E5%8C%96/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Mybatis学习(持续更新中)</title>
+      <link>http://v2better.top/2022/05/10/mybatis/</link>
+      <guid>http://v2better.top/2022/05/10/mybatis/</guid>
+      <pubDate>Tue, 10 May 2022 07:02:41 GMT</pubDate>
+      
+      <description>MyBatis学习</description>
+      
+      
+      
+      <content:encoded><![CDATA[<span id="more"></span><p>mapper.xml文件</p><h2 id="执行流程"><a href="#执行流程" class="headerlink" title="执行流程"></a>执行流程</h2><p>1.加载mybatis的核心配置文件，获取SqlSessionFactory</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">String resource = &quot;mybatis-config.xml&quot;;</span><br><span class="line">   InputStream inputStream = Resources.getResourceAsStream(resource);</span><br><span class="line">   SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);</span><br></pre></td></tr></table></figure><p>2.获取SqlSession对象</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">SqlSession sqlSession = sqlSessionFactory.openSession();</span><br></pre></td></tr></table></figure><p>3.执行sql,返回user列表</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">List&lt;User&gt; users = sqlSession.selectList(&quot;demo.mapper.UserMapper.selectAll&quot;);</span><br></pre></td></tr></table></figure><p>4.释放资源</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sqlSession.close();</span><br></pre></td></tr></table></figure><h2 id="查询"><a href="#查询" class="headerlink" title="查询"></a>查询</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">&lt;!--  </span><br><span class="line">           id:完成主键字段的映射  </span><br><span class="line">               column：表的列名</span><br><span class="line">                property：实体类的属性名</span><br><span class="line">           result：完成一般字段的映射</span><br><span class="line">                column：表的列名</span><br><span class="line">                property：实体类的属性名</span><br><span class="line">    --&gt;</span><br><span class="line"></span><br><span class="line">&lt;resultMap id=&quot;brandResultMap&quot; type=&quot;brand&quot;&gt;  </span><br><span class="line">        &lt;result column=&quot;brand_name&quot; property=&quot;brandName&quot;/&gt;</span><br><span class="line">        &lt;result column=&quot;company_name&quot; property=&quot;companyName&quot;/&gt;  </span><br><span class="line">&lt;/resultMap&gt;</span><br></pre></td></tr></table></figure><h3 id="查询所有"><a href="#查询所有" class="headerlink" title="查询所有"></a>查询所有</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;select id=&quot;selectAll&quot; resultMap=&quot;brandResultMap&quot;&gt;</span><br><span class="line">        select *</span><br><span class="line">        from tb_brand;</span><br><span class="line">&lt;/select&gt;</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">List&lt;Brand&gt; selectAll();</span><br></pre></td></tr></table></figure><h3 id="查询详情"><a href="#查询详情" class="headerlink" title="查询详情"></a>查询详情</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;select id=&quot;selectById&quot; resultType=&quot;User&quot;&gt;</span><br><span class="line">        select * from tb_user where id = #&#123;id&#125;;</span><br><span class="line">    &lt;/select&gt;</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">User selectById();</span><br></pre></td></tr></table></figure><h3 id="条件查询"><a href="#条件查询" class="headerlink" title="条件查询"></a>条件查询</h3><p><img src="/img/mybatis1.png" alt="123"></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&lt;select id=&quot;selectByCondition&quot; resultMap=&quot;brandResultMap&quot;&gt;</span><br><span class="line">       select * from  tb_brand</span><br><span class="line">       where</span><br><span class="line">           status = #&#123;status&#125;</span><br><span class="line">           and company_name like #&#123;companyName&#125; &lt;!--模糊查询--&gt;</span><br><span class="line">           and brand_name like #&#123;brandName&#125; &lt;!--模糊查询--&gt;</span><br><span class="line">   &lt;/select&gt;</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">//@Param意思是将status的值传递给‘status’的占位符</span><br><span class="line">  List&lt;Brand&gt; selectByCondition(@Param(&quot;status&quot;)int status,@Param(&quot;companyName&quot;)String companyName,@Param(&quot;brandName&quot;)String brandName);</span><br><span class="line">  //把参数封装成brand，selectByCondition将自动调用getStatus...用于查询</span><br><span class="line">  List&lt;Brand&gt; selectByCondition(Brand brand);</span><br></pre></td></tr></table></figure><h3 id="动态条件查询"><a href="#动态条件查询" class="headerlink" title="动态条件查询"></a>动态条件查询</h3><p>if:  </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">&lt;select id=&quot;selectByCondition&quot; resultMap=&quot;brandResultMap&quot;&gt;</span><br><span class="line">           select * from  tb_brand</span><br><span class="line">           where</span><br><span class="line">               &lt;if test=&quot;status != null&quot;&gt;</span><br><span class="line">                   status = #&#123;status&#125;</span><br><span class="line">               &lt;/if&gt;</span><br><span class="line">               &lt;if test=&quot;companyName != null and companyName != &#x27;&#x27; &quot;&gt;</span><br><span class="line">                   and company_name like #&#123;companyName&#125; &lt;!--模糊查询--&gt;</span><br><span class="line">               &lt;/if&gt;</span><br><span class="line">               &lt;if test=&quot;brandName ! = null and brandName ! = &#x27;&#x27; &quot;&gt;</span><br><span class="line">                   and brand_name like #&#123;brandName&#125; &lt;!--模糊查询--&gt;</span><br><span class="line">               &lt;/if&gt;</span><br><span class="line">       &lt;/select&gt;</span><br></pre></td></tr></table></figure><h5 id="问题：若第一个if不成立"><a href="#问题：若第一个if不成立" class="headerlink" title="问题：若第一个if不成立"></a>问题：若第一个if不成立</h5><p><img src="/img/mybatis2.png"></p><h5 id="解决："><a href="#解决：" class="headerlink" title="解决："></a>解决：</h5><p><img src="/img/mybatis3.png"></p><h5 id="改进："><a href="#改进：" class="headerlink" title="改进："></a>改进：</h5><p>使用<where></where><br><img src="/img/mybatis4.png"><br>自动生成<br><img src="/img/mybatis5.png">  </p><h3 id="动态单条件查询"><a href="#动态单条件查询" class="headerlink" title="动态单条件查询"></a>动态单条件查询</h3><p><img src="/img/mybatis6.png"></p><h2 id="添加"><a href="#添加" class="headerlink" title="添加"></a>添加</h2><p><img src="/img/mybatis7.png"><br>或者可以手动commit</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sqlSession.commit();</span><br></pre></td></tr></table></figure><h3 id="主键返回"><a href="#主键返回" class="headerlink" title="主键返回"></a>主键返回</h3><p><img src="/img/mybatis8.png">  </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;insert useGeneratedKeys=&quot;true&quot; keyProperty=&quot;id&quot;&gt;</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">brandMapper.add(brand);</span><br><span class="line">Integer id = brand.getId();</span><br><span class="line">System.out.println(id);</span><br></pre></td></tr></table></figure><h2 id="修改"><a href="#修改" class="headerlink" title="修改"></a>修改</h2><h3 id="修改全部字段"><a href="#修改全部字段" class="headerlink" title="修改全部字段"></a>修改全部字段</h3><p><img src="/img/mybatis9.png">  </p><h3 id="修改部分字段"><a href="#修改部分字段" class="headerlink" title="修改部分字段"></a>修改部分字段</h3><p><img src="/img/mybatis10.png">  </p><h2 id="删除"><a href="#删除" class="headerlink" title="删除"></a>删除</h2><h3 id="删除一个"><a href="#删除一个" class="headerlink" title="删除一个"></a>删除一个</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">void deleteByid(int id);</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;delete id=&quot;deleteByid&quot;&gt;</span><br><span class="line">   delete from tb_brand where id = #&#123;id&#125;;</span><br><span class="line">&lt;/delete&gt;</span><br></pre></td></tr></table></figure><h3 id="删除多个"><a href="#删除多个" class="headerlink" title="删除多个"></a>删除多个</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;!--</span><br><span class="line">    mybatis默认会将数组参数，封装成一个map集合</span><br><span class="line">        *默认：array（key） = 数组（value）</span><br><span class="line">        *使用@Param注解改变map集合的默认key名称</span><br><span class="line">--&gt;</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">void deleteByids(@Param(&quot;ids&quot;) int[] ids);</span><br></pre></td></tr></table></figure><pre><code>&lt;delete id=&quot;deleteByids&quot;&gt;   delete from tb_brand where id           &lt;!--分隔符--&gt;   in  &lt;foreach collection=&quot;ids&quot; item=&quot;id&quot; separator=&quot;,&quot; open=&quot;(&quot; close=&quot;)&quot;&gt;           #&#123;id&#125;       &lt;/foreach&gt;       ;&lt;/delete&gt;</code></pre><h2 id="注解开发"><a href="#注解开发" class="headerlink" title="注解开发"></a>注解开发</h2><p>第一种：方法有多个参数，需要 @Param 注解<br>第二种：方法参数要取别名，需要 @Param 注解<br>第三种：XML 中的 SQL 使用了 $ ，那么参数中也需要 @Param 注解<br>第四种，那就是动态 SQL ，如果在动态 SQL 中使用了参数作为变量，那么也需要 @Param 注解，即使你只有一个参数。<br><a href="https://www.cnblogs.com/lenve/p/11229590.html">@Param参考</a><br><a href="https://blog.csdn.net/u012702547/article/details/55105400">动态sql参考</a></p>]]></content:encoded>
+      
+      
+      <category domain="http://v2better.top/categories/MyBatis/">MyBatis</category>
+      
+      
+      <category domain="http://v2better.top/tags/JavaWeb/">JavaWeb</category>
+      
+      <category domain="http://v2better.top/tags/MyBatis/">MyBatis</category>
+      
+      
+      <comments>http://v2better.top/2022/05/10/mybatis/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>文章</title>
-      <link>http://sh393779.xyz/2022/05/10/%E6%96%87%E7%AB%A0/</link>
-      <guid>http://sh393779.xyz/2022/05/10/%E6%96%87%E7%AB%A0/</guid>
+      <link>http://v2better.top/2022/05/10/%E6%96%87%E7%AB%A0/</link>
+      <guid>http://v2better.top/2022/05/10/%E6%96%87%E7%AB%A0/</guid>
       <pubDate>Tue, 10 May 2022 07:02:41 GMT</pubDate>
       
         
@@ -215,18 +215,18 @@
       <content:encoded><![CDATA[<hr><p><a href="https://yz.chsi.com.cn/kyzx/politics/200410/20041013/1475.html">哲学基本问题</a>：<br>    一是存在和思维、物质和意识谁为本源的问题<br>    二是存在和思维、物质和意识是否具有同一性的问题</p>]]></content:encoded>
       
       
-      <category domain="http://sh393779.xyz/categories/%E9%98%85%E8%AF%BB%E5%BF%83%E5%BE%97/">阅读心得</category>
+      <category domain="http://v2better.top/categories/%E9%98%85%E8%AF%BB%E5%BF%83%E5%BE%97/">阅读心得</category>
       
       
       
-      <comments>http://sh393779.xyz/2022/05/10/%E6%96%87%E7%AB%A0/#disqus_thread</comments>
+      <comments>http://v2better.top/2022/05/10/%E6%96%87%E7%AB%A0/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>系统结构</title>
-      <link>http://sh393779.xyz/2022/05/10/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E7%BB%93%E6%9E%84/</link>
-      <guid>http://sh393779.xyz/2022/05/10/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E7%BB%93%E6%9E%84/</guid>
+      <link>http://v2better.top/2022/05/10/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E7%BB%93%E6%9E%84/</link>
+      <guid>http://v2better.top/2022/05/10/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E7%BB%93%E6%9E%84/</guid>
       <pubDate>Tue, 10 May 2022 07:02:41 GMT</pubDate>
       
       <description>系统结构--张晨曦</description>
@@ -236,13 +236,13 @@
       <content:encoded><![CDATA[<span id="more"></span>  <h1 id="计算机系统结构基础知识"><a href="#计算机系统结构基础知识" class="headerlink" title="计算机系统结构基础知识"></a>计算机系统结构基础知识</h1><h2 id="多程序结构"><a href="#多程序结构" class="headerlink" title="多程序结构"></a>多程序结构</h2><p>第一级：微程序级，这级的机器语言是微指令集，用微指令编写的微程序一般是由硬件执行的。<br>第二级：传统机器级，这级的机器语言是该机的指令集，用机器语言编写的程序可以由微程序进行解释。<br>第三级：操作系统级，由操作系统直接管理传统机器中的软硬件资源，也是传统机器的眼神。<br>第四级：汇编语言级，这级的机器语言是汇编语言，完成汇编语言翻译的程序叫做汇编程序。<br>第五级：高级语言级，这级的机器语言是高级语言，用编译程序来完成高级语言翻译的工作。<br>第六级：应用语言级，是为了使计算机满足某种用途而专门设计的，这一级的语言就是各种面向问题的应用语言。  </p><h2 id="虚拟机和物理机"><a href="#虚拟机和物理机" class="headerlink" title="虚拟机和物理机"></a>虚拟机和物理机</h2><ul><li>物理机：用硬件&#x2F;固件实现的机器  </li><li>虚拟机：是指由软件实现的机器，目的：在一台计算机上实现另一台计算机<h2 id="解释和翻译"><a href="#解释和翻译" class="headerlink" title="解释和翻译"></a>解释和翻译</h2>解释：每当一条L+1级指令被译码后，就直接去执行一串等效的L级指令，然后再去取下一条L+1级的指令<br>翻译：先把L+1级程序全部变成L级程序后，再去执行新产生的L级程序，在执行过程中L+1级程序不再被访问<br><u>注：解释执行比编译后执行所花的时间多，但占用的存储空间较少</u><h2 id="计算机系统结构"><a href="#计算机系统结构" class="headerlink" title="计算机系统结构"></a>计算机系统结构</h2></li><li>计算机系统结构：指的是计算机系统的软、硬件的界面，即机器语言程序员所看到的传统机器级所具有的属性  </li><li>计算机组成：指的是计算机系统结构的逻辑实现，包含物理机器级中的数据流和控制流的组成和逻辑实现等。它着眼于物理机器级内各事件的排序方式和控制方式、各部件的功能以及各部件之间的关系  </li><li>计算机实现：指的是计算机组成的物理实现，包括处理机和主存等部件的物理结构等。它着眼于器件技术和微组装技术  </li><li>举例：确定指令集中是否含有乘法指令属于计算机系统结构的内容，但乘法指令是用专门的乘法器实现，还是利用加法器经多步操作来实现，属于计算机组成，而乘法器、加法器的物理实现，如期间的选定及所用的微组装技术等，属于计算机实现。  <h2 id="透明性"><a href="#透明性" class="headerlink" title="透明性"></a>透明性</h2>这种本来存在的事务或属性，但从某个角度看又好像不存在的概念称为透明性  <h2 id="模拟和仿真"><a href="#模拟和仿真" class="headerlink" title="模拟和仿真"></a>模拟和仿真</h2></li><li>模拟：指用软件的方法在一台现有的计算机（称为宿主机host）上实现另一台计算机（称为虚拟机）的指令集  </li><li>仿真：指用一台计算机（称为宿主机）上的微程序去解释实现另一台计算机（称为目标机）的指令集<br><u>注：模拟程序存放在内存中，仿真微程序则是存放在控制存储器中，因此仿真方法的运行速度比模拟方法的快，但仿真只能在系统结构差距不大的计算机之间使用</u><h2 id="并行性"><a href="#并行性" class="headerlink" title="并行性"></a>并行性</h2></li><li>并行性：指计算机系统在同一时刻或同一时间间隔内进行多种计算或操作</li><li>包括同时性与并发性  <ul><li>同时性：指两个或两个以上的事件在同一时刻发生  </li><li>并发性：指两个或两个以上的事件在同一时间间隔内发生  <h3 id="提高并行性的技术途径"><a href="#提高并行性的技术途径" class="headerlink" title="提高并行性的技术途径"></a>提高并行性的技术途径</h3></li></ul></li><li>技术途径<ul><li><p>时间重叠：让多个处理过程在时间上相互错开，轮流重叠地使用同一套硬件设备地不同部分，以加快硬件周转而获得速度</p></li><li><p>资源重复：重复设置硬件资源</p></li><li><p>资源共享：软件方法，使多个任务按一定时间顺序轮流使用同一套硬件设备</p></li></ul></li></ul><p><img src="/img/%E7%B3%BB%E7%BB%9F5.png">  </p><h3 id="耦合度"><a href="#耦合度" class="headerlink" title="耦合度"></a>耦合度</h3><p>反映多机系统中各计算机之间物理连接的紧密程度和交互作用能力的强弱。分为紧密耦合和松散耦合。</p><h4 id="紧密耦合"><a href="#紧密耦合" class="headerlink" title="紧密耦合"></a>紧密耦合</h4><p>又称直接耦合系统，计算机的物理连接的带宽较高，通过总线或高速开关互联，可共享内存</p><h4 id="松散耦合"><a href="#松散耦合" class="headerlink" title="松散耦合"></a>松散耦合</h4><p>又称间接耦合，通过通道或通信线路实现计算机之间的互联，可以共享外村设备，能实现更大范围的资源共享。</p><h2 id="Amdahl定律"><a href="#Amdahl定律" class="headerlink" title="Amdahl定律"></a>Amdahl定律</h2><ul><li><p>Amdahl定律：加速某部件执行速度所能获得的系统性能加速比，受限于该部件的执行时间占系统中总执行时间的百分比</p></li><li><p>两个影响因素：</p><ul><li>可改进比例(Fe)</li><li>部件加速比(Se)  <h2 id="决定CPU性能的3个参数及计算方法"><a href="#决定CPU性能的3个参数及计算方法" class="headerlink" title="决定CPU性能的3个参数及计算方法"></a>决定CPU性能的3个参数及计算方法</h2></li></ul></li><li><p>CPU时间 &#x3D; IC * CPI * 时钟周期时间  </p></li><li><p>参数：</p><ul><li>时钟周期时间：取决于硬件实现技术和计算机组成</li><li>CPI：取决于计算机组成和指令集结构</li><li>IC：取决于指令集结构和编译技术  <h2 id="程序局部性原理"><a href="#程序局部性原理" class="headerlink" title="程序局部性原理"></a>程序局部性原理</h2></li></ul></li><li><p>局部性原理：指程序执行时所访问的存储器地址分布不是随机的，而是相对簇聚的</p></li><li><p>分类：</p><ul><li>时间局部性：指程序即将用到的信息很可能就是目前正在使用的信息</li><li>空间局部性：指程序即将用到的信息很可能与当前正在使用的信息在空间上相邻或临近  <h2 id="计算机设计者的主要任务"><a href="#计算机设计者的主要任务" class="headerlink" title="计算机设计者的主要任务"></a>计算机设计者的主要任务</h2>主要任务包括</li></ul></li><li><p>指令系统的设计  </p></li><li><p>数据表示的设计</p></li><li><p>功能的组织</p></li><li><p>逻辑设计及其物理实现等</p><h2 id="计算机设计的主要方法"><a href="#计算机设计的主要方法" class="headerlink" title="计算机设计的主要方法"></a>计算机设计的主要方法</h2><h3 id="由上往下-设计"><a href="#由上往下-设计" class="headerlink" title="由上往下 设计"></a>由上往下 设计</h3><p>从层次结构的最上面一级开始，逐层往下设计各层机器<br><img src="/img/%E7%B3%BB%E7%BB%9F1.png">  </p><h3 id="由下往上-设计"><a href="#由下往上-设计" class="headerlink" title="由下往上 设计"></a>由下往上 设计</h3><p>从层次结构的最下面一级开始，逐层往上设计各层的机器</p><h3 id="从中间开始-设计"><a href="#从中间开始-设计" class="headerlink" title="从中间开始 设计"></a>从中间开始 设计</h3><p>软硬件设计分离和脱节是上述“由上往下”和“由下往上”设计方法的主要缺点<br><img src="/img/%E7%B3%BB%E7%BB%9F2.png">  </p><h2 id="计算机性能的比较方法"><a href="#计算机性能的比较方法" class="headerlink" title="计算机性能的比较方法"></a>计算机性能的比较方法</h2><h3 id="执行时间和吞吐率"><a href="#执行时间和吞吐率" class="headerlink" title="执行时间和吞吐率"></a>执行时间和吞吐率</h3><p>执行时间：单个程序所花的时间<br>吞吐率：单位时间完成的任务</p><h3 id="基准测试程序"><a href="#基准测试程序" class="headerlink" title="基准测试程序"></a>基准测试程序</h3></li></ul><h3 id="性能比较"><a href="#性能比较" class="headerlink" title="性能比较"></a>性能比较</h3><ul><li>总执行时间<br><img src="/img/%E7%B3%BB%E7%BB%9F3.png">  </li><li>调和平均值法<br><img src="/img/%E7%B3%BB%E7%BB%9F.png"><br>Ri 表示由n个程序组成的工作负荷中执行第i个程序的速度，Ri &#x3D; 1&#x2F;Ti；Ti为第i个程序的执行时间  </li><li>几何平均值法<br><img src="/img/%E7%B3%BB%E7%BB%9F4.png"><br>Π表示连乘  <h2 id="冯诺依曼结构的主要特点"><a href="#冯诺依曼结构的主要特点" class="headerlink" title="冯诺依曼结构的主要特点"></a>冯诺依曼结构的主要特点</h2></li><li>计算机以运算器为中心</li><li>在存储器中，指令和数据同等对待</li><li>存储器是按地址访问、按顺序线性编址的一维结构，每个单元的位数是固定的</li><li>指令的执行是顺序的，即一般是按照指令在存储器中存放的顺序执行</li><li>指令由操作数和地址码组成</li><li>指令和数据均以二进制编码表示，采用二进制计算<h2 id="现代计算机对比冯诺依曼体系结构"><a href="#现代计算机对比冯诺依曼体系结构" class="headerlink" title="现代计算机对比冯诺依曼体系结构"></a>现代计算机对比冯诺依曼体系结构</h2></li><li>对输入&#x2F;输出方式的改进：DMA、通道</li><li>采用并行处理技术</li><li>存储器组织结构的发展：通用寄存器组、Cache</li><li>指令集的发展：CISC、RISC<h2 id="实现软件可移植性的三种方法"><a href="#实现软件可移植性的三种方法" class="headerlink" title="实现软件可移植性的三种方法"></a>实现软件可移植性的三种方法</h2></li><li>软件的可移植性：指一个软件不经修改或者只需少量修改就可以由一台计算机移植到另一台计算机上执行</li><li>常用方法：<ul><li>采用系列机</li><li>模拟和仿真</li><li>统一高级语言<h1 id="指令系统的设计"><a href="#指令系统的设计" class="headerlink" title="指令系统的设计"></a>指令系统的设计</h1><h2 id="指令系统结构的分类"><a href="#指令系统结构的分类" class="headerlink" title="指令系统结构的分类"></a>指令系统结构的分类</h2></li></ul></li><li>堆栈<ul><li>指令字比较短，程序占用的空间比较小</li></ul></li><li>累加器<ul><li>指令字比较短，程序占用的空间比较小</li></ul></li><li>通用寄存器组<ul><li>可分为R-M型和R-R型<h2 id="寻址方式"><a href="#寻址方式" class="headerlink" title="寻址方式"></a>寻址方式</h2><img src="/img/%E7%B3%BB%E7%BB%9F6.png">  <h3 id="信息存储的整数边界概念"><a href="#信息存储的整数边界概念" class="headerlink" title="信息存储的整数边界概念"></a>信息存储的整数边界概念</h3>字节信息的起始地址为：X…XXXX<br>半字信息的起始地址为：X…XXX0<br>单字信息的起始地址为：X…XX00<br>双字信息的起始地址为：X…X000  <h2 id="指令系统的设计和优化"><a href="#指令系统的设计和优化" class="headerlink" title="指令系统的设计和优化"></a>指令系统的设计和优化</h2><h3 id="指令系统设计的基本原则"><a href="#指令系统设计的基本原则" class="headerlink" title="指令系统设计的基本原则"></a>指令系统设计的基本原则</h3>指令系统的基本要求是完整性，规整性，正交性，高效率，兼容性</li></ul></li><li>完整性是指在一个有限可用的存储空间内，对于任何可解的问题，编制计算程序时，指令系统所提供的指令足够使用。  </li><li>规整性主要包括对称性和均匀性。  <ul><li>对称性是指所有与指令系统有关的存储单元的使用，操作码的设置等都是对称的  </li><li>均匀性是指对于各种不同的操作数类型，字长，操作种类和数据存储单元，指令的设置都要同等对待</li></ul></li><li>正交性是指在指令中各个不同含义的字段，如操作类型，数据类型，寻址方式字段等，在编码时应互不相关，相互独立  </li><li>高效率是指指令的执行速度快，使用频度高。  </li><li>兼容性主要是要实现向后兼容，指令系统可以增加新指令，但不能删除指令或更改指令的功能。  <h2 id="指令操作码的优化"><a href="#指令操作码的优化" class="headerlink" title="指令操作码的优化"></a>指令操作码的优化</h2>指令一般由两部分组成：操作码和地址码。<h3 id="哈夫曼编码"><a href="#哈夫曼编码" class="headerlink" title="哈夫曼编码"></a>哈夫曼编码</h3>操作码的优化程度可以用信息熵H来衡量，它表示用二进制表示n个码点时，理论上的最短平均编码长度<br>可以通过构造哈夫曼树来求得  <h3 id="等长扩展码"><a href="#等长扩展码" class="headerlink" title="等长扩展码"></a>等长扩展码</h3>例如15&#x2F;15&#x2F;15法和8&#x2F;64&#x2F;512法。<br>15&#x2F;15&#x2F;15法是在4位的16个码点中用15个码点表示最常用的15种指令，剩下的一个码点用于扩展到下一个4位下。<br>8&#x2F;64&#x2F;512法是用头4位的0XXX表示最常用的8种指令，接着扩展码扩展成两个4位，其中的1XXX0XXX的64个码点表示64种指令，然后在扩展成3个4位，用1XXX1XXX0XXX的512个码点表示512种指令  <h3 id="定长操作码"><a href="#定长操作码" class="headerlink" title="定长操作码"></a>定长操作码</h3>所有指令的操作码都是同一长度的，特别是RISC结构<h2 id="CISC存在的问题"><a href="#CISC存在的问题" class="headerlink" title="CISC存在的问题"></a>CISC存在的问题</h2></li><li>各种指令的使用频度相差悬殊，二八定律  </li><li>指令系统庞大，指令条数多，功能复杂导致①占用大量芯片面积②增加研制成本，易造成设计错误  </li><li>许多指令操作繁杂，CPI比较大  </li><li>不利于采用流水技术来提高性能  <h3 id="改进方向"><a href="#改进方向" class="headerlink" title="改进方向"></a>改进方向</h3></li><li>面向目标程序增强指令功能  <ul><li>增强运算型指令的功能  </li><li>增强数据传送指令的功能</li></ul></li><li>面向高级语言的优化实现来改进指令系统  </li><li>面向操作系统的优化实现改进指令系统  <h3 id="设计RISC机器遵循的原则"><a href="#设计RISC机器遵循的原则" class="headerlink" title="设计RISC机器遵循的原则"></a>设计RISC机器遵循的原则</h3><img src="/img/%E7%B3%BB%E7%BB%9F11.png">  <h2 id="表示操作数类型的方法"><a href="#表示操作数类型的方法" class="headerlink" title="表示操作数类型的方法"></a>表示操作数类型的方法</h2>（1）由指令的操作码决定操作数类型<br>（2）给数据加上标识（tag），由数据本身给出操作数类型<h2 id="MIPS指令系统结构"><a href="#MIPS指令系统结构" class="headerlink" title="MIPS指令系统结构"></a>MIPS指令系统结构</h2><h3 id="MIPS的指令格式"><a href="#MIPS的指令格式" class="headerlink" title="MIPS的指令格式"></a>MIPS的指令格式</h3></li><li>I 类指令  <ul><li>包括所有的load和store指令，立即数指令，分支指令，寄存器跳转指令，寄存器链接跳转指令</li></ul></li><li>R 类指令  <ul><li>包括ALU指令，专用寄存器读写指令，move指令等</li></ul></li><li>J 类指令  <ul><li>包括跳转指令，跳转并链接指令，自陷指令，异常返回指令。  <h2 id="常用MIPS指令"><a href="#常用MIPS指令" class="headerlink" title="常用MIPS指令"></a>常用MIPS指令</h2><h3 id="load-and-store"><a href="#load-and-store" class="headerlink" title="load and store"></a>load and store</h3><img src="/img/%E7%B3%BB%E7%BB%9F7.png">  <h3 id="ALU"><a href="#ALU" class="headerlink" title="ALU"></a>ALU</h3><img src="/img/%E7%B3%BB%E7%BB%9F8.png">  <h3 id="控制指令"><a href="#控制指令" class="headerlink" title="控制指令"></a>控制指令</h3><img src="/img/%E7%B3%BB%E7%BB%9F9.png"><br><img src="/img/%E7%B3%BB%E7%BB%9F10.png"></li></ul></li></ul>]]></content:encoded>
       
       
-      <category domain="http://sh393779.xyz/categories/%E7%B3%BB%E7%BB%9F%E7%BB%93%E6%9E%84/">系统结构</category>
+      <category domain="http://v2better.top/categories/%E7%B3%BB%E7%BB%9F%E7%BB%93%E6%9E%84/">系统结构</category>
       
       
-      <category domain="http://sh393779.xyz/tags/%E7%B3%BB%E7%BB%9F%E7%BB%93%E6%9E%84/">系统结构</category>
+      <category domain="http://v2better.top/tags/%E7%B3%BB%E7%BB%9F%E7%BB%93%E6%9E%84/">系统结构</category>
       
       
-      <comments>http://sh393779.xyz/2022/05/10/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E7%BB%93%E6%9E%84/#disqus_thread</comments>
+      <comments>http://v2better.top/2022/05/10/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E7%BB%93%E6%9E%84/#disqus_thread</comments>
       
     </item>
     

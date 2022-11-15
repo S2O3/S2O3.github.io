@@ -117,6 +117,25 @@
     
     
     <entry>
+      <title>git</title>
+      <link href="/2022/05/10/git/"/>
+      <url>/2022/05/10/git/</url>
+      
+        <content type="html"><![CDATA[<span id="more"></span><h1 id="git常用指令"><a href="#git常用指令" class="headerlink" title="git常用指令"></a>git常用指令</h1><h2 id="git基础操作指令"><a href="#git基础操作指令" class="headerlink" title="git基础操作指令"></a>git基础操作指令</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git init 创建仓库  </span><br><span class="line">git add 将所有修改加入到暂存区  </span><br><span class="line">git commit -m &quot;注释内容&quot; 提交暂存区内容到本地仓库的当前分支  </span><br><span class="line">git status 查看修改的状态  </span><br><span class="line">git log 查看提交日志  </span><br></pre></td></tr></table></figure><h2 id="版本回退"><a href="#版本回退" class="headerlink" title="版本回退"></a>版本回退</h2><pre><code>git reset --hard commitID</code></pre><p>commitID可以使用git log查看<br>如何查看已经删除的记录<br>git reflog  </p><h2 id="添加文件到忽略列表"><a href="#添加文件到忽略列表" class="headerlink" title="添加文件到忽略列表"></a>添加文件到忽略列表</h2><p>可以创建一个.gitignore文件，列出要忽略的文件模式<br><img src="/img/git1.png">  </p><h1 id="分支"><a href="#分支" class="headerlink" title="分支"></a>分支</h1><p><img src="/img/git2.png">  </p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>C++面向对象</title>
       <link href="/2022/05/10/c++/"/>
       <url>/2022/05/10/c++/</url>
@@ -136,17 +155,25 @@
     
     
     <entry>
-      <title>git</title>
-      <link href="/2022/05/10/git/"/>
-      <url>/2022/05/10/git/</url>
+      <title>hexo-next美化</title>
+      <link href="/2022/05/10/hexo-next%E7%BE%8E%E5%8C%96/"/>
+      <url>/2022/05/10/hexo-next%E7%BE%8E%E5%8C%96/</url>
       
-        <content type="html"><![CDATA[<span id="more"></span><h1 id="git常用指令"><a href="#git常用指令" class="headerlink" title="git常用指令"></a>git常用指令</h1><h2 id="git基础操作指令"><a href="#git基础操作指令" class="headerlink" title="git基础操作指令"></a>git基础操作指令</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git init 创建仓库  </span><br><span class="line">git add 将所有修改加入到暂存区  </span><br><span class="line">git commit -m &quot;注释内容&quot; 提交暂存区内容到本地仓库的当前分支  </span><br><span class="line">git status 查看修改的状态  </span><br><span class="line">git log 查看提交日志  </span><br></pre></td></tr></table></figure><h2 id="版本回退"><a href="#版本回退" class="headerlink" title="版本回退"></a>版本回退</h2><pre><code>git reset --hard commitID</code></pre><p>commitID可以使用git log查看<br>如何查看已经删除的记录<br>git reflog  </p><h2 id="添加文件到忽略列表"><a href="#添加文件到忽略列表" class="headerlink" title="添加文件到忽略列表"></a>添加文件到忽略列表</h2><p>可以创建一个.gitignore文件，列出要忽略的文件模式<br><img src="/img/git1.png">  </p><h1 id="分支"><a href="#分支" class="headerlink" title="分支"></a>分支</h1><p><img src="/img/git2.png">  </p>]]></content>
+        <content type="html"><![CDATA[<span id="more"></span><h2 id="解决不显示访问人数的问题"><a href="#解决不显示访问人数的问题" class="headerlink" title="解决不显示访问人数的问题"></a>解决不显示访问人数的问题</h2><p><a href="https://muyuuuu.github.io/2019/11/22/busuanzi-notdisplay/">修补hexo-next不蒜子不显示问题</a>  </p><h2 id="去掉页面底部“驱动”"><a href="#去掉页面底部“驱动”" class="headerlink" title="去掉页面底部“驱动”"></a>去掉页面底部“驱动”</h2><p>比如想去掉“由 Hexo &amp; NexT.Gemini 强力驱动”，在<font color="#FF66CC">.\themes\next\layout_partials\footer.swig</font>中将以下代码注释掉。  </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&#123;%- if theme.footer.powered %&#125;</span><br><span class="line">  &lt;div class=&quot;powered-by&quot;&gt;</span><br><span class="line">    &#123;%- set next_site = &#x27;https://theme-next.js.org&#x27; if theme.scheme === &#x27;Gemini&#x27; else &#x27;https://theme-next.js.org/&#x27; + theme.scheme | lower + &#x27;/&#x27; %&#125;</span><br><span class="line">    &#123;&#123;- __(&#x27;footer.powered&#x27;, next_url(&#x27;https://hexo.io&#x27;, &#x27;Hexo&#x27;) + &#x27; &amp; &#x27; + next_url(next_site, &#x27;NexT.&#x27; + theme.scheme)) &#125;&#125;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&#123;%- endif %&#125;</span><br></pre></td></tr></table></figure><h2 id="头像设置"><a href="#头像设置" class="headerlink" title="头像设置"></a>头像设置</h2><p>在next的_config.yml中avatar设置。将头像图片放在<font color="#FF66CC">&#x2F;source&#x2F;images&#x2F;</font>中，修改url地址。</p><pre><code># Sidebar Avataravatar:  # Replace the default image and set the url here.  url: /images/header.jpg  # If true, the avatar will be displayed in circle.  rounded: true  # If true, the avatar will be rotated with the cursor.  rotated: true</code></pre><h2 id="背景图片、页面透明化、阴影、圆角、动画"><a href="#背景图片、页面透明化、阴影、圆角、动画" class="headerlink" title="背景图片、页面透明化、阴影、圆角、动画"></a>背景图片、页面透明化、阴影、圆角、动画</h2><p><a href="https://blog.csdn.net/Growing_potato/article/details/113926856?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2~default~CTRLIST~Rate-1-113926856-blog-107005112.pc_relevant_antiscanv2&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2~default~CTRLIST~Rate-1-113926856-blog-107005112.pc_relevant_antiscanv2&utm_relevant_index=1">背景图片、页面透明化、阴影、圆角、动画</a>  </p>]]></content>
       
+      
+      <categories>
+          
+          <category> hexo </category>
+          
+          <category> next </category>
+          
+      </categories>
       
       
         <tags>
             
-            <tag> git </tag>
+            <tag> blog </tag>
             
         </tags>
       
@@ -174,33 +201,6 @@
             <tag> JavaWeb </tag>
             
             <tag> MyBatis </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>hexo-next美化</title>
-      <link href="/2022/05/10/hexo-next%E7%BE%8E%E5%8C%96/"/>
-      <url>/2022/05/10/hexo-next%E7%BE%8E%E5%8C%96/</url>
-      
-        <content type="html"><![CDATA[<span id="more"></span><h2 id="解决不显示访问人数的问题"><a href="#解决不显示访问人数的问题" class="headerlink" title="解决不显示访问人数的问题"></a>解决不显示访问人数的问题</h2><p><a href="https://muyuuuu.github.io/2019/11/22/busuanzi-notdisplay/">修补hexo-next不蒜子不显示问题</a>  </p><h2 id="去掉页面底部“驱动”"><a href="#去掉页面底部“驱动”" class="headerlink" title="去掉页面底部“驱动”"></a>去掉页面底部“驱动”</h2><p>比如想去掉“由 Hexo &amp; NexT.Gemini 强力驱动”，在<font color="#FF66CC">.\themes\next\layout_partials\footer.swig</font>中将以下代码注释掉。  </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&#123;%- if theme.footer.powered %&#125;</span><br><span class="line">  &lt;div class=&quot;powered-by&quot;&gt;</span><br><span class="line">    &#123;%- set next_site = &#x27;https://theme-next.js.org&#x27; if theme.scheme === &#x27;Gemini&#x27; else &#x27;https://theme-next.js.org/&#x27; + theme.scheme | lower + &#x27;/&#x27; %&#125;</span><br><span class="line">    &#123;&#123;- __(&#x27;footer.powered&#x27;, next_url(&#x27;https://hexo.io&#x27;, &#x27;Hexo&#x27;) + &#x27; &amp; &#x27; + next_url(next_site, &#x27;NexT.&#x27; + theme.scheme)) &#125;&#125;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&#123;%- endif %&#125;</span><br></pre></td></tr></table></figure><h2 id="头像设置"><a href="#头像设置" class="headerlink" title="头像设置"></a>头像设置</h2><p>在next的_config.yml中avatar设置。将头像图片放在<font color="#FF66CC">&#x2F;source&#x2F;images&#x2F;</font>中，修改url地址。</p><pre><code># Sidebar Avataravatar:  # Replace the default image and set the url here.  url: /images/header.jpg  # If true, the avatar will be displayed in circle.  rounded: true  # If true, the avatar will be rotated with the cursor.  rotated: true</code></pre><h2 id="背景图片、页面透明化、阴影、圆角、动画"><a href="#背景图片、页面透明化、阴影、圆角、动画" class="headerlink" title="背景图片、页面透明化、阴影、圆角、动画"></a>背景图片、页面透明化、阴影、圆角、动画</h2><p><a href="https://blog.csdn.net/Growing_potato/article/details/113926856?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2~default~CTRLIST~Rate-1-113926856-blog-107005112.pc_relevant_antiscanv2&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2~default~CTRLIST~Rate-1-113926856-blog-107005112.pc_relevant_antiscanv2&utm_relevant_index=1">背景图片、页面透明化、阴影、圆角、动画</a>  </p>]]></content>
-      
-      
-      <categories>
-          
-          <category> hexo </category>
-          
-          <category> next </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> blog </tag>
             
         </tags>
       
