@@ -9,23 +9,8 @@
     <atom:link href="http://v2better.top/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>一个小小的blog</description>
-    <pubDate>Mon, 04 Mar 2024 07:12:47 GMT</pubDate>
+    <pubDate>Mon, 04 Mar 2024 07:42:01 GMT</pubDate>
     <generator>http://hexo.io/</generator>
-    
-    <item>
-      <title>LSTM.md</title>
-      <link>http://v2better.top/2024/03/04/LSTM-md/</link>
-      <guid>http://v2better.top/2024/03/04/LSTM-md/</guid>
-      <pubDate>Mon, 04 Mar 2024 07:12:47 GMT</pubDate>
-      
-      
-      
-      
-      
-      
-      <comments>http://v2better.top/2024/03/04/LSTM-md/#disqus_thread</comments>
-      
-    </item>
     
     <item>
       <title>LSTM</title>
@@ -43,7 +28,7 @@
       
       
       
-      <content:encoded><![CDATA[<p><strong>RNN存在的问题：</strong></p><p>​RNN对所有信息全部接收，记忆机制没有重点</p><p>​RNN中的新信息会强制覆盖旧信息，很久之前的记忆只会占用当前记忆的很小一部分，无法对长期记忆进行有重点的处理</p><img src="/C:/Users\Administrator\Desktop\notes\image-20231231154304823.png" alt="image-20231231154304823" style="zoom: 67%;"><img src="/C:/Users\Administrator\Desktop\notes\image-20231231154557924.png" alt="image-20231231154557924" style="zoom:50%;"><p>LSTM（右）与RNN的主要区别</p><p><img src="/C:/Users\Administrator\Desktop\notes\v2-e4f9851cad426dfe4ab1c76209546827_r.png"></p><p><strong>LSTM的介绍：</strong></p><img src="/C:/Users\Administrator\Desktop\notes\image-20231231154858556.png" alt="image-20231231154858556" style="zoom:50%;"><p>​Memory Cell</p><p>LSTM依然是一个循环神经网络，LSTM设置了两个关键变量：</p><p>​· 主要负责记忆短期信息、尤其是当前时间步信息的隐藏状态h</p><p>​· 主要负责长期记忆的细胞状态C</p><img src="/C:/Users\Administrator\Desktop\notes\image-20231231155329822.png" alt="image-20231231155329822" style="zoom: 50%;"><p>Memory Cell细分为：</p><p>​    · 帮助循环网络选择遗忘多少历史信息的<strong>遗忘门</strong>（input gate）</p><p>​· 帮助循环网络选择吸纳多少新信息的<strong>输入门</strong>（forget gate）</p><p>​· 帮助循环网络选择出对当前时间步的预测最重要的信息，并将该信息输出给当前时间步的<strong>输出门</strong>（output gate）</p><p>LSTM 逐步解释 </p><p>​<img src="/C:/Users\Administrator\Desktop\notes\image-20231231161319580.png" alt="image-20231231161319580"></p><p>forget gate:</p><p>​其数学本质就是计算一个0~1之间的遗忘比例f_t乘以上一个时间步传入的C_t-1，以此筛选掉部分旧信息。h_t-1是上一个时间步的短期信息，x_t是当前时间步的全部信息，参考h_t-1和x_t并乘以权重W_f，再通过sigmoid函数得到遗忘比例f_t。</p><hr><p><img src="/C:/Users\Administrator\Desktop\notes\image-20231231162555150.png" alt="image-20231231162555150"></p><p>input gate:</p><p>​参考h_t-1和x_t生成的筛选新信息的比例i_t，激活函数tanh生成候选信息C~_t，将两者相乘并与C_t-1合并得到新的长期记忆C_t。</p><hr><p><img src="/C:/Users\Administrator\Desktop\notes\image-20231231163630965.png" alt="image-20231231163630965"></p><p>output gate:</p><p>​参考h_t-1和x_t生成的一个比例值O_t，结合C_t和O_t生成当前时间步的信息h_t</p>]]></content:encoded>
+      <content:encoded><![CDATA[<p><strong>RNN存在的问题：</strong></p><p>​RNN对所有信息全部接收，记忆机制没有重点</p><p>​RNN中的新信息会强制覆盖旧信息，很久之前的记忆只会占用当前记忆的很小一部分，无法对长期记忆进行有重点的处理</p><img src="/_posts/LSTM/image-20231231154557924.png" alt="image-20231231154557924" style="zoom:50%;"><p>LSTM（右）与RNN的主要区别</p><p><img src="/_posts/LSTM/v2-e4f9851cad426dfe4ab1c76209546827_r.png"></p><p><strong>LSTM的介绍：</strong></p><img src="/D:/blog_s\source\_posts\LSTM\image-20231231154858556.png" alt="image-20231231154858556" style="zoom:50%;"><p>​Memory Cell</p><p>LSTM依然是一个循环神经网络，LSTM设置了两个关键变量：</p><p>​· 主要负责记忆短期信息、尤其是当前时间步信息的隐藏状态h</p><p>​· 主要负责长期记忆的细胞状态C</p><img src="/C:/Users\Administrator\Desktop\notes\image-20231231155329822.png" alt="image-20231231155329822" style="zoom: 50%;"><p>Memory Cell细分为：</p><p>​    · 帮助循环网络选择遗忘多少历史信息的<strong>遗忘门</strong>（input gate）</p><p>​· 帮助循环网络选择吸纳多少新信息的<strong>输入门</strong>（forget gate）</p><p>​· 帮助循环网络选择出对当前时间步的预测最重要的信息，并将该信息输出给当前时间步的<strong>输出门</strong>（output gate）</p><p>LSTM 逐步解释 </p><p>​<img src="/D:/blog_s\source_posts\LSTM\image-20231231161319580.png" alt="image-20231231161319580"></p><p>forget gate:</p><p>​其数学本质就是计算一个0~1之间的遗忘比例f_t乘以上一个时间步传入的C_t-1，以此筛选掉部分旧信息。h_t-1是上一个时间步的短期信息，x_t是当前时间步的全部信息，参考h_t-1和x_t并乘以权重W_f，再通过sigmoid函数得到遗忘比例f_t。</p><hr><p><img src="/D:/blog_s\source_posts\LSTM\image-20231231162555150.png" alt="image-20231231162555150"></p><p>input gate:</p><p>​参考h_t-1和x_t生成的筛选新信息的比例i_t，激活函数tanh生成候选信息C~_t，将两者相乘并与C_t-1合并得到新的长期记忆C_t。</p><hr><p><img src="/D:/blog_s\source_posts\LSTM\image-20231231163630965.png" alt="image-20231231163630965"></p><p>output gate:</p><p>​参考h_t-1和x_t生成的一个比例值O_t，结合C_t和O_t生成当前时间步的信息h_t</p>]]></content:encoded>
       
       
       
@@ -76,31 +61,6 @@
     </item>
     
     <item>
-      <title>HTTP</title>
-      <link>http://v2better.top/2022/05/10/HTTP/</link>
-      <guid>http://v2better.top/2022/05/10/HTTP/</guid>
-      <pubDate>Tue, 10 May 2022 07:02:41 GMT</pubDate>
-      
-      <description>http学习</description>
-      
-      
-      
-      <content:encoded><![CDATA[<span id="more"></span><h1 id="概念特点"><a href="#概念特点" class="headerlink" title="概念特点"></a>概念特点</h1><p><img src="/img/http1.png">  </p><h1 id="HTTP请求数据格式"><a href="#HTTP请求数据格式" class="headerlink" title="HTTP请求数据格式"></a>HTTP请求数据格式</h1><p><img src="/img/http2.png">  </p><h2 id="常见的HTTP请求头"><a href="#常见的HTTP请求头" class="headerlink" title="常见的HTTP请求头"></a>常见的HTTP请求头</h2><p><img src="/img/http3.png">  </p><h2 id="请求体"><a href="#请求体" class="headerlink" title="请求体"></a>请求体</h2><p><img src="/img/http4.png">  </p><h1 id="HTTP响应数据格式"><a href="#HTTP响应数据格式" class="headerlink" title="HTTP响应数据格式"></a>HTTP响应数据格式</h1><p><img src="/img/http5.png">  </p><h2 id="常见的HTTP响应头"><a href="#常见的HTTP响应头" class="headerlink" title="常见的HTTP响应头"></a>常见的HTTP响应头</h2><p><img src="/img/http6.png">  </p><h1 id="状态码"><a href="#状态码" class="headerlink" title="状态码"></a>状态码</h1><p><a href="https://www.runoob.com/http/http-status-codes.html">HTTP常见状态码</a>  </p>]]></content:encoded>
-      
-      
-      <category domain="http://v2better.top/categories/HTTP/">HTTP</category>
-      
-      
-      <category domain="http://v2better.top/tags/JavaWeb/">JavaWeb</category>
-      
-      <category domain="http://v2better.top/tags/HTTP/">HTTP</category>
-      
-      
-      <comments>http://v2better.top/2022/05/10/HTTP/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>Servlet</title>
       <link>http://v2better.top/2022/05/10/Servlet/</link>
       <guid>http://v2better.top/2022/05/10/Servlet/</guid>
@@ -114,33 +74,12 @@
       
       
       
-      <category domain="http://v2better.top/tags/JavaWeb/">JavaWeb</category>
-      
       <category domain="http://v2better.top/tags/Servlet/">Servlet</category>
+      
+      <category domain="http://v2better.top/tags/JavaWeb/">JavaWeb</category>
       
       
       <comments>http://v2better.top/2022/05/10/Servlet/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>C++面向对象</title>
-      <link>http://v2better.top/2022/05/10/c++/</link>
-      <guid>http://v2better.top/2022/05/10/c++/</guid>
-      <pubDate>Tue, 10 May 2022 07:02:41 GMT</pubDate>
-      
-      <description>c++</description>
-      
-      
-      
-      <content:encoded><![CDATA[<span id="more"></span><h1 id="友元"><a href="#友元" class="headerlink" title="友元"></a>友元</h1><p>友元可以访问类内所有成员  </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">void func();</span><br><span class="line">class A&#123;</span><br><span class="line">friend void func();</span><br><span class="line">&#125;;</span><br><span class="line">```  </span><br><span class="line"># 继承</span><br><span class="line">派生类不能继承：析构函数，基类的友元函数，静态数据成员，静态成员函数  </span><br><span class="line">private：只能本类访问  </span><br><span class="line">protected：可以本类，派生类访问  </span><br><span class="line">public：可以本类，派生类，类外访问  </span><br></pre></td></tr></table></figure><p>class Animal;<br>class Cat;<br>class Cat:protected Animal{<br>};</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">c++的继承方式可分为公有继，保护继承和私有继承  </span><br><span class="line">c++默认继承方式位private继承  </span><br><span class="line">public继承  </span><br><span class="line">基类的访问权限在派生类中保持不变  </span><br><span class="line">private继承  </span><br><span class="line">基类的private成员在派生类中仍是private成员，但基类的protected和public成员在派生类中会变成private成员  </span><br><span class="line">protected继承  </span><br><span class="line">基类中的public成员在派生类中修改为protected成员，protected和private成员保持不变  </span><br><span class="line">## 阻止继承</span><br></pre></td></tr></table></figure><p>class Cat final{<br>};  </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">可以用final关键字阻止该类被继承</span><br><span class="line">## 重载重定义</span><br><span class="line">重载：要求函数具有不同的函数原型  </span><br><span class="line">重定义（重写or覆盖）：指派生类可以定义与基类具有相同函数原型的成员函数  </span><br><span class="line">## 派生类修改基类成员的访问权限</span><br><span class="line">如  </span><br></pre></td></tr></table></figure><p>class Animal{<br>    protected:<br>    void jump() {<br>        cout &lt;&lt; “跳” &lt;&lt; endl;<br>    }<br>};<br>class Cat:protected Animal{<br>    public:<br>        using Animal::jump;&#x2F;&#x2F;修改jump权限为public<br>}</p><pre><code>&lt;font color=&quot;#FF66CC&quot;&gt;private成员永远只能被它内部的成员访问&lt;/font&gt;  因此不允许派生类使用using改变private成员的访问权限  注：由于继承导致的权限变化不算入其中  </code></pre>]]></content:encoded>
-      
-      
-      <category domain="http://v2better.top/categories/c/">c++</category>
-      
-      
-      
-      <comments>http://v2better.top/2022/05/10/c++/#disqus_thread</comments>
       
     </item>
     
@@ -166,6 +105,31 @@
       
       
       <comments>http://v2better.top/2022/05/10/Tomcat/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>HTTP</title>
+      <link>http://v2better.top/2022/05/10/HTTP/</link>
+      <guid>http://v2better.top/2022/05/10/HTTP/</guid>
+      <pubDate>Tue, 10 May 2022 07:02:41 GMT</pubDate>
+      
+      <description>http学习</description>
+      
+      
+      
+      <content:encoded><![CDATA[<span id="more"></span><h1 id="概念特点"><a href="#概念特点" class="headerlink" title="概念特点"></a>概念特点</h1><p><img src="/img/http1.png">  </p><h1 id="HTTP请求数据格式"><a href="#HTTP请求数据格式" class="headerlink" title="HTTP请求数据格式"></a>HTTP请求数据格式</h1><p><img src="/img/http2.png">  </p><h2 id="常见的HTTP请求头"><a href="#常见的HTTP请求头" class="headerlink" title="常见的HTTP请求头"></a>常见的HTTP请求头</h2><p><img src="/img/http3.png">  </p><h2 id="请求体"><a href="#请求体" class="headerlink" title="请求体"></a>请求体</h2><p><img src="/img/http4.png">  </p><h1 id="HTTP响应数据格式"><a href="#HTTP响应数据格式" class="headerlink" title="HTTP响应数据格式"></a>HTTP响应数据格式</h1><p><img src="/img/http5.png">  </p><h2 id="常见的HTTP响应头"><a href="#常见的HTTP响应头" class="headerlink" title="常见的HTTP响应头"></a>常见的HTTP响应头</h2><p><img src="/img/http6.png">  </p><h1 id="状态码"><a href="#状态码" class="headerlink" title="状态码"></a>状态码</h1><p><a href="https://www.runoob.com/http/http-status-codes.html">HTTP常见状态码</a>  </p>]]></content:encoded>
+      
+      
+      <category domain="http://v2better.top/categories/HTTP/">HTTP</category>
+      
+      
+      <category domain="http://v2better.top/tags/JavaWeb/">JavaWeb</category>
+      
+      <category domain="http://v2better.top/tags/HTTP/">HTTP</category>
+      
+      
+      <comments>http://v2better.top/2022/05/10/HTTP/#disqus_thread</comments>
       
     </item>
     
@@ -212,6 +176,52 @@
       
       
       <comments>http://v2better.top/2022/05/10/hexo-next%E7%BE%8E%E5%8C%96/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>C++面向对象</title>
+      <link>http://v2better.top/2022/05/10/c++/</link>
+      <guid>http://v2better.top/2022/05/10/c++/</guid>
+      <pubDate>Tue, 10 May 2022 07:02:41 GMT</pubDate>
+      
+      <description>c++</description>
+      
+      
+      
+      <content:encoded><![CDATA[<span id="more"></span><h1 id="友元"><a href="#友元" class="headerlink" title="友元"></a>友元</h1><p>友元可以访问类内所有成员  </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">void func();</span><br><span class="line">class A&#123;</span><br><span class="line">friend void func();</span><br><span class="line">&#125;;</span><br><span class="line">```  </span><br><span class="line"># 继承</span><br><span class="line">派生类不能继承：析构函数，基类的友元函数，静态数据成员，静态成员函数  </span><br><span class="line">private：只能本类访问  </span><br><span class="line">protected：可以本类，派生类访问  </span><br><span class="line">public：可以本类，派生类，类外访问  </span><br></pre></td></tr></table></figure><p>class Animal;<br>class Cat;<br>class Cat:protected Animal{<br>};</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">c++的继承方式可分为公有继，保护继承和私有继承  </span><br><span class="line">c++默认继承方式位private继承  </span><br><span class="line">public继承  </span><br><span class="line">基类的访问权限在派生类中保持不变  </span><br><span class="line">private继承  </span><br><span class="line">基类的private成员在派生类中仍是private成员，但基类的protected和public成员在派生类中会变成private成员  </span><br><span class="line">protected继承  </span><br><span class="line">基类中的public成员在派生类中修改为protected成员，protected和private成员保持不变  </span><br><span class="line">## 阻止继承</span><br></pre></td></tr></table></figure><p>class Cat final{<br>};  </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">可以用final关键字阻止该类被继承</span><br><span class="line">## 重载重定义</span><br><span class="line">重载：要求函数具有不同的函数原型  </span><br><span class="line">重定义（重写or覆盖）：指派生类可以定义与基类具有相同函数原型的成员函数  </span><br><span class="line">## 派生类修改基类成员的访问权限</span><br><span class="line">如  </span><br></pre></td></tr></table></figure><p>class Animal{<br>    protected:<br>    void jump() {<br>        cout &lt;&lt; “跳” &lt;&lt; endl;<br>    }<br>};<br>class Cat:protected Animal{<br>    public:<br>        using Animal::jump;&#x2F;&#x2F;修改jump权限为public<br>}</p><pre><code>&lt;font color=&quot;#FF66CC&quot;&gt;private成员永远只能被它内部的成员访问&lt;/font&gt;  因此不允许派生类使用using改变private成员的访问权限  注：由于继承导致的权限变化不算入其中  </code></pre>]]></content:encoded>
+      
+      
+      <category domain="http://v2better.top/categories/c/">c++</category>
+      
+      
+      
+      <comments>http://v2better.top/2022/05/10/c++/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Mybatis学习(持续更新中)</title>
+      <link>http://v2better.top/2022/05/10/mybatis/</link>
+      <guid>http://v2better.top/2022/05/10/mybatis/</guid>
+      <pubDate>Tue, 10 May 2022 07:02:41 GMT</pubDate>
+      
+      <description>MyBatis学习</description>
+      
+      
+      
+      <content:encoded><![CDATA[<span id="more"></span><p>mapper.xml文件</p><h2 id="执行流程"><a href="#执行流程" class="headerlink" title="执行流程"></a>执行流程</h2><p>1.加载mybatis的核心配置文件，获取SqlSessionFactory</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">String resource = &quot;mybatis-config.xml&quot;;</span><br><span class="line">   InputStream inputStream = Resources.getResourceAsStream(resource);</span><br><span class="line">   SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);</span><br></pre></td></tr></table></figure><p>2.获取SqlSession对象</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">SqlSession sqlSession = sqlSessionFactory.openSession();</span><br></pre></td></tr></table></figure><p>3.执行sql,返回user列表</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">List&lt;User&gt; users = sqlSession.selectList(&quot;demo.mapper.UserMapper.selectAll&quot;);</span><br></pre></td></tr></table></figure><p>4.释放资源</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sqlSession.close();</span><br></pre></td></tr></table></figure><h2 id="查询"><a href="#查询" class="headerlink" title="查询"></a>查询</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">&lt;!--  </span><br><span class="line">           id:完成主键字段的映射  </span><br><span class="line">               column：表的列名</span><br><span class="line">                property：实体类的属性名</span><br><span class="line">           result：完成一般字段的映射</span><br><span class="line">                column：表的列名</span><br><span class="line">                property：实体类的属性名</span><br><span class="line">    --&gt;</span><br><span class="line"></span><br><span class="line">&lt;resultMap id=&quot;brandResultMap&quot; type=&quot;brand&quot;&gt;  </span><br><span class="line">        &lt;result column=&quot;brand_name&quot; property=&quot;brandName&quot;/&gt;</span><br><span class="line">        &lt;result column=&quot;company_name&quot; property=&quot;companyName&quot;/&gt;  </span><br><span class="line">&lt;/resultMap&gt;</span><br></pre></td></tr></table></figure><h3 id="查询所有"><a href="#查询所有" class="headerlink" title="查询所有"></a>查询所有</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;select id=&quot;selectAll&quot; resultMap=&quot;brandResultMap&quot;&gt;</span><br><span class="line">        select *</span><br><span class="line">        from tb_brand;</span><br><span class="line">&lt;/select&gt;</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">List&lt;Brand&gt; selectAll();</span><br></pre></td></tr></table></figure><h3 id="查询详情"><a href="#查询详情" class="headerlink" title="查询详情"></a>查询详情</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;select id=&quot;selectById&quot; resultType=&quot;User&quot;&gt;</span><br><span class="line">        select * from tb_user where id = #&#123;id&#125;;</span><br><span class="line">    &lt;/select&gt;</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">User selectById();</span><br></pre></td></tr></table></figure><h3 id="条件查询"><a href="#条件查询" class="headerlink" title="条件查询"></a>条件查询</h3><p><img src="/img/mybatis1.png" alt="123"></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&lt;select id=&quot;selectByCondition&quot; resultMap=&quot;brandResultMap&quot;&gt;</span><br><span class="line">       select * from  tb_brand</span><br><span class="line">       where</span><br><span class="line">           status = #&#123;status&#125;</span><br><span class="line">           and company_name like #&#123;companyName&#125; &lt;!--模糊查询--&gt;</span><br><span class="line">           and brand_name like #&#123;brandName&#125; &lt;!--模糊查询--&gt;</span><br><span class="line">   &lt;/select&gt;</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">//@Param意思是将status的值传递给‘status’的占位符</span><br><span class="line">  List&lt;Brand&gt; selectByCondition(@Param(&quot;status&quot;)int status,@Param(&quot;companyName&quot;)String companyName,@Param(&quot;brandName&quot;)String brandName);</span><br><span class="line">  //把参数封装成brand，selectByCondition将自动调用getStatus...用于查询</span><br><span class="line">  List&lt;Brand&gt; selectByCondition(Brand brand);</span><br></pre></td></tr></table></figure><h3 id="动态条件查询"><a href="#动态条件查询" class="headerlink" title="动态条件查询"></a>动态条件查询</h3><p>if:  </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">&lt;select id=&quot;selectByCondition&quot; resultMap=&quot;brandResultMap&quot;&gt;</span><br><span class="line">           select * from  tb_brand</span><br><span class="line">           where</span><br><span class="line">               &lt;if test=&quot;status != null&quot;&gt;</span><br><span class="line">                   status = #&#123;status&#125;</span><br><span class="line">               &lt;/if&gt;</span><br><span class="line">               &lt;if test=&quot;companyName != null and companyName != &#x27;&#x27; &quot;&gt;</span><br><span class="line">                   and company_name like #&#123;companyName&#125; &lt;!--模糊查询--&gt;</span><br><span class="line">               &lt;/if&gt;</span><br><span class="line">               &lt;if test=&quot;brandName ! = null and brandName ! = &#x27;&#x27; &quot;&gt;</span><br><span class="line">                   and brand_name like #&#123;brandName&#125; &lt;!--模糊查询--&gt;</span><br><span class="line">               &lt;/if&gt;</span><br><span class="line">       &lt;/select&gt;</span><br></pre></td></tr></table></figure><h5 id="问题：若第一个if不成立"><a href="#问题：若第一个if不成立" class="headerlink" title="问题：若第一个if不成立"></a>问题：若第一个if不成立</h5><p><img src="/img/mybatis2.png"></p><h5 id="解决："><a href="#解决：" class="headerlink" title="解决："></a>解决：</h5><p><img src="/img/mybatis3.png"></p><h5 id="改进："><a href="#改进：" class="headerlink" title="改进："></a>改进：</h5><p>使用<where></where><br><img src="/img/mybatis4.png"><br>自动生成<br><img src="/img/mybatis5.png">  </p><h3 id="动态单条件查询"><a href="#动态单条件查询" class="headerlink" title="动态单条件查询"></a>动态单条件查询</h3><p><img src="/img/mybatis6.png"></p><h2 id="添加"><a href="#添加" class="headerlink" title="添加"></a>添加</h2><p><img src="/img/mybatis7.png"><br>或者可以手动commit</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sqlSession.commit();</span><br></pre></td></tr></table></figure><h3 id="主键返回"><a href="#主键返回" class="headerlink" title="主键返回"></a>主键返回</h3><p><img src="/img/mybatis8.png">  </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;insert useGeneratedKeys=&quot;true&quot; keyProperty=&quot;id&quot;&gt;</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">brandMapper.add(brand);</span><br><span class="line">Integer id = brand.getId();</span><br><span class="line">System.out.println(id);</span><br></pre></td></tr></table></figure><h2 id="修改"><a href="#修改" class="headerlink" title="修改"></a>修改</h2><h3 id="修改全部字段"><a href="#修改全部字段" class="headerlink" title="修改全部字段"></a>修改全部字段</h3><p><img src="/img/mybatis9.png">  </p><h3 id="修改部分字段"><a href="#修改部分字段" class="headerlink" title="修改部分字段"></a>修改部分字段</h3><p><img src="/img/mybatis10.png">  </p><h2 id="删除"><a href="#删除" class="headerlink" title="删除"></a>删除</h2><h3 id="删除一个"><a href="#删除一个" class="headerlink" title="删除一个"></a>删除一个</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">void deleteByid(int id);</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;delete id=&quot;deleteByid&quot;&gt;</span><br><span class="line">   delete from tb_brand where id = #&#123;id&#125;;</span><br><span class="line">&lt;/delete&gt;</span><br></pre></td></tr></table></figure><h3 id="删除多个"><a href="#删除多个" class="headerlink" title="删除多个"></a>删除多个</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;!--</span><br><span class="line">    mybatis默认会将数组参数，封装成一个map集合</span><br><span class="line">        *默认：array（key） = 数组（value）</span><br><span class="line">        *使用@Param注解改变map集合的默认key名称</span><br><span class="line">--&gt;</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">void deleteByids(@Param(&quot;ids&quot;) int[] ids);</span><br></pre></td></tr></table></figure><pre><code>&lt;delete id=&quot;deleteByids&quot;&gt;   delete from tb_brand where id           &lt;!--分隔符--&gt;   in  &lt;foreach collection=&quot;ids&quot; item=&quot;id&quot; separator=&quot;,&quot; open=&quot;(&quot; close=&quot;)&quot;&gt;           #&#123;id&#125;       &lt;/foreach&gt;       ;&lt;/delete&gt;</code></pre><h2 id="注解开发"><a href="#注解开发" class="headerlink" title="注解开发"></a>注解开发</h2><p>第一种：方法有多个参数，需要 @Param 注解<br>第二种：方法参数要取别名，需要 @Param 注解<br>第三种：XML 中的 SQL 使用了 $ ，那么参数中也需要 @Param 注解<br>第四种，那就是动态 SQL ，如果在动态 SQL 中使用了参数作为变量，那么也需要 @Param 注解，即使你只有一个参数。<br><a href="https://www.cnblogs.com/lenve/p/11229590.html">@Param参考</a><br><a href="https://blog.csdn.net/u012702547/article/details/55105400">动态sql参考</a></p>]]></content:encoded>
+      
+      
+      <category domain="http://v2better.top/categories/MyBatis/">MyBatis</category>
+      
+      
+      <category domain="http://v2better.top/tags/JavaWeb/">JavaWeb</category>
+      
+      <category domain="http://v2better.top/tags/MyBatis/">MyBatis</category>
+      
+      
+      <comments>http://v2better.top/2022/05/10/mybatis/#disqus_thread</comments>
       
     </item>
     
