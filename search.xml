@@ -4,11 +4,62 @@
   
     
     <entry>
+      <title>ncnn&amp;yolov5</title>
+      <link href="/2024/03/04/ncnn-yolov5/"/>
+      <url>/2024/03/04/ncnn-yolov5/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>DL</title>
+      <link href="/2024/03/04/DL/"/>
+      <url>/2024/03/04/DL/</url>
+      
+        <content type="html"><![CDATA[<p><strong>解析解:</strong></p><p>​解可以用一个公式简单地表达出来， 这类解叫作解析解（analytical solution）</p><p><strong><em>梯度下降</em>:</strong></p><p>​ 它通过不断地在损失函数递减的方向上更新参数来降低误差。</p><p>​  梯度下降最简单的用法是计算损失函数（数据集中所有样本的损失均值） 关于模型参数的导数（在这里也可以称为梯度）</p><p><strong><em>泛化</em>（generalization）:</strong></p><p>​找到一组参数，这组参数能够在我们从未见过的数据上实现较低的损失</p><p><strong>超参数:</strong></p><p>​这些可以调整但不在训练过程中更新的参数称为<em>超参数</em>（hyperparameter）</p><p>​<em>调参</em>（hyperparameter tuning）是选择超参数的过程</p><p><strong>random.shuffle():</strong></p><p>​在训练机器学习模型时，经常会对数据进行随机打乱的操作。这有助于模型学习更好地泛化，因为模型不会过于依赖于特定的样本顺序。通过随机打乱数据，模型在每个批次中都能够看到不同的样本，从而更好地学习数据的分布和模式。</p><p><strong>归一化，标准化：</strong></p><p><img src="/img/image-20240114153338534.png" alt="image-20240114153338534"></p><p>​μ和σ表示均值和标准差</p><p><strong>sigmoid函数：</strong></p><p>f(x) &#x3D; 1&#x2F;(1+e^-x)</p><h2 id="现阶段主流的股价预测模型"><a href="#现阶段主流的股价预测模型" class="headerlink" title="现阶段主流的股价预测模型"></a>现阶段主流的股价预测模型</h2><h3 id="1-ARIMA模型"><a href="#1-ARIMA模型" class="headerlink" title="1.ARIMA模型"></a>1.ARIMA模型</h3><p>ARIMA模型（英语：AutoregressiveIntegratedMovingAverage model），差分整合移动平均自回归模型，又称整合移动平均自回归模型（移动也可称作滑动），时间序列预测分析方法之一。ARIMA（p，d，q）中，AR是”自回归”，p为自回归项数；MA为”滑动平均”，q为滑动平均项数，d为使之成为平稳序列所做的差分次数（阶数）。“差分”一词虽未出现在ARIMA的英文名称中，却是关键步骤。ARIMA 模型是在平稳的时间序列基础上建立起来的，因此时间序列的平稳性是建模的重要前提。检验时间序列模型平稳的方法一般采用 ADF 单位根检验模型去检验。当然如果时间序列不稳定，也可以通过一些操作去使得时间序列稳定（比如取对数，差分），然后进行 ARIMA 模型预测，得到稳定的时间序列的预测结果，然后对预测结果进行之前使序列稳定的操作的逆操作（取指数，差分的逆操作），就可以得到原始数据的预测结果。</p><h3 id="2-基于随机过程的马尔科夫链模型"><a href="#2-基于随机过程的马尔科夫链模型" class="headerlink" title="2.基于随机过程的马尔科夫链模型"></a>2.基于随机过程的马尔科夫链模型</h3><p>马尔科夫过程是研究事物状态以及其状态转移规律的理论，适合于时间序列以及空间序列，一个时间与状态都是离散的马尔科夫过程叫做马尔科夫链，也叫马氏链（Markov Chain），马氏链模型是一类描述随机动态系统的模型，其特点是①系统每个时刻所处的状态都是随机的，②从一个时刻到下一个时刻的状态按照一定的概率转移，③下一个时刻的状态只取决于当前时刻的状态和转移概率，与其他时刻状态无关。</p><h3 id="3-基于SVM的模型"><a href="#3-基于SVM的模型" class="headerlink" title="3.基于SVM的模型"></a>3.基于SVM的模型</h3><p>支持向量机（SVM）是Vapnik和Cortes于1995年首先提出的，建立在统计学习理论的VC维理论和结构风险最小原理基础上的，它在解决小样本、非线性及高维模式识别中表现出许多特有的优势。支持向量机将非线性问题映射到高维空间，引入核函数，解决了非线性分类问题。支持向量回归（SVR）是支持向量机的推广，通过引入ε不敏感损失函数，将问题转化为通过对已知的样本数据学习找到一个拟合函数，对未知的数据进行预测，这个函数f(x)对实际的 值最大偏差为ε，从而构建回归模型。在金融领域的应用中，Trafalis和Ince研究发现SVR的预测精度远高于MLP（多层感知机）和ARIMA（差分滑动平均自回归模型），并且与神经网络相比有更加出色的性能。</p><h3 id="4-基于XGBoost集成树模型"><a href="#4-基于XGBoost集成树模型" class="headerlink" title="4.基于XGBoost集成树模型"></a>4.基于XGBoost集成树模型</h3><p>XGBoost算法是陈天奇博士于2016年提出的基于回归树的提升算法，在市场价格估计、高能物理事件分类、网络文本分类、客户行为分析等诸多机器学习任务中均表现了出色的性能，并且算法因其高度可扩展性和并行化能力，在大规模数据回归和分类任务上也有着优异的表现。2017年，Ren年将XGBoost与卷积神经网络结合，用于图像分类；同年，Chen将加权的XGBoost模型应用于雷达信号分类并取得了很好的效果。</p><h3 id="5-基于深度学习的模型"><a href="#5-基于深度学习的模型" class="headerlink" title="5.基于深度学习的模型"></a>5.基于深度学习的模型</h3><p>近年来，深度学习方法在人工智能领域取得了突破性的进展，深度神经网络在图像识别、人脸检测与识别、语音识别、目标捕捉、机器翻译等多个领域都有长足的进步。一方面由于积累的数据量的提高，达到了深度学习所需要的量级，另一方面，机器运算性能的提升，也使深度学习方法有了硬件的基础。深度学习方法可以通过组合浅层次的特征形成更加抽象的高层特征表示，以发现数据的深层次隐含关系，通过多层神经网络的堆叠和激活函数的选取，可以更好地拟合复杂的非线性函数。由于市场规律的复杂性、市场价格的波动性、影响因素的多样性，仅仅依赖传统的策略分析和模型不足以应对这些挑战，而深度学习方法的引入，能够提高对这些问题的解决能力，训练出泛化能力更强的模型，对股票投资来说是具有重要的参考意义。</p><p>由于股价数据具有很强的时间关联性，我们自然想到使用LSTM（Long Short-Term Memory）或者GRU（Gated Recurrent Unit）模型挖掘股价数据在时间上的相关性。同时，中国股票市场受政策面影响很大，经济新闻和上市公司财报等文本数据也会成为股价波动的重要原因。目前研究者们普遍在股价数据的时间序列特征和经济金融信息文本特征两个大方面，使用深度学习模型对其进行预测和分析，也有学者综合以上两种特征，构造既包括技术面参数也包括基本面分析的股价特征向量，输入到模型进行学习，均取得了不错的效果，并有多种模型已经使用到荐股软件或者金融领域中。本文作为综述，只简单的介绍模型以及其基本原理，并期待相关模型能在论文和实验中表现出优秀的性能。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> AI </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>conda的小tips</title>
+      <link href="/2024/03/04/conda%E7%9A%84%E5%B0%8Ftips/"/>
+      <url>/2024/03/04/conda%E7%9A%84%E5%B0%8Ftips/</url>
+      
+        <content type="html"><![CDATA[<p>conda:</p><p>​<code>conda env list</code></p><p>查看当前已创建的虚拟环境</p><p>​<code>conda activate --名--</code></p><p>切换虚拟环境</p><p>​<code>conda list</code></p><p>查看当前环境包含的包&#x2F;库</p><p>​<code>conda create -n --名-- python=3.9 (-c --镜像地址--)</code></p><p>创建新虚拟环境</p><p>​<code>conda remove -n --名--  --all</code></p><p>删除虚拟环境及其包</p><p>​<code>conda config --get</code></p><p>查看配置文件中有哪些通道（镜像）</p><p>​<code>conda config --add/remove channels --通道地址--</code></p><p>添加&#x2F;删除通道</p><p>(lstmStock) C:\Users\Administrator&gt;</p><p>​<code>conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia</code></p><p>pytorch安装</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> AI </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>LSTM</title>
       <link href="/2024/03/04/LSTM/"/>
       <url>/2024/03/04/LSTM/</url>
       
-        <content type="html"><![CDATA[<p><strong>RNN存在的问题：</strong></p><p>​RNN对所有信息全部接收，记忆机制没有重点</p><p>​RNN中的新信息会强制覆盖旧信息，很久之前的记忆只会占用当前记忆的很小一部分，无法对长期记忆进行有重点的处理</p><img src="/img/image-20231231154304823.png" alt="image-20231231154304823" style="zoom: 67%;"><img src="/img/image-20231231154557924.png" alt="image-20231231154557924" style="zoom:50%;"><p>LSTM（右）与RNN的主要区别</p><p><img src="/img/v2-e4f9851cad426dfe4ab1c76209546827_r.png"></p><p><strong>LSTM的介绍：</strong></p><img src="/img/image-20231231154858556.png" alt="image-20231231154858556" style="zoom:50%;"><p>​Memory Cell</p><p>LSTM依然是一个循环神经网络，LSTM设置了两个关键变量：</p><p>​· 主要负责记忆短期信息、尤其是当前时间步信息的隐藏状态h</p><p>​· 主要负责长期记忆的细胞状态C</p><img src="/img/image-20231231155329822.png" alt="image-20231231155329822" style="zoom: 50%;"><p>Memory Cell细分为：</p><p>​    · 帮助循环网络选择遗忘多少历史信息的<strong>遗忘门</strong>（input gate）</p><p>​· 帮助循环网络选择吸纳多少新信息的<strong>输入门</strong>（forget gate）</p><p>​· 帮助循环网络选择出对当前时间步的预测最重要的信息，并将该信息输出给当前时间步的<strong>输出门</strong>（output gate）</p><p>LSTM 逐步解释 </p><p>​<img src="/img/image-20231231161319580.png" alt="image-20231231161319580"></p><p>forget gate:</p><p>​其数学本质就是计算一个0~1之间的遗忘比例f_t乘以上一个时间步传入的C_t-1，以此筛选掉部分旧信息。h_t-1是上一个时间步的短期信息，x_t是当前时间步的全部信息，参考h_t-1和x_t并乘以权重W_f，再通过sigmoid函数得到遗忘比例f_t。</p><hr><p><img src="/img/image-20231231162555150.png" alt="image-20231231162555150"></p><p>input gate:</p><p>​参考h_t-1和x_t生成的筛选新信息的比例i_t，激活函数tanh生成候选信息C~_t，将两者相乘并与C_t-1合并得到新的长期记忆C_t。</p><hr><p><img src="/img/image-20231231163630965.png" alt="image-20231231163630965"></p><p>output gate:</p><p>​参考h_t-1和x_t生成的一个比例值O_t，结合C_t和O_t生成当前时间步的信息h_t</p>]]></content>
+        <content type="html"><![CDATA[<h5 id="LSTM和RNN的区别"><a href="#LSTM和RNN的区别" class="headerlink" title="LSTM和RNN的区别"></a>LSTM和RNN的区别</h5><p><strong>RNN存在的问题：</strong></p><p>​RNN对所有信息全部接收，记忆机制没有重点</p><p>​RNN中的新信息会强制覆盖旧信息，很久之前的记忆只会占用当前记忆的很小一部分，无法对长期记忆进行有重点的处理</p><img src="/img/image-20231231154304823.png" alt="image-20231231154304823" style="zoom: 67%;"><img src="/img/image-20231231154557924.png" alt="image-20231231154557924" style="zoom:50%;"><p>LSTM（右）与RNN的主要区别</p><p><img src="/img/v2-e4f9851cad426dfe4ab1c76209546827_r.png"></p><h5 id="LSTM的介绍："><a href="#LSTM的介绍：" class="headerlink" title="LSTM的介绍："></a>LSTM的介绍：</h5><img src="/img/image-20231231154858556.png" alt="image-20231231154858556" style="zoom:50%;"><p>​Memory Cell</p><p>LSTM依然是一个循环神经网络，LSTM设置了两个关键变量：</p><p>​· 主要负责记忆短期信息、尤其是当前时间步信息的隐藏状态h</p><p>​· 主要负责长期记忆的细胞状态C</p><img src="/img/image-20231231155329822.png" alt="image-20231231155329822" style="zoom: 50%;"><p>Memory Cell细分为：</p><p>​    · 帮助循环网络选择遗忘多少历史信息的<strong>遗忘门</strong>（input gate）</p><p>​· 帮助循环网络选择吸纳多少新信息的<strong>输入门</strong>（forget gate）</p><p>​· 帮助循环网络选择出对当前时间步的预测最重要的信息，并将该信息输出给当前时间步的<strong>输出门</strong>（output gate）</p><p>LSTM 逐步解释 </p><p>​<img src="/img/image-20231231161319580.png" alt="image-20231231161319580"></p><p>forget gate:</p><p>​其数学本质就是计算一个0~1之间的遗忘比例f_t乘以上一个时间步传入的C_t-1，以此筛选掉部分旧信息。h_t-1是上一个时间步的短期信息，x_t是当前时间步的全部信息，参考h_t-1和x_t并乘以权重W_f，再通过sigmoid函数得到遗忘比例f_t。</p><hr><p><img src="/img/image-20231231162555150.png" alt="image-20231231162555150"></p><p>input gate:</p><p>​参考h_t-1和x_t生成的筛选新信息的比例i_t，激活函数tanh生成候选信息C~_t，将两者相乘并与C_t-1合并得到新的长期记忆C_t。</p><hr><p><img src="/img/image-20231231163630965.png" alt="image-20231231163630965"></p><p>output gate:</p><p>​参考h_t-1和x_t生成的一个比例值O_t，结合C_t和O_t生成当前时间步的信息h_t</p><h5 id="LSTM在股票预测中的优势和缺陷"><a href="#LSTM在股票预测中的优势和缺陷" class="headerlink" title="LSTM在股票预测中的优势和缺陷"></a><strong>LSTM在股票预测中的优势和缺陷</strong></h5><p>​传统的RNN在处理长序列时会面临梯度消失或梯度爆炸的问题，而LSTM通过门控机制（遗忘门、输入门、输出门）可以有效地解决这一问题，从而能够捕捉更长期的依赖关系。</p><p>​也存在一些缺陷：存在不可避免的滞后</p><p>​回归算法将使用您提供的时间窗口中的值作为样本，以最大程度地减少误差。假设您正在尝试预测时间t的值。输入是以前的收盘价，即t-20到t-1的最后20个输入的时间序列窗口（假设样本输入的timestep是20）。回归算法可能会学习在时间t-1或t-2处的值作为预测值，因为这样不需要做什么就可以达到优化的误差之内了。这样想：如果在t-1值 6340，那么预测 t时刻为6340或在t + 1时为6340，从整体来看将最大程度地减小误差（因为误差是预测的很多点的误差进行汇总），但是实际上该算法没有学习任何东西，它只是复制，因此除了完成优化任务外，它基本上什么也不做</p><h3 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h3><p>​特征工程：基于LSTM 的股票预测应用存在滞后性,其原因主要在于输入的数据均为前一天的股票价格数 据.在模型训练过程中发现,当处理这些数据的神经元权重达到很高的水平以后,训练误差会降到很小 的水平,导致训练好的神经网络算法实际上变成了“平移过去的数据”. 因此将当日的开盘价，最高价，最低价也作为数据输入，使得收盘价的权值减小，从而降低预测的滞后性。</p>]]></content>
       
       
       
@@ -88,27 +139,19 @@
     
     
     <entry>
-      <title>Tomcat</title>
-      <link href="/2022/05/10/Tomcat/"/>
-      <url>/2022/05/10/Tomcat/</url>
+      <title>C++面向对象</title>
+      <link href="/2022/05/10/c++/"/>
+      <url>/2022/05/10/c++/</url>
       
-        <content type="html"><![CDATA[<span id="more"></span><h1 id="Tomcat"><a href="#Tomcat" class="headerlink" title="Tomcat"></a>Tomcat</h1><p><img src="/img/tomcat1.png"></p><h2 id="安装配置"><a href="#安装配置" class="headerlink" title="安装配置"></a>安装配置</h2><p>在<a href="https://tomcat.apache.org/">Tomcat官网</a>下载对应的压缩包<br>解压到文件夹中（注意路径不要有中文）<br>访问：localhost:8080若进入Tomcat的官网，则安装成功<br>默认端口为8080，若被占用则<a href="https://blog.csdn.net/qq_40180411/article/details/82112344?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-1-82112344-blog-52870760.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-1-82112344-blog-52870760.pc_relevant_default&utm_relevant_index=2">修改tomcat默认端口号</a>  </p><h2 id="部署项目"><a href="#部署项目" class="headerlink" title="部署项目"></a>部署项目</h2><p>1.直接复制文件到apache-tomcat-8.5.68\webapps中<br>2.把文件压缩成.war的形式，复制到apache-tomcat-8.5.68\webapps中，Tomcat会自动解压部署  </p><h1 id="MavenWeb项目"><a href="#MavenWeb项目" class="headerlink" title="MavenWeb项目"></a>MavenWeb项目</h1><h2 id="创建MavenWeb项目"><a href="#创建MavenWeb项目" class="headerlink" title="创建MavenWeb项目"></a>创建MavenWeb项目</h2><h3 id="使用骨架（archetype）"><a href="#使用骨架（archetype）" class="headerlink" title="使用骨架（archetype）"></a>使用骨架（archetype）</h3><p>创建Maven项目 勾选 <font color="#FF6699">Create from archetype </font>选择maven-archetype-webapp<br>在pom.xml中添加配置信息：设置打包方式为war<br>在main中创建java和resources目录<br>标准web项目如图<br><img src="/img/tomcat2.png">  </p><h3 id="不使用骨架（idea终极版）"><a href="#不使用骨架（idea终极版）" class="headerlink" title="不使用骨架（idea终极版）"></a>不使用骨架（idea终极版）</h3><p>不勾选<font color="#FF6699">Create from archetype </font>创建项目<br>在pom.xml中添加配置信息：设置打包方式为war<br><a href="https://blog.csdn.net/fengltxx/article/details/82999580?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2~default~CTRLIST~default-1-82999580-blog-104561206.pc_relevant_aa&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2~default~CTRLIST~default-1-82999580-blog-104561206.pc_relevant_aa&utm_relevant_index=1">参考</a>  </p><h1 id="idea集成本地Tomcat"><a href="#idea集成本地Tomcat" class="headerlink" title="idea集成本地Tomcat"></a>idea集成本地Tomcat</h1><p>在idea主页点击Add Configuration–加号–Tomcat Server–local<br>在Tomcat Server中配置Application server为Tomcat安装目录<br>在Deployment中更改项目的访问的路径<br>回到主页点run就开始部署  </p><h1 id="Tomcat的Maven插件"><a href="#Tomcat的Maven插件" class="headerlink" title="Tomcat的Maven插件"></a>Tomcat的Maven插件</h1><p>在pom.xml中导入tomcat插件<br>可以用<configuration>标签改端口号和访问路径</configuration></p>]]></content>
+        <content type="html"><![CDATA[<span id="more"></span><h1 id="友元"><a href="#友元" class="headerlink" title="友元"></a>友元</h1><p>友元可以访问类内所有成员  </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">void func();</span><br><span class="line">class A&#123;</span><br><span class="line">friend void func();</span><br><span class="line">&#125;;</span><br><span class="line">```  </span><br><span class="line"># 继承</span><br><span class="line">派生类不能继承：析构函数，基类的友元函数，静态数据成员，静态成员函数  </span><br><span class="line">private：只能本类访问  </span><br><span class="line">protected：可以本类，派生类访问  </span><br><span class="line">public：可以本类，派生类，类外访问  </span><br></pre></td></tr></table></figure><p>class Animal;<br>class Cat;<br>class Cat:protected Animal{<br>};</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">c++的继承方式可分为公有继，保护继承和私有继承  </span><br><span class="line">c++默认继承方式位private继承  </span><br><span class="line">public继承  </span><br><span class="line">基类的访问权限在派生类中保持不变  </span><br><span class="line">private继承  </span><br><span class="line">基类的private成员在派生类中仍是private成员，但基类的protected和public成员在派生类中会变成private成员  </span><br><span class="line">protected继承  </span><br><span class="line">基类中的public成员在派生类中修改为protected成员，protected和private成员保持不变  </span><br><span class="line">## 阻止继承</span><br></pre></td></tr></table></figure><p>class Cat final{<br>};  </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">可以用final关键字阻止该类被继承</span><br><span class="line">## 重载重定义</span><br><span class="line">重载：要求函数具有不同的函数原型  </span><br><span class="line">重定义（重写or覆盖）：指派生类可以定义与基类具有相同函数原型的成员函数  </span><br><span class="line">## 派生类修改基类成员的访问权限</span><br><span class="line">如  </span><br></pre></td></tr></table></figure><p>class Animal{<br>    protected:<br>    void jump() {<br>        cout &lt;&lt; “跳” &lt;&lt; endl;<br>    }<br>};<br>class Cat:protected Animal{<br>    public:<br>        using Animal::jump;&#x2F;&#x2F;修改jump权限为public<br>}</p><pre><code>&lt;font color=&quot;#FF66CC&quot;&gt;private成员永远只能被它内部的成员访问&lt;/font&gt;  因此不允许派生类使用using改变private成员的访问权限  注：由于继承导致的权限变化不算入其中  </code></pre>]]></content>
       
       
       <categories>
           
-          <category> Tomcat </category>
+          <category> c++ </category>
           
       </categories>
       
-      
-        <tags>
-            
-            <tag> JavaWeb </tag>
-            
-            <tag> Tomcat </tag>
-            
-        </tags>
       
     </entry>
     
@@ -136,36 +179,25 @@
     
     
     <entry>
-      <title>C++面向对象</title>
-      <link href="/2022/05/10/c++/"/>
-      <url>/2022/05/10/c++/</url>
+      <title>Tomcat</title>
+      <link href="/2022/05/10/Tomcat/"/>
+      <url>/2022/05/10/Tomcat/</url>
       
-        <content type="html"><![CDATA[<span id="more"></span><h1 id="友元"><a href="#友元" class="headerlink" title="友元"></a>友元</h1><p>友元可以访问类内所有成员  </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">void func();</span><br><span class="line">class A&#123;</span><br><span class="line">friend void func();</span><br><span class="line">&#125;;</span><br><span class="line">```  </span><br><span class="line"># 继承</span><br><span class="line">派生类不能继承：析构函数，基类的友元函数，静态数据成员，静态成员函数  </span><br><span class="line">private：只能本类访问  </span><br><span class="line">protected：可以本类，派生类访问  </span><br><span class="line">public：可以本类，派生类，类外访问  </span><br></pre></td></tr></table></figure><p>class Animal;<br>class Cat;<br>class Cat:protected Animal{<br>};</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">c++的继承方式可分为公有继，保护继承和私有继承  </span><br><span class="line">c++默认继承方式位private继承  </span><br><span class="line">public继承  </span><br><span class="line">基类的访问权限在派生类中保持不变  </span><br><span class="line">private继承  </span><br><span class="line">基类的private成员在派生类中仍是private成员，但基类的protected和public成员在派生类中会变成private成员  </span><br><span class="line">protected继承  </span><br><span class="line">基类中的public成员在派生类中修改为protected成员，protected和private成员保持不变  </span><br><span class="line">## 阻止继承</span><br></pre></td></tr></table></figure><p>class Cat final{<br>};  </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">可以用final关键字阻止该类被继承</span><br><span class="line">## 重载重定义</span><br><span class="line">重载：要求函数具有不同的函数原型  </span><br><span class="line">重定义（重写or覆盖）：指派生类可以定义与基类具有相同函数原型的成员函数  </span><br><span class="line">## 派生类修改基类成员的访问权限</span><br><span class="line">如  </span><br></pre></td></tr></table></figure><p>class Animal{<br>    protected:<br>    void jump() {<br>        cout &lt;&lt; “跳” &lt;&lt; endl;<br>    }<br>};<br>class Cat:protected Animal{<br>    public:<br>        using Animal::jump;&#x2F;&#x2F;修改jump权限为public<br>}</p><pre><code>&lt;font color=&quot;#FF66CC&quot;&gt;private成员永远只能被它内部的成员访问&lt;/font&gt;  因此不允许派生类使用using改变private成员的访问权限  注：由于继承导致的权限变化不算入其中  </code></pre>]]></content>
+        <content type="html"><![CDATA[<span id="more"></span><h1 id="Tomcat"><a href="#Tomcat" class="headerlink" title="Tomcat"></a>Tomcat</h1><p><img src="/img/tomcat1.png"></p><h2 id="安装配置"><a href="#安装配置" class="headerlink" title="安装配置"></a>安装配置</h2><p>在<a href="https://tomcat.apache.org/">Tomcat官网</a>下载对应的压缩包<br>解压到文件夹中（注意路径不要有中文）<br>访问：localhost:8080若进入Tomcat的官网，则安装成功<br>默认端口为8080，若被占用则<a href="https://blog.csdn.net/qq_40180411/article/details/82112344?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-1-82112344-blog-52870760.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-1-82112344-blog-52870760.pc_relevant_default&utm_relevant_index=2">修改tomcat默认端口号</a>  </p><h2 id="部署项目"><a href="#部署项目" class="headerlink" title="部署项目"></a>部署项目</h2><p>1.直接复制文件到apache-tomcat-8.5.68\webapps中<br>2.把文件压缩成.war的形式，复制到apache-tomcat-8.5.68\webapps中，Tomcat会自动解压部署  </p><h1 id="MavenWeb项目"><a href="#MavenWeb项目" class="headerlink" title="MavenWeb项目"></a>MavenWeb项目</h1><h2 id="创建MavenWeb项目"><a href="#创建MavenWeb项目" class="headerlink" title="创建MavenWeb项目"></a>创建MavenWeb项目</h2><h3 id="使用骨架（archetype）"><a href="#使用骨架（archetype）" class="headerlink" title="使用骨架（archetype）"></a>使用骨架（archetype）</h3><p>创建Maven项目 勾选 <font color="#FF6699">Create from archetype </font>选择maven-archetype-webapp<br>在pom.xml中添加配置信息：设置打包方式为war<br>在main中创建java和resources目录<br>标准web项目如图<br><img src="/img/tomcat2.png">  </p><h3 id="不使用骨架（idea终极版）"><a href="#不使用骨架（idea终极版）" class="headerlink" title="不使用骨架（idea终极版）"></a>不使用骨架（idea终极版）</h3><p>不勾选<font color="#FF6699">Create from archetype </font>创建项目<br>在pom.xml中添加配置信息：设置打包方式为war<br><a href="https://blog.csdn.net/fengltxx/article/details/82999580?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2~default~CTRLIST~default-1-82999580-blog-104561206.pc_relevant_aa&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2~default~CTRLIST~default-1-82999580-blog-104561206.pc_relevant_aa&utm_relevant_index=1">参考</a>  </p><h1 id="idea集成本地Tomcat"><a href="#idea集成本地Tomcat" class="headerlink" title="idea集成本地Tomcat"></a>idea集成本地Tomcat</h1><p>在idea主页点击Add Configuration–加号–Tomcat Server–local<br>在Tomcat Server中配置Application server为Tomcat安装目录<br>在Deployment中更改项目的访问的路径<br>回到主页点run就开始部署  </p><h1 id="Tomcat的Maven插件"><a href="#Tomcat的Maven插件" class="headerlink" title="Tomcat的Maven插件"></a>Tomcat的Maven插件</h1><p>在pom.xml中导入tomcat插件<br>可以用<configuration>标签改端口号和访问路径</configuration></p>]]></content>
       
       
       <categories>
           
-          <category> c++ </category>
+          <category> Tomcat </category>
           
       </categories>
       
       
-    </entry>
-    
-    
-    
-    <entry>
-      <title>git</title>
-      <link href="/2022/05/10/git/"/>
-      <url>/2022/05/10/git/</url>
-      
-        <content type="html"><![CDATA[<span id="more"></span><h1 id="git常用指令"><a href="#git常用指令" class="headerlink" title="git常用指令"></a>git常用指令</h1><h2 id="git基础操作指令"><a href="#git基础操作指令" class="headerlink" title="git基础操作指令"></a>git基础操作指令</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git init 创建仓库  </span><br><span class="line">git add 将所有修改加入到暂存区  </span><br><span class="line">git commit -m &quot;注释内容&quot; 提交暂存区内容到本地仓库的当前分支  </span><br><span class="line">git status 查看修改的状态  </span><br><span class="line">git log 查看提交日志  </span><br></pre></td></tr></table></figure><h2 id="版本回退"><a href="#版本回退" class="headerlink" title="版本回退"></a>版本回退</h2><pre><code>git reset --hard commitID</code></pre><p>commitID可以使用git log查看<br>如何查看已经删除的记录<br>git reflog  </p><h2 id="添加文件到忽略列表"><a href="#添加文件到忽略列表" class="headerlink" title="添加文件到忽略列表"></a>添加文件到忽略列表</h2><p>可以创建一个.gitignore文件，列出要忽略的文件模式<br><img src="/img/git1.png">  </p><h1 id="分支"><a href="#分支" class="headerlink" title="分支"></a>分支</h1><p><img src="/img/git2.png">  </p>]]></content>
-      
-      
-      
         <tags>
             
-            <tag> git </tag>
+            <tag> JavaWeb </tag>
+            
+            <tag> Tomcat </tag>
             
         </tags>
       
@@ -193,6 +225,25 @@
         <tags>
             
             <tag> blog </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>git</title>
+      <link href="/2022/05/10/git/"/>
+      <url>/2022/05/10/git/</url>
+      
+        <content type="html"><![CDATA[<span id="more"></span><h1 id="git常用指令"><a href="#git常用指令" class="headerlink" title="git常用指令"></a>git常用指令</h1><h2 id="git基础操作指令"><a href="#git基础操作指令" class="headerlink" title="git基础操作指令"></a>git基础操作指令</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git init 创建仓库  </span><br><span class="line">git add 将所有修改加入到暂存区  </span><br><span class="line">git commit -m &quot;注释内容&quot; 提交暂存区内容到本地仓库的当前分支  </span><br><span class="line">git status 查看修改的状态  </span><br><span class="line">git log 查看提交日志  </span><br></pre></td></tr></table></figure><h2 id="版本回退"><a href="#版本回退" class="headerlink" title="版本回退"></a>版本回退</h2><pre><code>git reset --hard commitID</code></pre><p>commitID可以使用git log查看<br>如何查看已经删除的记录<br>git reflog  </p><h2 id="添加文件到忽略列表"><a href="#添加文件到忽略列表" class="headerlink" title="添加文件到忽略列表"></a>添加文件到忽略列表</h2><p>可以创建一个.gitignore文件，列出要忽略的文件模式<br><img src="/img/git1.png">  </p><h1 id="分支"><a href="#分支" class="headerlink" title="分支"></a>分支</h1><p><img src="/img/git2.png">  </p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> git </tag>
             
         </tags>
       
