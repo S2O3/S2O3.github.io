@@ -4,13 +4,19 @@
   
     
     <entry>
-      <title>ncnn&amp;yolov5</title>
-      <link href="/2024/03/04/ncnn-yolov5/"/>
-      <url>/2024/03/04/ncnn-yolov5/</url>
+      <title>数据增强</title>
+      <link href="/2024/03/26/%E6%95%B0%E6%8D%AE%E5%A2%9E%E5%BC%BA/"/>
+      <url>/2024/03/26/%E6%95%B0%E6%8D%AE%E5%A2%9E%E5%BC%BA/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<p>Mosaic: </p><p>​Mosaic数据增强是一种用于图像数据增强的技术，主要用于目标检测任务。它通过将多个图像拼接成一个大图像来增加训练数据的多样性。</p><p>Copy paste:</p><pre><code>     &quot;Copy-paste&quot; 数据增强是一种用于目标检测任务的技术，它通过从原始图像中复制并粘贴目标来生成新的训练样本。这种方法可以增加数据集中的样本数量，并改变目标在不同背景下的外观和位置。</code></pre><p>Random affine: </p><p>​“Random affine” 是一种数据增强技术，常用于图像处理任务中，包括图像分类、目标检测、语义分割等。它通过随机变换图像的仿射变换来生成多样化的训练样本，从而提高模型的泛化能力和鲁棒性。</p><p>Mix up:</p><p>​“Mix Up” 是一种用于数据增强的技术，特别适用于图像分类任务。它通过线性插值的方式将两个图像及其对应的标签混合在一起，生成新的训练样本。</p><p>Augment HSV:</p><p>​“Augment HSV” 是一种图像数据增强技术，它主要基于修改图像的色调（Hue）、饱和度（Saturation）和亮度（Value）来生成新的训练样本。这些调整是基于图像的HSV颜色空间进行的。</p>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> CV </tag>
+            
+        </tags>
       
     </entry>
     
@@ -36,11 +42,11 @@
     
     
     <entry>
-      <title>conda的小tips</title>
-      <link href="/2024/03/04/conda%E7%9A%84%E5%B0%8Ftips/"/>
-      <url>/2024/03/04/conda%E7%9A%84%E5%B0%8Ftips/</url>
+      <title>LSTM</title>
+      <link href="/2024/03/04/LSTM/"/>
+      <url>/2024/03/04/LSTM/</url>
       
-        <content type="html"><![CDATA[<p>conda:</p><p>​<code>conda env list</code></p><p>查看当前已创建的虚拟环境</p><p>​<code>conda activate --名--</code></p><p>切换虚拟环境</p><p>​<code>conda list</code></p><p>查看当前环境包含的包&#x2F;库</p><p>​<code>conda create -n --名-- python=3.9 (-c --镜像地址--)</code></p><p>创建新虚拟环境</p><p>​<code>conda remove -n --名--  --all</code></p><p>删除虚拟环境及其包</p><p>​<code>conda config --get</code></p><p>查看配置文件中有哪些通道（镜像）</p><p>​<code>conda config --add/remove channels --通道地址--</code></p><p>添加&#x2F;删除通道</p><p>(lstmStock) C:\Users\Administrator&gt;</p><p>​<code>conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia</code></p><p>pytorch安装</p>]]></content>
+        <content type="html"><![CDATA[<h5 id="LSTM和RNN的区别"><a href="#LSTM和RNN的区别" class="headerlink" title="LSTM和RNN的区别"></a>LSTM和RNN的区别</h5><p><strong>RNN存在的问题：</strong></p><p>​RNN对所有信息全部接收，记忆机制没有重点</p><p>​RNN中的新信息会强制覆盖旧信息，很久之前的记忆只会占用当前记忆的很小一部分，无法对长期记忆进行有重点的处理</p><img src="/img/image-20231231154304823.png" alt="image-20231231154304823" style="zoom: 67%;"><img src="/img/image-20231231154557924.png" alt="image-20231231154557924" style="zoom:50%;"><p>LSTM（右）与RNN的主要区别</p><p><img src="/img/v2-e4f9851cad426dfe4ab1c76209546827_r.png"></p><h5 id="LSTM的介绍："><a href="#LSTM的介绍：" class="headerlink" title="LSTM的介绍："></a>LSTM的介绍：</h5><p><img src="/img/image-20240314221601179.png" alt="image-20240314221601179"></p><img src="/img/image-20231231154858556.png" alt="image-20231231154858556" style="zoom:50%;"><p>​Memory Cell</p><p>LSTM依然是一个循环神经网络，LSTM设置了两个关键变量：</p><p>​· 主要负责记忆短期信息、尤其是当前时间步信息的隐藏状态h</p><p>​· 主要负责长期记忆的细胞状态C</p><img src="/img/image-20231231155329822.png" alt="image-20231231155329822" style="zoom: 50%;"><p>Memory Cell细分为：</p><p>​    · 帮助循环网络选择遗忘多少历史信息的<strong>遗忘门</strong>（forget gate）</p><p>​· 帮助循环网络选择吸纳多少新信息的<strong>输入门</strong>（input gate）</p><p>​· 帮助循环网络选择出对当前时间步的预测最重要的信息，并将该信息输出给当前时间步的<strong>输出门</strong>（output gate）</p><p>LSTM 逐步解释 </p><p>​<img src="/img/image-20231231161319580.png" alt="image-20231231161319580"></p><p>forget gate:</p><p>​其数学本质就是计算一个0~1之间的遗忘比例f_t乘以上一个时间步传入的C_t-1，以此筛选掉部分旧信息。h_t-1是上一个时间步的短期信息，x_t是当前时间步的全部信息，参考h_t-1和x_t并乘以权重W_f，再通过sigmoid函数得到遗忘比例f_t。</p><hr><p><img src="/img/image-20231231162555150.png" alt="image-20231231162555150"></p><p>input gate:</p><p>​参考h_t-1和x_t生成的筛选新信息的比例i_t，激活函数tanh生成候选信息C~_t，将两者相乘并与C_t-1合并得到新的长期记忆C_t。</p><hr><p><img src="/img/image-20231231163630965.png" alt="image-20231231163630965"></p><p>output gate:</p><p>​参考h_t-1和x_t生成的一个比例值O_t，结合C_t和O_t生成当前时间步的信息h_t</p><h5 id="LSTM在股票预测中的优势和缺陷"><a href="#LSTM在股票预测中的优势和缺陷" class="headerlink" title="LSTM在股票预测中的优势和缺陷"></a><strong>LSTM在股票预测中的优势和缺陷</strong></h5><p>​传统的RNN在处理长序列时会面临梯度消失或梯度爆炸的问题，而LSTM通过门控机制（遗忘门、输入门、输出门）可以有效地解决这一问题，从而能够捕捉更长期的依赖关系。</p><p>​也存在一些缺陷：存在不可避免的滞后</p><p>​回归算法将使用您提供的时间窗口中的值作为样本，以最大程度地减少误差。假设您正在尝试预测时间t的值。输入是以前的收盘价，即t-20到t-1的最后20个输入的时间序列窗口（假设样本输入的timestep是20）。回归算法可能会学习在时间t-1或t-2处的值作为预测值，因为这样不需要做什么就可以达到优化的误差之内了。这样想：如果在t-1值 6340，那么预测 t时刻为6340或在t + 1时为6340，从整体来看将最大程度地减小误差（因为误差是预测的很多点的误差进行汇总），但是实际上该算法没有学习任何东西，它只是复制，因此除了完成优化任务外，它基本上什么也不做</p><h3 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h3><p>​特征工程：基于LSTM 的股票预测应用存在滞后性,其原因主要在于输入的数据均为前一天的股票价格数 据.在模型训练过程中发现,当处理这些数据的神经元权重达到很高的水平以后,训练误差会降到很小 的水平,导致训练好的神经网络算法实际上变成了“平移过去的数据”. 因此将当日的开盘价，最高价，最低价也作为数据输入，使得收盘价的权值减小，从而降低预测的滞后性。</p>]]></content>
       
       
       
@@ -55,11 +61,11 @@
     
     
     <entry>
-      <title>LSTM</title>
-      <link href="/2024/03/04/LSTM/"/>
-      <url>/2024/03/04/LSTM/</url>
+      <title>conda的小tips</title>
+      <link href="/2023/12/04/conda%E7%9A%84%E5%B0%8Ftips/"/>
+      <url>/2023/12/04/conda%E7%9A%84%E5%B0%8Ftips/</url>
       
-        <content type="html"><![CDATA[<h5 id="LSTM和RNN的区别"><a href="#LSTM和RNN的区别" class="headerlink" title="LSTM和RNN的区别"></a>LSTM和RNN的区别</h5><p><strong>RNN存在的问题：</strong></p><p>​RNN对所有信息全部接收，记忆机制没有重点</p><p>​RNN中的新信息会强制覆盖旧信息，很久之前的记忆只会占用当前记忆的很小一部分，无法对长期记忆进行有重点的处理</p><img src="/img/image-20231231154304823.png" alt="image-20231231154304823" style="zoom: 67%;"><img src="/img/image-20231231154557924.png" alt="image-20231231154557924" style="zoom:50%;"><p>LSTM（右）与RNN的主要区别</p><p><img src="/img/v2-e4f9851cad426dfe4ab1c76209546827_r.png"></p><h5 id="LSTM的介绍："><a href="#LSTM的介绍：" class="headerlink" title="LSTM的介绍："></a>LSTM的介绍：</h5><img src="/img/image-20231231154858556.png" alt="image-20231231154858556" style="zoom:50%;"><p>​Memory Cell</p><p>LSTM依然是一个循环神经网络，LSTM设置了两个关键变量：</p><p>​· 主要负责记忆短期信息、尤其是当前时间步信息的隐藏状态h</p><p>​· 主要负责长期记忆的细胞状态C</p><img src="/img/image-20231231155329822.png" alt="image-20231231155329822" style="zoom: 50%;"><p>Memory Cell细分为：</p><p>​    · 帮助循环网络选择遗忘多少历史信息的<strong>遗忘门</strong>（input gate）</p><p>​· 帮助循环网络选择吸纳多少新信息的<strong>输入门</strong>（forget gate）</p><p>​· 帮助循环网络选择出对当前时间步的预测最重要的信息，并将该信息输出给当前时间步的<strong>输出门</strong>（output gate）</p><p>LSTM 逐步解释 </p><p>​<img src="/img/image-20231231161319580.png" alt="image-20231231161319580"></p><p>forget gate:</p><p>​其数学本质就是计算一个0~1之间的遗忘比例f_t乘以上一个时间步传入的C_t-1，以此筛选掉部分旧信息。h_t-1是上一个时间步的短期信息，x_t是当前时间步的全部信息，参考h_t-1和x_t并乘以权重W_f，再通过sigmoid函数得到遗忘比例f_t。</p><hr><p><img src="/img/image-20231231162555150.png" alt="image-20231231162555150"></p><p>input gate:</p><p>​参考h_t-1和x_t生成的筛选新信息的比例i_t，激活函数tanh生成候选信息C~_t，将两者相乘并与C_t-1合并得到新的长期记忆C_t。</p><hr><p><img src="/img/image-20231231163630965.png" alt="image-20231231163630965"></p><p>output gate:</p><p>​参考h_t-1和x_t生成的一个比例值O_t，结合C_t和O_t生成当前时间步的信息h_t</p><h5 id="LSTM在股票预测中的优势和缺陷"><a href="#LSTM在股票预测中的优势和缺陷" class="headerlink" title="LSTM在股票预测中的优势和缺陷"></a><strong>LSTM在股票预测中的优势和缺陷</strong></h5><p>​传统的RNN在处理长序列时会面临梯度消失或梯度爆炸的问题，而LSTM通过门控机制（遗忘门、输入门、输出门）可以有效地解决这一问题，从而能够捕捉更长期的依赖关系。</p><p>​也存在一些缺陷：存在不可避免的滞后</p><p>​回归算法将使用您提供的时间窗口中的值作为样本，以最大程度地减少误差。假设您正在尝试预测时间t的值。输入是以前的收盘价，即t-20到t-1的最后20个输入的时间序列窗口（假设样本输入的timestep是20）。回归算法可能会学习在时间t-1或t-2处的值作为预测值，因为这样不需要做什么就可以达到优化的误差之内了。这样想：如果在t-1值 6340，那么预测 t时刻为6340或在t + 1时为6340，从整体来看将最大程度地减小误差（因为误差是预测的很多点的误差进行汇总），但是实际上该算法没有学习任何东西，它只是复制，因此除了完成优化任务外，它基本上什么也不做</p><h3 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h3><p>​特征工程：基于LSTM 的股票预测应用存在滞后性,其原因主要在于输入的数据均为前一天的股票价格数 据.在模型训练过程中发现,当处理这些数据的神经元权重达到很高的水平以后,训练误差会降到很小 的水平,导致训练好的神经网络算法实际上变成了“平移过去的数据”. 因此将当日的开盘价，最高价，最低价也作为数据输入，使得收盘价的权值减小，从而降低预测的滞后性。</p>]]></content>
+        <content type="html"><![CDATA[<p>conda:</p><p>​<code>conda env list</code></p><p>查看当前已创建的虚拟环境</p><p>​<code>conda activate --名--</code></p><p>切换虚拟环境</p><p>​<code>conda list</code></p><p>查看当前环境包含的包&#x2F;库</p><p>​<code>conda create -n --名-- python=3.9 (-c --镜像地址--)</code></p><p>创建新虚拟环境</p><p>​<code>conda remove -n --名--  --all</code></p><p>删除虚拟环境及其包</p><p>​<code>conda config --get</code></p><p>查看配置文件中有哪些通道（镜像）</p><p>​<code>conda config --add/remove channels --通道地址--</code></p><p>添加&#x2F;删除通道</p><p>(lstmStock) C:\Users\Administrator&gt;</p><p>​<code>conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia</code></p><p>pytorch安装</p><p>国内源下载</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install django -i https://pypi.tuna.tsinghua.edu.cn/simple</span><br></pre></td></tr></table></figure>]]></content>
       
       
       
@@ -296,6 +302,19 @@
             <tag> 组成原理 </tag>
             
         </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>ncnn&amp;yolov5</title>
+      <link href="/2022/05/04/ncnn-yolov5/"/>
+      <url>/2022/05/04/ncnn-yolov5/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
       
     </entry>
     
