@@ -99,25 +99,6 @@
     
     
     <entry>
-      <title>文章</title>
-      <link href="/2022/05/10/%E6%96%87%E7%AB%A0/"/>
-      <url>/2022/05/10/%E6%96%87%E7%AB%A0/</url>
-      
-        <content type="html"><![CDATA[<hr><p><a href="https://yz.chsi.com.cn/kyzx/politics/200410/20041013/1475.html">哲学基本问题</a>：<br>    一是存在和思维、物质和意识谁为本源的问题<br>    二是存在和思维、物质和意识是否具有同一性的问题</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 阅读心得 </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>HTTP</title>
       <link href="/2022/05/10/HTTP/"/>
       <url>/2022/05/10/HTTP/</url>
@@ -252,6 +233,19 @@
             <tag> MyBatis </tag>
             
         </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>文章</title>
+      <link href="/2022/05/10/%E6%96%87%E7%AB%A0/"/>
+      <url>/2022/05/10/%E6%96%87%E7%AB%A0/</url>
+      
+        <content type="html"><![CDATA[<hr><p>l</p><p>路漫漫其修远兮，吾将上下而求索</p>]]></content>
+      
+      
       
     </entry>
     
